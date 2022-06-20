@@ -21,3 +21,20 @@
 2022-06-20 21:57:55,770 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
 2022-06-20 22:01:44,139 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
 2022-06-20 22:04:56,759 [INFO] in application-akka.actor.default-dispatcher-5 - Starting the server
+2022-06-20 22:06:36,192 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:18:38,099 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:23:17,291 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:33:33,851 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:43:36,510 [INFO] in Thread-20 - Closing the server -> used memory: 314 MB  -  free system memory: 18192 MB
+2022-06-21 00:43:48,694 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:48:04,553 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:55:51,422 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:58:15,186 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 00:59:53,094 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 01:01:20,881 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 01:03:58,614 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 01:07:13,953 [INFO] in application-akka.actor.default-dispatcher-6 - Starting the server
+2022-06-21 01:10:25,307 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 01:12:42,925 [INFO] in application-akka.actor.default-dispatcher-5 - Starting the server
+2022-06-21 01:26:07,962 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-21 01:33:41,961 [INFO] in application-akka.actor.default-dispatcher-8 - Starting the server

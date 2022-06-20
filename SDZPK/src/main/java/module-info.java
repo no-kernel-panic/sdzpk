@@ -8,6 +8,7 @@ module com.example.sdzpk {
     requires jdk.unsupported;
     requires javassist;
     requires org.controlsfx.controls;
+    requires jpro.webapi;
 
     opens com.example.sdzpk;
     exports com.example.sdzpk;
