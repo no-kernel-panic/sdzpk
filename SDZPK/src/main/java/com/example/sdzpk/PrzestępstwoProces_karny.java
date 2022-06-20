@@ -1,6 +1,7 @@
 package com.example.sdzpk;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
@@ -12,11 +13,11 @@ public class PrzestępstwoProces_karny  {
     private int id;
 
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Przestępstwo przestępstwo;//< oskarżony o
 
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Proces_Karny proces_karny;
 
     public PrzestępstwoProces_karny(Proces_Karny proces_karny, Przestępstwo przestępstwo){

@@ -87,7 +87,7 @@ public class Wyrok implements IExtension<Wyrok>{
     /**
      * one to many relation wyrok - więzenie
      */
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Więzienie więzienie;
     public void setWięzienie(Więzienie więzienie) {
         if (this.więzienie == więzienie ) {
@@ -106,7 +106,7 @@ public class Wyrok implements IExtension<Wyrok>{
     /**
      * one to many relation wyrok - Sędzia
      */
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Sędzia sędzia;
     public void setSędzia(Sędzia sędzia) {
         if (this.sędzia == sędzia ) {

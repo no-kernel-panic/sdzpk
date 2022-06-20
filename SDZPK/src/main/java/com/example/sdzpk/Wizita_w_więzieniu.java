@@ -1,6 +1,7 @@
 package com.example.sdzpk;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import java.time.LocalDate;
@@ -14,10 +15,10 @@ public class Wizita_w_więzieniu {
     @Id
     private int id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Wizyta wizyta;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Więzienie więzienie; //< przebywa w
 
     public Wizita_w_więzieniu(Oskarżony oskarżony, Wizyta wizyta){

@@ -675,3 +675,1254 @@ java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
 2022-06-20 13:38:18,710 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 59006
 2022-06-20 13:38:18,710 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
 2022-06-20 13:38:19,685 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 14:18:37,779 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 14:18:38,947 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 14:18:39,398 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 14:18:39,399 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 14:18:39,752 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 14:18:39,753 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 14:18:39,753 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 14:18:39,761 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 14:18:39,761 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 14:18:39,761 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 14:18:39,763 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 14:18:39,776 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 14:18:39,776 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 14:18:39,857 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @ff4e1cf'
+2022-06-20 14:18:40,327 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:18:40,347 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 14:18:41,202 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2022-06-20 14:18:41,215 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2022-06-20 14:18:41,219 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:18:41,221 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2022-06-20 14:18:41,221 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2022-06-20 14:18:42,224 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 1013 userid: 770245511
+2022-06-20 14:20:48,395 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-06-20 14:20:48,404 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:20:48,404 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 14:20:48,420 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 14:20:48 CEST 2022      
+2022-06-20 14:20:48,420 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2022-06-20 14:20:48,420 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 14:20:48,421 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 14:20:48,422 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 14:20:48,422 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 238169
+2022-06-20 14:20:48,422 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 55380
+2022-06-20 14:20:48,422 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:20:49,397 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 14:26:50,687 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2022-06-20 14:26:51,927 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 14:26:52,572 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 14:26:52,573 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 14:26:52,789 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-7 - Starting the server
+2022-06-20 14:26:52,789 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 14:26:52,791 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - OS: Windows 10
+2022-06-20 14:26:52,802 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - JPro: 2022.1.2
+2022-06-20 14:26:52,802 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - Java version: 11.0.14
+2022-06-20 14:26:52,803 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 14:26:52,805 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 14:26:52,818 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - redirected OUT / ERR
+2022-06-20 14:26:52,819 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - installed SLF4JBridge
+2022-06-20 14:26:52,918 [WARN] from javafx in application-akka.actor.default-dispatcher-7 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6422e6d3'
+2022-06-20 14:26:53,603 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:26:53,625 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-7 - finished init!
+2022-06-20 14:26:54,517 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - application requested: default
+2022-06-20 14:26:54,532 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - Creating Application: default
+2022-06-20 14:26:54,536 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:26:54,538 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - host          localhost:8080
+2022-06-20 14:26:54,538 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - uri           /app/ws/default
+2022-06-20 14:26:55,698 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 1013 userid: 679396283
+2022-06-20 14:27:13,090 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-7 - Unexpected message form client, closing session.
+2022-06-20 14:27:13,098 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:27:13,098 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 14:27:13,115 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 14:27:13 CEST 2022      
+2022-06-20 14:27:13,116 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2022-06-20 14:27:13,116 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2022-06-20 14:27:13,118 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 14:27:13,119 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 14:27:13,119 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 254041
+2022-06-20 14:27:13,119 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 57986
+2022-06-20 14:27:13,119 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:27:14,084 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 14:34:06,208 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 14:34:07,350 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 14:34:07,796 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 14:34:07,797 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 14:34:08,230 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-5 - Starting the server
+2022-06-20 14:34:08,231 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 14:34:08,231 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - OS: Windows 10
+2022-06-20 14:34:08,240 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JPro: 2022.1.2
+2022-06-20 14:34:08,240 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - Java version: 11.0.14
+2022-06-20 14:34:08,240 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 14:34:08,243 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 14:34:08,254 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - redirected OUT / ERR
+2022-06-20 14:34:08,255 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - installed SLF4JBridge
+2022-06-20 14:34:08,332 [WARN] from javafx in application-akka.actor.default-dispatcher-5 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2ffda7fc'
+2022-06-20 14:34:08,786 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:34:08,808 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - finished init!
+2022-06-20 14:34:09,531 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 14:34:09,543 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 14:34:09,547 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:34:09,548 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 14:34:09,548 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 14:34:10,079 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 14:34:10,692 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 1013 userid: 689350509
+2022-06-20 14:34:46,972 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-7 - Unexpected message form client, closing session.
+2022-06-20 14:34:46,977 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:34:46,978 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 14:34:46,995 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 14:34:46 CEST 2022      
+2022-06-20 14:34:46,996 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 14:34:46,996 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 14:34:46,997 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 14:34:46,998 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 14:34:46,998 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 51750
+2022-06-20 14:34:46,999 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 10722
+2022-06-20 14:34:46,999 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 14:34:47,971 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 14:42:51,815 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 14:42:52,953 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 14:42:53,397 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 14:42:53,398 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 14:42:53,863 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 14:42:53,864 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 14:42:53,864 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 14:42:53,873 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 14:42:53,873 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 14:42:53,873 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 14:42:53,876 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 14:42:53,888 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 14:42:53,888 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 14:42:53,958 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @160dc8b6'
+2022-06-20 14:42:54,464 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:42:54,498 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 14:42:55,480 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2022-06-20 14:42:55,491 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2022-06-20 14:42:55,493 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:42:55,494 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2022-06-20 14:42:55,494 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2022-06-20 14:42:56,013 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 14:42:56,577 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 1013 userid: 1183999843
+2022-06-20 15:21:24,023 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-11 - Unexpected message form client, closing session.
+2022-06-20 15:21:24,041 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 15:21:24,041 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 15:21:24,055 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 15:21:24 CEST 2022      
+2022-06-20 15:21:24,055 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2022-06-20 15:21:24,055 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2022-06-20 15:21:24,056 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 15:21:24,056 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 15:21:24,057 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 1554436
+2022-06-20 15:21:24,057 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 440041
+2022-06-20 15:21:24,057 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 15:21:25,021 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 17:28:51,700 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 17:28:53,335 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 17:28:53,847 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 17:28:53,848 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 17:28:54,033 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 17:28:54,034 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 17:28:54,034 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 17:28:54,044 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 17:28:54,044 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 17:28:54,044 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 17:28:54,047 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 17:28:54,059 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 17:28:54,060 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 17:28:54,147 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @16201c3e'
+2022-06-20 17:28:54,791 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 17:28:54,818 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 17:28:56,234 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 17:28:56,248 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 17:28:56,251 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 17:28:56,253 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 17:28:56,254 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 17:28:56,918 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 17:28:57,511 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1201091491
+2022-06-20 17:29:26,438 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-12 - jpro.plainFile - Couldn't get resource for: 'jpro/html/test'
+2022-06-20 17:29:26,454 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-06-20 17:29:26,460 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 17:29:26,460 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 17:29:26,470 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 17:29:26 CEST 2022      
+2022-06-20 17:29:26,470 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 17:29:26,470 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2022-06-20 17:29:26,471 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 17:29:26,473 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 17:29:26,473 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 108378
+2022-06-20 17:29:26,473 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 25014
+2022-06-20 17:29:26,473 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 17:29:26,480 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-06-20 17:29:27,452 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 17:29:35,031 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-12 - jpro.plainFile - Couldn't get resource for: 'jpro/html/fullscreen'
+2022-06-20 21:06:16,773 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:06:18,629 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:06:19,121 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:06:19,122 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:06:19,551 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:06:19,553 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:06:19,554 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:06:19,564 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:06:19,564 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:06:19,564 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:06:19,566 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:06:19,580 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:06:19,580 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:06:19,662 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5aaebd10'
+2022-06-20 21:06:20,340 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:06:20,364 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:06:21,483 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - application requested: default
+2022-06-20 21:06:21,496 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - Creating Application: default
+2022-06-20 21:06:21,499 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:06:21,500 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - host          localhost:8080
+2022-06-20 21:06:21,500 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - uri           /app/ws/default
+2022-06-20 21:06:22,006 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:06:22,572 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1428888148
+2022-06-20 21:06:32,142 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-06-20 21:06:32,158 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:06:32,159 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:06:32,182 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:06:32 CEST 2022      
+2022-06-20 21:06:32,182 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:06:32,182 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:06:32,184 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:06:32,184 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:06:32,184 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 151050
+2022-06-20 21:06:32,185 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 29132
+2022-06-20 21:06:32,185 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:06:33,141 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:12:09,791 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:12:11,670 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:12:12,184 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:12:12,185 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:12:12,710 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:12:12,711 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:12:12,713 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:12:12,724 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:12:12,724 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:12:12,724 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:12:12,727 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:12:12,739 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:12:12,739 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:12:12,828 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @52816f64'
+2022-06-20 21:12:13,475 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:12:13,499 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:12:14,340 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2022-06-20 21:12:14,352 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2022-06-20 21:12:14,354 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:14,356 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 21:12:14,356 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2022-06-20 21:12:14,940 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:12:15,502 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 217403581
+2022-06-20 21:12:19,736 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-5 - Unexpected message form client, closing session.
+2022-06-20 21:12:19,745 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:19,745 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:12:19,757 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:12:19 CEST 2022      
+2022-06-20 21:12:19,757 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2022-06-20 21:12:19,757 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.002  
+2022-06-20 21:12:19,758 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:12:19,758 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:12:19,758 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 54553
+2022-06-20 21:12:19,758 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 10933
+2022-06-20 21:12:19,759 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:19,805 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - application requested: default
+2022-06-20 21:12:19,806 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - Creating Application: default
+2022-06-20 21:12:19,806 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:19,807 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - host          localhost:8080
+2022-06-20 21:12:19,807 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - uri           /app/ws/default
+2022-06-20 21:12:20,003 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 398514203
+2022-06-20 21:12:20,743 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:12:23,999 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-13 - Unexpected message form client, closing session.
+2022-06-20 21:12:24,001 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:12:23 CEST 2022      
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 75842
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 16465
+2022-06-20 21:12:24,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:24,048 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - application requested: default
+2022-06-20 21:12:24,049 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - Creating Application: default
+2022-06-20 21:12:24,049 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:24,049 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - host          localhost:8080
+2022-06-20 21:12:24,049 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - uri           /app/ws/default
+2022-06-20 21:12:24,232 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 48979684
+2022-06-20 21:12:24,998 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:12:28,657 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-11 - Unexpected message form client, closing session.
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:12:28 CEST 2022      
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.002 
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 68642
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 15156
+2022-06-20 21:12:28,660 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:28,689 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - application requested: default
+2022-06-20 21:12:28,689 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - Creating Application: default
+2022-06-20 21:12:28,690 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:28,690 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - host          localhost:8080
+2022-06-20 21:12:28,690 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - uri           /app/ws/default
+2022-06-20 21:12:28,849 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 2018423745
+2022-06-20 21:12:29,655 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:12:48,502 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-13 - Unexpected message form client, closing session.
+2022-06-20 21:12:48,504 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:48,504 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:12:48 CEST 2022      
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 99875
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 25850
+2022-06-20 21:12:48,505 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:12:48,545 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - application requested: default
+2022-06-20 21:12:48,546 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - Creating Application: default
+2022-06-20 21:12:48,546 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:48,546 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - host          localhost:8080
+2022-06-20 21:12:48,546 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-12 - uri           /app/ws/default
+2022-06-20 21:12:48,749 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 776238913
+2022-06-20 21:12:49,510 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:13:09,320 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:13:09 CEST 2022      
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.001 
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 194835
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 46969
+2022-06-20 21:13:09,322 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:13:10,326 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:17:40,140 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2022-06-20 21:17:41,861 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:17:42,377 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:17:42,378 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:17:42,567 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-9 - Starting the server
+2022-06-20 21:17:42,568 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:17:42,568 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - OS: Windows 10
+2022-06-20 21:17:42,579 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JPro: 2022.1.2
+2022-06-20 21:17:42,579 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - Java version: 11.0.14
+2022-06-20 21:17:42,579 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:17:42,583 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:17:42,595 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - redirected OUT / ERR
+2022-06-20 21:17:42,596 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - installed SLF4JBridge
+2022-06-20 21:17:42,678 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @46cd4907'
+2022-06-20 21:17:43,361 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:17:43,388 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - finished init!
+2022-06-20 21:17:44,523 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - application requested: default
+2022-06-20 21:17:44,550 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - Creating Application: default
+2022-06-20 21:17:44,558 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:17:44,561 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - host          localhost:8080
+2022-06-20 21:17:44,562 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-10 - uri           /app/ws/default
+2022-06-20 21:17:45,863 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:17:47,358 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 817183600
+2022-06-20 21:17:55,168 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-06-20 21:17:55,185 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:17:55,185 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:17:55,201 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:17:55 CEST 2022      
+2022-06-20 21:17:55,202 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:17:55,202 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.000  
+2022-06-20 21:17:55,203 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:17:55,203 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:17:55,204 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 89914
+2022-06-20 21:17:55,204 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 20485
+2022-06-20 21:17:55,204 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:17:56,167 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:19:15,348 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:19:17,091 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:19:17,595 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:19:17,596 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:19:17,977 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:19:17,978 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:19:17,978 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:19:17,989 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:19:17,990 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:19:17,990 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:19:17,993 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:19:18,007 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:19:18,007 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:19:18,090 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @69c4437c'
+2022-06-20 21:19:18,697 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:19:18,723 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:19:19,749 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 21:19:19,775 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 21:19:19,783 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:19,791 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 21:19:19,791 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 21:19:20,370 [ERROR] from com.jpro.internal.server.ViewSerializerActor in JavaFX Application Thread - JavaFXStreamer - got Exception: 
+java.lang.Exception: Can't start com.example.sdzpk.HelloController@6e0884d8 with JPro. com.example.sdzpk.HelloController@6e0884d8 does not extend javafx.application.Application
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:25,478 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 21:19:25,480 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 21:19:25,480 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:25,481 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 21:19:25,481 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 21:19:25,512 [ERROR] from com.jpro.internal.server.ViewSerializerActor in JavaFX Application Thread - JavaFXStreamer - got Exception: 
+java.lang.Exception: Can't start com.example.sdzpk.HelloController@569e5651 with JPro. com.example.sdzpk.HelloController@569e5651 does not extend javafx.application.Application
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:29,965 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default
+2022-06-20 21:19:29,966 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2022-06-20 21:19:29,966 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:29,966 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2022-06-20 21:19:29,966 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default
+2022-06-20 21:19:29,998 [ERROR] from com.jpro.internal.server.ViewSerializerActor in JavaFX Application Thread - JavaFXStreamer - got Exception: 
+java.lang.Exception: Can't start com.example.sdzpk.HelloController@14e79954 with JPro. com.example.sdzpk.HelloController@14e79954 does not extend javafx.application.Application
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:26:10,524 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2022-06-20 21:26:12,338 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:26:12,874 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:26:12,875 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:26:13,500 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:26:13,501 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:26:13,503 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:26:13,513 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:26:13,513 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:26:13,513 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:26:13,515 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:26:13,528 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:26:13,528 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:26:13,615 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @396574c7'
+2022-06-20 21:26:14,109 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:26:14,129 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:26:15,129 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2022-06-20 21:26:15,156 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2022-06-20 21:26:15,164 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:26:15,169 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 21:26:15,169 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2022-06-20 21:26:16,500 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:26:17,967 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1576978063
+2022-06-20 21:26:57,028 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-8 - Unexpected message form client, closing session.
+2022-06-20 21:26:57,040 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:26:57,040 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:26:57,062 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:26:57 CEST 2022      
+2022-06-20 21:26:57,063 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2022-06-20 21:26:57,063 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:26:57,065 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:26:57,066 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:26:57,066 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 165787
+2022-06-20 21:26:57,067 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 40281
+2022-06-20 21:26:57,067 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:26:57,153 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2022-06-20 21:26:57,153 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2022-06-20 21:26:57,154 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:26:57,154 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 21:26:57,154 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2022-06-20 21:26:57,341 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 422662280
+2022-06-20 21:26:58,063 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:28:04,992 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:28:06,710 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:28:07,261 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:28:07,262 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:28:07,973 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:28:07,975 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:28:07,976 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:28:07,985 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:28:07,985 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:28:07,985 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:28:07,988 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:28:08,002 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:28:08,003 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:28:08,088 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5677b7b0'
+2022-06-20 21:28:08,617 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:28:08,637 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:28:09,785 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - application requested: default
+2022-06-20 21:28:09,810 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - Creating Application: default
+2022-06-20 21:28:09,817 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:28:09,821 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - host          localhost:8080
+2022-06-20 21:28:09,821 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - uri           /app/ws/default
+2022-06-20 21:28:11,157 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:28:12,709 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 2034067412
+2022-06-20 21:28:15,935 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-06-20 21:28:15,955 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:28:15,955 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:28:16,006 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:28:15 CEST 2022      
+2022-06-20 21:28:16,007 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.005 
+2022-06-20 21:28:16,007 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.002  
+2022-06-20 21:28:16,016 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:28:16,018 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:28:16,018 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 55595
+2022-06-20 21:28:16,018 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 10421
+2022-06-20 21:28:16,018 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:28:16,026 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: 483040239!default
+2022-06-20 21:28:16,027 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: 483040239!default
+2022-06-20 21:28:16,028 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:28:16,028 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 21:28:16,028 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/483040239!default
+2022-06-20 21:28:16,178 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 465238
+2022-06-20 21:28:16,936 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:28:18,760 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-12 - Unexpected message form client, closing session.
+2022-06-20 21:28:18,763 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:28:18,763 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:28:18,764 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:28:18 CEST 2022      
+2022-06-20 21:28:18,764 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2022-06-20 21:28:18,764 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.003  
+2022-06-20 21:28:18,764 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:28:18,765 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:28:18,765 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 30159
+2022-06-20 21:28:18,765 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 5606
+2022-06-20 21:28:18,765 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:28:19,768 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:32:15,584 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:32:16,985 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:32:17,517 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:32:17,518 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:32:18,085 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:32:18,086 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:32:18,086 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:32:18,095 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:32:18,095 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:32:18,096 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:32:18,099 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:32:18,112 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:32:18,113 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:32:18,197 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2447b1a4'
+2022-06-20 21:32:18,782 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:32:18,805 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:32:20,161 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: default
+2022-06-20 21:32:20,194 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: default
+2022-06-20 21:32:20,204 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:32:20,208 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2022-06-20 21:32:20,209 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/default
+2022-06-20 21:32:21,497 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:32:22,989 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1156403411
+2022-06-20 21:32:30,176 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-7 - Unexpected message form client, closing session.
+2022-06-20 21:32:30,193 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:32:30,193 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:32:30,209 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:32:30 CEST 2022      
+2022-06-20 21:32:30,210 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:32:30,210 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:32:30,211 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:32:30,212 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:32:30,212 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 145323
+2022-06-20 21:32:30,212 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 32619
+2022-06-20 21:32:30,212 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:32:31,185 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:36:38,221 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:36:40,024 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:36:40,542 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:36:40,543 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:36:41,086 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:36:41,086 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:36:41,089 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:36:41,100 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:36:41,100 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:36:41,100 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:36:41,103 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:36:41,115 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:36:41,115 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:36:41,198 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @22b63db5'
+2022-06-20 21:36:41,915 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:36:41,941 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:36:43,144 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2022-06-20 21:36:43,176 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2022-06-20 21:36:43,191 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:36:43,195 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 21:36:43,195 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2022-06-20 21:36:44,663 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:36:46,203 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1392845607
+2022-06-20 21:38:50,583 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:38:52,293 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:38:52,851 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:38:52,852 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:38:53,079 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:38:53,080 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:38:53,080 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:38:53,090 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:38:53,090 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:38:53,090 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:38:53,092 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:38:53,106 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:38:53,106 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:38:53,191 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6a2cd6df'
+2022-06-20 21:38:53,721 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:38:53,746 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:38:54,776 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 21:38:54,805 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 21:38:54,813 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:38:54,817 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 21:38:54,817 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 21:38:56,172 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:38:56,205 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:38:57,775 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 11634031
+2022-06-20 21:39:01,963 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-9 - Unexpected message form client, closing session.
+2022-06-20 21:39:01,978 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:39:01,978 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:39:01,998 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:39:01 CEST 2022      
+2022-06-20 21:39:01,998 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.003 
+2022-06-20 21:39:01,998 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:39:02,000 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:39:02,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:39:02,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 71464
+2022-06-20 21:39:02,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 15739
+2022-06-20 21:39:02,002 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:39:02,012 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - application requested: 1994640442!default
+2022-06-20 21:39:02,013 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - Creating Application: 1994640442!default
+2022-06-20 21:39:02,013 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:39:02,013 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - host          localhost:8080
+2022-06-20 21:39:02,013 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-5 - uri           /app/ws/1994640442!default
+2022-06-20 21:39:02,042 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:39:02,168 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 1401335302
+2022-06-20 21:39:02,972 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:39:36,721 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2022-06-20 21:39:38,443 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:39:38,952 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:39:38,952 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:39:39,223 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-9 - Starting the server
+2022-06-20 21:39:39,224 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:39:39,224 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - OS: Windows 10
+2022-06-20 21:39:39,236 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JPro: 2022.1.2
+2022-06-20 21:39:39,236 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - Java version: 11.0.14
+2022-06-20 21:39:39,236 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:39:39,239 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:39:39,252 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - redirected OUT / ERR
+2022-06-20 21:39:39,252 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - installed SLF4JBridge
+2022-06-20 21:39:39,339 [WARN] from javafx in application-akka.actor.default-dispatcher-9 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2c5b772'
+2022-06-20 21:39:39,881 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:39:39,907 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-9 - finished init!
+2022-06-20 21:39:40,877 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - application requested: default
+2022-06-20 21:39:40,907 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - Creating Application: default
+2022-06-20 21:39:40,915 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:39:40,920 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - host          localhost:8080
+2022-06-20 21:39:40,920 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - uri           /app/ws/default
+2022-06-20 21:39:41,896 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:39:42,463 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 21:42:25,086 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:42:27,051 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:42:27,556 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:42:27,557 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:42:28,111 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:42:28,112 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:42:28,112 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:42:28,123 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:42:28,123 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:42:28,123 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:42:28,126 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:42:28,139 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:42:28,139 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:42:28,226 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @37b204ae'
+2022-06-20 21:42:28,740 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:42:28,773 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:42:29,858 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - application requested: default
+2022-06-20 21:42:29,887 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - Creating Application: default
+2022-06-20 21:42:29,894 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:42:29,898 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - host          localhost:8080
+2022-06-20 21:42:29,898 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-11 - uri           /app/ws/default
+2022-06-20 21:42:31,241 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 21:42:31,987 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:42:33,134 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:42:33,392 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:42:33,397 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+	at com.example.sdzpk.HelloApplication.main(HelloApplication.java:56)
+	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:26)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+	... 51 common frames omitted
+2022-06-20 21:42:34,360 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 684 userid: 964305260
+2022-06-20 21:42:39,553 [WARN] from com.jpro.internal.server.ViewSerializerActor in application-akka.actor.default-dispatcher-5 - Unexpected message form client, closing session.
+2022-06-20 21:42:39,568 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:42:39,568 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - Application closed:
+2022-06-20 21:42:39,605 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - startTime      : Mon Jun 20 21:42:39 CEST 2022      
+2022-06-20 21:42:39,606 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageLatency : 00:00:00.004 
+2022-06-20 21:42:39,606 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - averageJitter  : 00:00:00.001  
+2022-06-20 21:42:39,608 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateServer: 00:00:00.000
+2022-06-20 21:42:39,611 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - framerateClient: 00:00:00.000
+2022-06-20 21:42:39,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - raw            : 75609
+2022-06-20 21:42:39,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - zipped         : 14461
+2022-06-20 21:42:39,612 [INFO] from com.jpro.internal.stats.ViewInfo$ in JavaFX Application Thread - 
+2022-06-20 21:42:40,558 [INFO] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - closing window!
+2022-06-20 21:47:51,253 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:47:52,899 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:47:53,421 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:47:53,422 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:47:53,710 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-5 - Starting the server
+2022-06-20 21:47:53,710 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:47:53,713 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - OS: Windows 10
+2022-06-20 21:47:53,725 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JPro: 2022.1.2
+2022-06-20 21:47:53,725 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - Java version: 11.0.14
+2022-06-20 21:47:53,725 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:47:53,728 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:47:53,743 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - redirected OUT / ERR
+2022-06-20 21:47:53,743 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - installed SLF4JBridge
+2022-06-20 21:47:53,832 [WARN] from javafx in application-akka.actor.default-dispatcher-5 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @69ee79ce'
+2022-06-20 21:47:54,355 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:47:54,381 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - finished init!
+2022-06-20 21:47:55,443 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - application requested: default
+2022-06-20 21:47:55,469 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - Creating Application: default
+2022-06-20 21:47:55,475 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:47:55,479 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - host          localhost:8080
+2022-06-20 21:47:55,479 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - uri           /app/ws/default
+2022-06-20 21:47:56,905 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:47:57,894 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:47:58,115 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:47:58,123 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: 
+/C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 27 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+	at com.example.sdzpk.HelloApplication.createSession(HelloApplication.java:52)
+	at com.example.sdzpk.HelloController.initialize(HelloController.java:30)
+	... 39 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 54 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+	... 66 common frames omitted
+2022-06-20 21:47:58,123 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:47:58,173 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 21:57:52,326 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 21:57:54,521 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 21:57:55,484 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 21:57:55,493 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 21:57:55,770 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 21:57:55,771 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 21:57:55,771 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 21:57:55,787 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 21:57:55,787 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 21:57:55,787 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 21:57:55,792 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 21:57:55,811 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 21:57:55,812 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 21:57:55,931 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @3a544bc3'
+2022-06-20 21:57:56,599 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:57:56,625 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 21:57:57,872 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - application requested: default
+2022-06-20 21:57:57,894 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - Creating Application: default
+2022-06-20 21:57:57,901 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:57:57,904 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - host          localhost:8080
+2022-06-20 21:57:57,905 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-8 - uri           /app/ws/default
+2022-06-20 21:57:58,968 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:57:59,719 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:57:59,921 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:57:59,928 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: 
+/C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 27 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+	at com.example.sdzpk.HelloApplication.createSession(HelloApplication.java:50)
+	at com.example.sdzpk.HelloController.initialize(HelloController.java:30)
+	... 39 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 54 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+	... 66 common frames omitted
+2022-06-20 21:57:59,928 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:57:59,963 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:01:40,316 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 22:01:42,716 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 22:01:43,423 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 22:01:43,424 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 22:01:44,139 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 22:01:44,141 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 22:01:44,141 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 22:01:44,164 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 22:01:44,164 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 22:01:44,164 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 22:01:44,169 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 22:01:44,187 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 22:01:44,187 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 22:01:44,301 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @584702b0'
+2022-06-20 22:01:44,920 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:01:44,953 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 22:01:46,123 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - application requested: default
+2022-06-20 22:01:46,149 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - Creating Application: default
+2022-06-20 22:01:46,155 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:01:46,158 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - host          localhost:8080
+2022-06-20 22:01:46,159 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-13 - uri           /app/ws/default
+2022-06-20 22:01:47,371 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:01:48,110 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:01:48,258 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:01:48,264 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: 
+/C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 27 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+	at com.example.sdzpk.HelloApplication.createSession(HelloApplication.java:50)
+	at com.example.sdzpk.HelloController.initialize(HelloController.java:30)
+	... 39 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 54 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+	... 66 common frames omitted
+2022-06-20 22:01:48,264 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 22:01:48,324 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:04:52,801 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 22:04:55,338 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 22:04:56,047 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 22:04:56,048 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 22:04:56,759 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-5 - Starting the server
+2022-06-20 22:04:56,766 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 22:04:56,766 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - OS: Windows 10
+2022-06-20 22:04:56,785 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JPro: 2022.1.2
+2022-06-20 22:04:56,785 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - Java version: 11.0.14
+2022-06-20 22:04:56,785 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 22:04:56,792 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 22:04:56,822 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - redirected OUT / ERR
+2022-06-20 22:04:56,822 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - installed SLF4JBridge
+2022-06-20 22:04:56,956 [WARN] from javafx in application-akka.actor.default-dispatcher-5 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6705c631'
+2022-06-20 22:04:57,586 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:04:57,622 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-5 - finished init!
+2022-06-20 22:04:59,021 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - application requested: default
+2022-06-20 22:04:59,047 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - Creating Application: default
+2022-06-20 22:04:59,053 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:04:59,057 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - host          localhost:8080
+2022-06-20 22:04:59,057 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-9 - uri           /app/ws/default
+2022-06-20 22:04:59,912 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:05:00,569 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:05:00,820 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:05:00,827 [ERROR] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Error while starting application: 
+javafx.fxml.LoadException: 
+/C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$lzycompute$1(CoreTimeEvent.scala:147)
+	at simplefx.cores.standard.parts.CoreTimeEvent.doIt$1(CoreTimeEvent.scala:145)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runOnceWhen$2$adapted(CoreTimeEvent.scala:149)
+	at simplefx.cores.standard.parts.CoreTypesBindable$BindableImpl.$anonfun$triggerOnChange$3(CoreTypesBindable.scala:208)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl(CoreScheduler.scala:73)
+	at simplefx.cores.standard.parts.CoreScheduler.runSchedulerImpl$(CoreScheduler.scala:52)
+	at simplefx.cores.standard.Core.runSchedulerImpl(Core.scala:9)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop(CoreScheduler.scala:44)
+	at simplefx.cores.standard.parts.CoreScheduler.tryStartSchedulerStop$(CoreScheduler.scala:42)
+	at simplefx.cores.standard.Core.tryStartSchedulerStop(Core.scala:9)
+	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:60)
+	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 27 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+	at com.example.sdzpk.HelloApplication.createSession(HelloApplication.java:50)
+	at com.example.sdzpk.HelloController.initialize(HelloController.java:30)
+	... 39 common frames omitted
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 54 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+	... 66 common frames omitted
+2022-06-20 22:05:00,827 [WARN] from com.jpro.internal.communicator.InstanceImpl in JavaFX Application Thread - Application didn't show the stage. JPro is now calling show()
+2022-06-20 22:05:00,887 [INFO] from com.jpro.meta.stream.Util$ in JavaFX Application Thread - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:06:32,764 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2022-06-20 22:06:35,064 [INFO] from play.api.Play in Thread-0 - Application started (Prod) (no global state)
+2022-06-20 22:06:35,880 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Enabling HTTP/2 on Akka HTTP server...
+2022-06-20 22:06:35,885 [INFO] from play.core.server.AkkaHttpServer in Thread-0 - Listening for HTTP on /0:0:0:0:0:0:0:0:8080
+2022-06-20 22:06:36,192 [INFO] from com.jpro.activity in application-akka.actor.default-dispatcher-8 - Starting the server
+2022-06-20 22:06:36,194 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 -  *** Starting JPro: https://www.jpro.one/ ***
+2022-06-20 22:06:36,194 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - OS: Windows 10
+2022-06-20 22:06:36,215 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JPro: 2022.1.2
+2022-06-20 22:06:36,215 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - Java version: 11.0.14
+2022-06-20 22:06:36,215 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JVM: 11.0.14 Oracle Corporation
+2022-06-20 22:06:36,220 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - JavaFX jar: file:/C:/Users/diego.montes/.m2/repository/org/openjfx/javafx-graphics/18.0.1.1-jpro+0/javafx-graphics-18.0.1.1-jpro+0-win.jar
+2022-06-20 22:06:36,246 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - redirected OUT / ERR
+2022-06-20 22:06:36,246 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - installed SLF4JBridge
+2022-06-20 22:06:36,361 [WARN] from javafx in application-akka.actor.default-dispatcher-8 - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @62e192f9'
+2022-06-20 22:06:37,186 [INFO] from com.jpro.internal.server.Initializer$ in JavaFX Application Thread - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:06:37,214 [INFO] from com.jpro.internal.server.Initializer$ in application-akka.actor.default-dispatcher-8 - finished init!
+2022-06-20 22:06:38,540 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - application requested: default
+2022-06-20 22:06:38,569 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - Creating Application: default
+2022-06-20 22:06:38,575 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:06:38,578 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - host          localhost:8080
+2022-06-20 22:06:38,579 [INFO] from controllers.jpro in application-akka.actor.default-dispatcher-7 - uri           /app/ws/default
+2022-06-20 22:06:39,576 [INFO] from org.hibernate.Version in JavaFX Application Thread - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:06:40,291 [INFO] from org.hibernate.annotations.common.Version in JavaFX Application Thread - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:06:40,455 [WARN] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:06:40,478 [INFO] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-20 22:06:40,481 [INFO] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-20 22:06:40,483 [INFO] from org.hibernate.orm.connections.pooling in JavaFX Application Thread - HHH10001003: Autocommit mode: false
+2022-06-20 22:06:40,507 [INFO] from org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl in JavaFX Application Thread - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-20 22:06:41,115 [INFO] from org.hibernate.dialect.Dialect in JavaFX Application Thread - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-20 22:06:42,705 [INFO] from org.hibernate.orm.connections.access in JavaFX Application Thread - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51a4e80f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-06-20 22:06:43,524 [INFO] from org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator in JavaFX Application Thread - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-20 22:06:44,104 [WARN] from javafx.css in JavaFX Application Thread - Resource "hello.css" not found.
+2022-06-20 22:06:45,127 [INFO] from com.jpro.JS in JavaFX Application Thread - received msg: new MainID: 884 userid: 1624094270

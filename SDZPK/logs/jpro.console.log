@@ -849,3 +849,958 @@
 2022-06-20 13:38:18,711 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - zipped         : 59006
 2022-06-20 13:38:18,712 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
 2022-06-20 13:38:19,685 [INFO] in scala-execution-context-global-41 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 14:18:39,777 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 14:18:39,777 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 14:18:39,857 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @ff4e1cf'
+2022-06-20 14:18:40,327 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:18:40,348 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 14:18:41,203 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 14:18:41,215 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 14:18:41,219 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:18:41,221 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 14:18:41,222 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 14:18:42,224 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 1013 userid: 770245511
+2022-06-20 14:20:48,395 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 14:20:48,404 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:20:48,405 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 14:20:48,420 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 14:20:48 CEST 2022      
+2022-06-20 14:20:48,422 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-20 14:20:48,423 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 14:20:48,423 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 14:20:48,427 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 14:20:48,427 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 238169
+2022-06-20 14:20:48,427 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 55380
+2022-06-20 14:20:48,427 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:20:49,398 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 14:26:52,819 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 14:26:52,819 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 14:26:52,918 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6422e6d3'
+2022-06-20 14:26:53,603 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:26:53,626 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 14:26:54,518 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 14:26:54,533 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 14:26:54,536 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:26:54,538 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 14:26:54,538 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 14:26:55,698 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 1013 userid: 679396283
+2022-06-20 14:27:13,091 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 14:27:13,098 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:27:13,099 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 14:27:13,116 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 14:27:13 CEST 2022      
+2022-06-20 14:27:13,117 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-20 14:27:13,119 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 14:27:13,127 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 14:27:13,127 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 14:27:13,128 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 254041
+2022-06-20 14:27:13,129 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 57986
+2022-06-20 14:27:13,130 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:27:14,084 [INFO] in scala-execution-context-global-58 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 14:34:08,256 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 14:34:08,256 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 14:34:08,332 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2ffda7fc'
+2022-06-20 14:34:08,786 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:34:08,810 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 14:34:09,531 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 14:34:09,543 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 14:34:09,547 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:34:09,548 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 14:34:09,548 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 14:34:10,080 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 14:34:10,692 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 1013 userid: 689350509
+2022-06-20 14:34:46,972 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 14:34:46,978 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:34:46,978 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 14:34:46,997 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 14:34:46 CEST 2022      
+2022-06-20 14:34:47,003 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 14:34:47,005 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 14:34:47,006 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 14:34:47,007 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 14:34:47,007 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 51750
+2022-06-20 14:34:47,007 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 10722
+2022-06-20 14:34:47,007 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 14:34:47,971 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 14:42:53,889 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 14:42:53,889 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 14:42:53,958 [INFO] in scala-execution-context-global-40 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @160dc8b6'
+2022-06-20 14:42:54,464 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 14:42:54,499 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 14:42:55,481 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 14:42:55,491 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 14:42:55,494 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 14:42:55,495 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 14:42:55,495 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 14:42:56,013 [INFO] in scala-execution-context-global-40 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 14:42:56,577 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 1013 userid: 1183999843
+2022-06-20 15:21:24,026 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 15:21:24,041 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 15:21:24,041 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 15:21:24,055 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 15:21:24 CEST 2022      
+2022-06-20 15:21:24,055 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-20 15:21:24,056 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 15:21:24,056 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 15:21:24,058 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 15:21:24,060 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 1554436
+2022-06-20 15:21:24,061 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 440041
+2022-06-20 15:21:24,061 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 15:21:25,021 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 17:28:54,060 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 17:28:54,061 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 17:28:54,147 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @16201c3e'
+2022-06-20 17:28:54,791 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 17:28:54,820 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 17:28:56,236 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 17:28:56,248 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 17:28:56,252 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 17:28:56,254 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 17:28:56,254 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 17:28:56,918 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 17:28:57,511 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1201091491
+2022-06-20 17:29:26,438 [INFO] in scala-execution-context-global-37 - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/test'
+2022-06-20 17:29:26,454 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 17:29:26,460 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 17:29:26,460 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 17:29:26,470 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 17:29:26 CEST 2022      
+2022-06-20 17:29:26,471 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 17:29:26,471 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 17:29:26,471 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 17:29:26,473 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 17:29:26,476 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 108378
+2022-06-20 17:29:26,477 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 25014
+2022-06-20 17:29:26,477 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 17:29:26,480 [INFO] in scala-execution-context-global-40 - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2022-06-20 17:29:27,453 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 17:29:35,031 [INFO] in scala-execution-context-global-40 - [warn] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/fullscreen'
+2022-06-20 21:06:19,581 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:06:19,581 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:06:19,663 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5aaebd10'
+2022-06-20 21:06:20,340 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:06:20,365 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:06:21,485 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:06:21,497 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:06:21,499 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:06:21,500 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:06:21,501 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:06:22,007 [INFO] in scala-execution-context-global-40 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:06:22,572 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1428888148
+2022-06-20 21:06:32,143 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:06:32,160 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:06:32,163 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:06:32,183 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:06:32 CEST 2022      
+2022-06-20 21:06:32,184 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:06:32,186 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:06:32,187 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:06:32,187 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:06:32,187 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 151050
+2022-06-20 21:06:32,188 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 29132
+2022-06-20 21:06:32,188 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:06:33,142 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:12:12,740 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:12:12,741 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:12:12,828 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @52816f64'
+2022-06-20 21:12:13,476 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:12:13,501 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:12:14,342 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:12:14,353 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:12:14,355 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:14,356 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:12:14,356 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:12:14,940 [INFO] in scala-execution-context-global-40 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:12:15,503 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 217403581
+2022-06-20 21:12:19,737 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:12:19,745 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:19,745 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:12:19,757 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:12:19 CEST 2022      
+2022-06-20 21:12:19,758 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.004 
+2022-06-20 21:12:19,758 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.002  
+2022-06-20 21:12:19,758 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:12:19,759 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:12:19,759 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 54553
+2022-06-20 21:12:19,759 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 10933
+2022-06-20 21:12:19,759 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:19,805 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 21:12:19,807 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 21:12:19,807 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:19,807 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:12:19,807 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:12:20,003 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 398514203
+2022-06-20 21:12:20,743 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:12:24,000 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:12:24,002 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:24,003 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:12:24,004 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:12:23 CEST 2022      
+2022-06-20 21:12:24,005 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:12:24,006 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:24,006 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:12:24,006 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:12:24,007 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 75842
+2022-06-20 21:12:24,007 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 16465
+2022-06-20 21:12:24,007 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:24,048 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:12:24,049 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:12:24,050 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:24,050 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:12:24,050 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:12:24,232 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 48979684
+2022-06-20 21:12:24,998 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:12:28,658 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:12:28,661 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:28,662 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:12:28,662 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:12:28 CEST 2022      
+2022-06-20 21:12:28,663 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-20 21:12:28,663 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:28,663 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:12:28,664 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:12:28,664 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 68642
+2022-06-20 21:12:28,664 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 15156
+2022-06-20 21:12:28,664 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:28,689 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 21:12:28,689 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 21:12:28,690 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:28,690 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:12:28,691 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:12:28,850 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 2018423745
+2022-06-20 21:12:29,655 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:12:48,506 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:12:48,507 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:48,509 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:12:48,509 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:12:48 CEST 2022      
+2022-06-20 21:12:48,509 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:12:48,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:12:48,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:12:48,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:12:48,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 99875
+2022-06-20 21:12:48,511 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 25850
+2022-06-20 21:12:48,511 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:12:48,546 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:12:48,546 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:12:48,546 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:12:48,546 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:12:48,546 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:12:48,750 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 776238913
+2022-06-20 21:12:49,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:13:09,321 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:13:09,322 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:13:09,323 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:13:09,323 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:13:09 CEST 2022      
+2022-06-20 21:13:09,324 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-20 21:13:09,324 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 21:13:09,326 [INFO] in scala-execution-context-global-62 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:13:09,326 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:13:09,327 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - raw            : 194835
+2022-06-20 21:13:09,328 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - zipped         : 46969
+2022-06-20 21:13:09,329 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:13:10,326 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:17:42,597 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:17:42,597 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:17:42,679 [INFO] in scala-execution-context-global-41 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @46cd4907'
+2022-06-20 21:17:43,361 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:17:43,390 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:17:44,526 [INFO] in scala-execution-context-global-41 - [info] c.jpro - application requested: default
+2022-06-20 21:17:44,550 [INFO] in scala-execution-context-global-41 - [info] c.jpro - Creating Application: default
+2022-06-20 21:17:44,558 [INFO] in scala-execution-context-global-41 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:17:44,562 [INFO] in scala-execution-context-global-41 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:17:44,562 [INFO] in scala-execution-context-global-41 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:17:45,863 [INFO] in scala-execution-context-global-41 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:17:47,358 [INFO] in scala-execution-context-global-41 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 817183600
+2022-06-20 21:17:55,169 [INFO] in scala-execution-context-global-41 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:17:55,185 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:17:55,187 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:17:55,203 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:17:55 CEST 2022      
+2022-06-20 21:17:55,205 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:17:55,206 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 21:17:55,206 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:17:55,207 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:17:55,208 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.ViewInfo$ - raw            : 89914
+2022-06-20 21:17:55,208 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.ViewInfo$ - zipped         : 20485
+2022-06-20 21:17:55,208 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:17:56,167 [INFO] in scala-execution-context-global-38 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:19:18,009 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:19:18,009 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:19:18,090 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @69c4437c'
+2022-06-20 21:19:18,697 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:19:18,724 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:19:19,753 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:19:19,775 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:19:19,783 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:19,791 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:19:19,793 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:19:20,352 [ERROR] in scala-execution-context-global-37 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@6e0884d8 with JPro. com.example.sdzpk.HelloController@6e0884d8 does not extend javafx.application.Application
+2022-06-20 21:19:20,353 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:20,354 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:20,354 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:20,354 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:20,355 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:20,356 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:20,357 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:20,357 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:20,359 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:20,359 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:20,360 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+2022-06-20 21:19:20,360 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+2022-06-20 21:19:20,361 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:20,362 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+2022-06-20 21:19:20,363 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:20,363 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:20,364 [ERROR] in scala-execution-context-global-40 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:20,371 [INFO] in scala-execution-context-global-40 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 21:19:20,372 [INFO] in scala-execution-context-global-37 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@6e0884d8 with JPro. com.example.sdzpk.HelloController@6e0884d8 does not extend javafx.application.Application
+2022-06-20 21:19:20,372 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:20,373 [INFO] in scala-execution-context-global-37 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:20,374 [INFO] in scala-execution-context-global-37 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:20,374 [INFO] in scala-execution-context-global-40 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:20,375 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:20,376 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:20,376 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:20,377 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:20,378 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:20,383 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:20,384 [ERROR] in scala-execution-context-global-59 - java.lang.NullPointerException
+2022-06-20 21:19:20,387 [ERROR] in scala-execution-context-global-40 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 21:19:20,393 [ERROR] in scala-execution-context-global-40 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 21:19:20,393 [ERROR] in scala-execution-context-global-40 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 21:19:20,395 [ERROR] in scala-execution-context-global-40 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 21:19:20,395 [ERROR] in scala-execution-context-global-40 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 21:19:20,396 [ERROR] in scala-execution-context-global-40 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:20,397 [ERROR] in scala-execution-context-global-40 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 21:19:20,398 [ERROR] in scala-execution-context-global-40 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 21:19:20,399 [ERROR] in scala-execution-context-global-40 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 21:19:20,401 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 21:19:20,402 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 21:19:20,403 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 21:19:20,403 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 21:19:20,403 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:20,404 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:20,404 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:25,479 [INFO] in scala-execution-context-global-59 - [info] c.jpro - application requested: default
+2022-06-20 21:19:25,480 [INFO] in scala-execution-context-global-59 - [info] c.jpro - Creating Application: default
+2022-06-20 21:19:25,482 [INFO] in scala-execution-context-global-59 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:25,482 [INFO] in scala-execution-context-global-59 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:19:25,483 [INFO] in scala-execution-context-global-59 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:19:25,505 [ERROR] in scala-execution-context-global-59 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@569e5651 with JPro. com.example.sdzpk.HelloController@569e5651 does not extend javafx.application.Application
+2022-06-20 21:19:25,505 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:25,506 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:25,506 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:25,506 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:25,506 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:25,507 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:25,507 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:25,508 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:25,508 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:25,509 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:25,509 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+2022-06-20 21:19:25,510 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+2022-06-20 21:19:25,510 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:25,510 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+2022-06-20 21:19:25,511 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:25,511 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:25,512 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:25,512 [INFO] in scala-execution-context-global-40 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 21:19:25,513 [INFO] in scala-execution-context-global-40 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@569e5651 with JPro. com.example.sdzpk.HelloController@569e5651 does not extend javafx.application.Application
+2022-06-20 21:19:25,513 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:25,513 [INFO] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:25,514 [INFO] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:25,514 [INFO] in scala-execution-context-global-40 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:25,514 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:25,514 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:25,515 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:25,515 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:25,515 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:25,515 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:25,519 [ERROR] in scala-execution-context-global-59 - java.lang.NullPointerException
+2022-06-20 21:19:25,519 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 21:19:25,520 [ERROR] in scala-execution-context-global-59 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 21:19:25,520 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 21:19:25,521 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 21:19:25,521 [ERROR] in scala-execution-context-global-59 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 21:19:25,521 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:25,522 [ERROR] in scala-execution-context-global-59 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 21:19:25,523 [ERROR] in scala-execution-context-global-59 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 21:19:25,523 [ERROR] in scala-execution-context-global-59 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 21:19:25,524 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 21:19:25,525 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 21:19:25,525 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 21:19:25,525 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 21:19:25,526 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:25,526 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:25,527 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:29,967 [INFO] in scala-execution-context-global-59 - [info] c.jpro - application requested: default
+2022-06-20 21:19:29,973 [INFO] in scala-execution-context-global-59 - [info] c.jpro - Creating Application: default
+2022-06-20 21:19:29,974 [INFO] in scala-execution-context-global-59 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:19:29,975 [INFO] in scala-execution-context-global-59 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:19:29,975 [INFO] in scala-execution-context-global-59 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:19:29,989 [ERROR] in scala-execution-context-global-59 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@14e79954 with JPro. com.example.sdzpk.HelloController@14e79954 does not extend javafx.application.Application
+2022-06-20 21:19:29,990 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:29,990 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:29,991 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:29,991 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:29,991 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:29,992 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:29,992 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:29,992 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:29,993 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:29,994 [ERROR] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:29,994 [ERROR] in scala-execution-context-global-59 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62)
+2022-06-20 21:19:29,995 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+2022-06-20 21:19:29,996 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:29,997 [ERROR] in scala-execution-context-global-59 - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+2022-06-20 21:19:29,997 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:29,997 [ERROR] in scala-execution-context-global-59 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:29,998 [ERROR] in scala-execution-context-global-59 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:19:29,998 [INFO] in scala-execution-context-global-59 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 21:19:29,998 [INFO] in scala-execution-context-global-59 - java.lang.Exception: Can't start com.example.sdzpk.HelloController@14e79954 with JPro. com.example.sdzpk.HelloController@14e79954 does not extend javafx.application.Application
+2022-06-20 21:19:29,998 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startApplication$2(ApplicationStarter.scala:116)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX(CoreTesting.scala:21)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at simplefx.cores.interfaces.parts.testing.CoreTesting.inFX$(CoreTesting.scala:18)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at simplefx.cores.standard.Core.inFX(Core.scala:9)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:111)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 21:19:29,999 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 21:19:30,000 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 21:19:30,000 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 21:19:30,000 [INFO] in scala-execution-context-global-59 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$2(ViewSerializerActor.scala:70)
+2022-06-20 21:19:30,002 [ERROR] in scala-execution-context-global-61 - java.lang.NullPointerException
+2022-06-20 21:19:30,005 [ERROR] in scala-execution-context-global-61 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 21:19:30,005 [ERROR] in scala-execution-context-global-61 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 21:19:30,006 [ERROR] in scala-execution-context-global-61 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 21:19:30,006 [ERROR] in scala-execution-context-global-61 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 21:19:30,006 [ERROR] in scala-execution-context-global-61 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 21:19:30,007 [ERROR] in scala-execution-context-global-61 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 21:19:30,007 [ERROR] in scala-execution-context-global-61 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 21:19:30,007 [ERROR] in scala-execution-context-global-61 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 21:19:30,008 [ERROR] in scala-execution-context-global-61 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 21:19:30,009 [ERROR] in scala-execution-context-global-61 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 21:19:30,009 [ERROR] in scala-execution-context-global-61 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 21:19:30,009 [ERROR] in scala-execution-context-global-61 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 21:19:30,009 [ERROR] in scala-execution-context-global-61 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 21:19:30,009 [ERROR] in scala-execution-context-global-61 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 21:19:30,010 [ERROR] in scala-execution-context-global-61 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 21:19:30,010 [ERROR] in scala-execution-context-global-61 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 21:26:13,529 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:26:13,529 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:26:13,615 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @396574c7'
+2022-06-20 21:26:14,109 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:26:14,130 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:26:15,131 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:26:15,156 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:26:15,165 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:26:15,169 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:26:15,170 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:26:16,500 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:26:17,967 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1576978063
+2022-06-20 21:26:57,029 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:26:57,043 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:26:57,048 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:26:57,063 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:26:57 CEST 2022      
+2022-06-20 21:26:57,064 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.004 
+2022-06-20 21:26:57,064 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:26:57,065 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:26:57,067 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:26:57,068 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 165787
+2022-06-20 21:26:57,068 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 40281
+2022-06-20 21:26:57,069 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:26:57,153 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:26:57,154 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:26:57,155 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:26:57,155 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:26:57,155 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:26:57,341 [INFO] in scala-execution-context-global-59 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 422662280
+2022-06-20 21:26:58,063 [INFO] in scala-execution-context-global-59 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:28:08,003 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:28:08,004 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:28:08,088 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @5677b7b0'
+2022-06-20 21:28:08,618 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:28:08,639 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:28:09,788 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:28:09,810 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:28:09,818 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:28:09,821 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:28:09,822 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:28:11,157 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:28:12,709 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 2034067412
+2022-06-20 21:28:15,935 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:28:15,956 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:28:15,958 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:28:16,007 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:28:15 CEST 2022      
+2022-06-20 21:28:16,010 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.005 
+2022-06-20 21:28:16,011 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.002  
+2022-06-20 21:28:16,018 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:28:16,020 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:28:16,022 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 55595
+2022-06-20 21:28:16,022 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 10421
+2022-06-20 21:28:16,023 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:28:16,026 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: 483040239!default
+2022-06-20 21:28:16,028 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: 483040239!default
+2022-06-20 21:28:16,029 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:28:16,029 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:28:16,030 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/483040239!default
+2022-06-20 21:28:16,178 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 465238
+2022-06-20 21:28:16,937 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:28:18,760 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:28:18,763 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:28:18,765 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:28:18,766 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:28:18 CEST 2022      
+2022-06-20 21:28:18,768 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.004 
+2022-06-20 21:28:18,770 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.003  
+2022-06-20 21:28:18,771 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:28:18,771 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:28:18,772 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 30159
+2022-06-20 21:28:18,772 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 5606
+2022-06-20 21:28:18,773 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:28:19,768 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:32:18,113 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:32:18,114 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:32:18,197 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2447b1a4'
+2022-06-20 21:32:18,782 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:32:18,806 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:32:20,164 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:32:20,195 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:32:20,206 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:32:20,209 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:32:20,210 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:32:21,498 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:32:22,989 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1156403411
+2022-06-20 21:32:30,177 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:32:30,193 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:32:30,194 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:32:30,210 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:32:30 CEST 2022      
+2022-06-20 21:32:30,211 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:32:30,212 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:32:30,213 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:32:30,214 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:32:30,216 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 145323
+2022-06-20 21:32:30,216 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 32619
+2022-06-20 21:32:30,216 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:32:31,185 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:36:41,116 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:36:41,116 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:36:41,198 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @22b63db5'
+2022-06-20 21:36:41,915 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:36:41,943 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:36:43,147 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:36:43,176 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:36:43,192 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:36:43,195 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:36:43,196 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:36:44,664 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:36:46,203 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1392845607
+2022-06-20 21:38:53,107 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:38:53,107 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:38:53,191 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6a2cd6df'
+2022-06-20 21:38:53,721 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:38:53,747 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:38:54,778 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:38:54,805 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:38:54,813 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:38:54,818 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:38:54,819 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:38:56,173 [INFO] in scala-execution-context-global-37 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:38:56,205 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:38:57,775 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 11634031
+2022-06-20 21:39:01,964 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:39:01,978 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:39:01,982 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:39:01,998 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:39:01 CEST 2022      
+2022-06-20 21:39:01,999 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-20 21:39:01,999 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:39:02,003 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:39:02,005 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:39:02,006 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 71464
+2022-06-20 21:39:02,006 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 15739
+2022-06-20 21:39:02,007 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:39:02,012 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: 1994640442!default
+2022-06-20 21:39:02,013 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: 1994640442!default
+2022-06-20 21:39:02,014 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:39:02,014 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:39:02,014 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/1994640442!default
+2022-06-20 21:39:02,042 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:39:02,168 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 1401335302
+2022-06-20 21:39:02,973 [INFO] in scala-execution-context-global-40 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:39:39,253 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:39:39,253 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:39:39,339 [INFO] in scala-execution-context-global-41 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2c5b772'
+2022-06-20 21:39:39,881 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:39:39,909 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:39:40,880 [INFO] in scala-execution-context-global-41 - [info] c.jpro - application requested: default
+2022-06-20 21:39:40,908 [INFO] in scala-execution-context-global-41 - [info] c.jpro - Creating Application: default
+2022-06-20 21:39:40,915 [INFO] in scala-execution-context-global-41 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:39:40,920 [INFO] in scala-execution-context-global-41 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:39:40,921 [INFO] in scala-execution-context-global-41 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:39:41,896 [INFO] in scala-execution-context-global-41 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:39:42,463 [INFO] in scala-execution-context-global-41 - [info] c.j.m.s.Util$ - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 21:42:28,140 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:42:28,140 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:42:28,227 [INFO] in scala-execution-context-global-40 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @37b204ae'
+2022-06-20 21:42:28,740 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:42:28,774 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:42:29,859 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 21:42:29,888 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 21:42:29,895 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:42:29,899 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:42:29,899 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:42:31,241 [INFO] in scala-execution-context-global-40 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 21:42:31,987 [INFO] in scala-execution-context-global-40 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:42:33,135 [INFO] in scala-execution-context-global-40 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:42:33,392 [INFO] in scala-execution-context-global-40 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:42:33,399 [INFO] in scala-execution-context-global-40 - [error] c.j.i.c.InstanceImpl - Error while starting application: 
+2022-06-20 21:42:33,400 [INFO] in scala-execution-context-global-37 - org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-06-20 21:42:33,401 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+2022-06-20 21:42:33,401 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+2022-06-20 21:42:33,401 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:42:33,402 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+2022-06-20 21:42:33,402 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+2022-06-20 21:42:33,402 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+2022-06-20 21:42:33,403 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:42:33,403 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+2022-06-20 21:42:33,403 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+2022-06-20 21:42:33,404 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+2022-06-20 21:42:33,404 [INFO] in scala-execution-context-global-37 - Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+2022-06-20 21:42:33,404 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+2022-06-20 21:42:33,405 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:42:33,405 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:42:33,405 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:42:33,405 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:42:33,406 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+2022-06-20 21:42:33,406 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+2022-06-20 21:42:33,407 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:42:33,407 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+2022-06-20 21:42:33,407 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+2022-06-20 21:42:33,407 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+2022-06-20 21:42:33,408 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+2022-06-20 21:42:33,408 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+2022-06-20 21:42:33,408 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 21:42:33,409 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName0(Native Method)
+2022-06-20 21:42:33,409 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName(Class.java:398)
+2022-06-20 21:42:33,409 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+2022-06-20 21:42:33,410 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:42:33,410 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:42:33,410 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:42:33,411 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:42:34,360 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 684 userid: 964305260
+2022-06-20 21:42:39,553 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 21:42:39,568 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:42:39,569 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 21:42:39,606 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 21:42:39 CEST 2022      
+2022-06-20 21:42:39,608 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.004 
+2022-06-20 21:42:39,619 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 21:42:39,622 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 21:42:39,624 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 21:42:39,625 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 75609
+2022-06-20 21:42:39,628 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 14461
+2022-06-20 21:42:39,629 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 21:42:40,558 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 21:47:53,744 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:47:53,744 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:47:53,832 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @69ee79ce'
+2022-06-20 21:47:54,355 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:47:54,382 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:47:55,445 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 21:47:55,470 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 21:47:55,475 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:47:55,479 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:47:55,480 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:47:56,905 [INFO] in scala-execution-context-global-37 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:47:57,894 [INFO] in scala-execution-context-global-37 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:47:58,115 [INFO] in scala-execution-context-global-37 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:47:58,124 [INFO] in scala-execution-context-global-37 - [error] c.j.i.c.InstanceImpl - Error while starting application: 
+2022-06-20 21:47:58,125 [INFO] in scala-execution-context-global-37 - javafx.fxml.LoadException: 
+2022-06-20 21:47:58,125 [INFO] in scala-execution-context-global-37 - /C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+2022-06-20 21:47:58,126 [INFO] in scala-execution-context-global-37 - 
+2022-06-20 21:47:58,126 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+2022-06-20 21:47:58,127 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+2022-06-20 21:47:58,127 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+2022-06-20 21:47:58,128 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+2022-06-20 21:47:58,128 [INFO] in scala-execution-context-global-37 - 	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+2022-06-20 21:47:58,129 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+2022-06-20 21:47:58,129 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+2022-06-20 21:47:58,130 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+2022-06-20 21:47:58,130 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+2022-06-20 21:47:58,131 [INFO] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 21:47:58,131 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.reflect.InvocationTargetException: null
+2022-06-20 21:47:58,132 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 21:47:58,132 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 21:47:58,132 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 21:47:58,133 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 21:47:58,134 [INFO] in scala-execution-context-global-37 - 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+2022-06-20 21:47:58,134 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 21:47:58,135 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 21:47:58,135 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 21:47:58,135 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 21:47:58,136 [INFO] in scala-execution-context-global-37 - 	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+2022-06-20 21:47:58,136 [INFO] in scala-execution-context-global-37 - Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-06-20 21:47:58,137 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+2022-06-20 21:47:58,137 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+2022-06-20 21:47:58,138 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:47:58,138 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+2022-06-20 21:47:58,138 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+2022-06-20 21:47:58,139 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+2022-06-20 21:47:58,139 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:47:58,140 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+2022-06-20 21:47:58,140 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+2022-06-20 21:47:58,140 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+2022-06-20 21:47:58,141 [INFO] in scala-execution-context-global-37 - Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+2022-06-20 21:47:58,141 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+2022-06-20 21:47:58,142 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:47:58,142 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:47:58,142 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:47:58,143 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:47:58,143 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+2022-06-20 21:47:58,143 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+2022-06-20 21:47:58,144 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:47:58,144 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+2022-06-20 21:47:58,144 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+2022-06-20 21:47:58,145 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+2022-06-20 21:47:58,145 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+2022-06-20 21:47:58,145 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+2022-06-20 21:47:58,146 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 21:47:58,146 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName0(Native Method)
+2022-06-20 21:47:58,147 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName(Class.java:398)
+2022-06-20 21:47:58,147 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+2022-06-20 21:47:58,147 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:47:58,148 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:47:58,148 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:47:58,150 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:47:58,151 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:47:58,173 [INFO] in scala-execution-context-global-40 - [info] c.j.m.s.Util$ - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 21:57:55,813 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 21:57:55,813 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 21:57:55,932 [INFO] in scala-execution-context-global-40 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @3a544bc3'
+2022-06-20 21:57:56,599 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 21:57:56,627 [INFO] in scala-execution-context-global-40 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 21:57:57,873 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 21:57:57,896 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 21:57:57,902 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 21:57:57,905 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 21:57:57,905 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 21:57:58,968 [INFO] in scala-execution-context-global-40 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 21:57:59,719 [INFO] in scala-execution-context-global-40 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 21:57:59,921 [INFO] in scala-execution-context-global-40 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 21:57:59,930 [INFO] in scala-execution-context-global-40 - [error] c.j.i.c.InstanceImpl - Error while starting application: 
+2022-06-20 21:57:59,932 [INFO] in scala-execution-context-global-40 - javafx.fxml.LoadException: 
+2022-06-20 21:57:59,932 [INFO] in scala-execution-context-global-40 - /C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+2022-06-20 21:57:59,933 [INFO] in scala-execution-context-global-40 - 
+2022-06-20 21:57:59,933 [INFO] in scala-execution-context-global-40 - 	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+2022-06-20 21:57:59,933 [INFO] in scala-execution-context-global-40 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+2022-06-20 21:57:59,934 [INFO] in scala-execution-context-global-40 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+2022-06-20 21:57:59,935 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+2022-06-20 21:57:59,935 [INFO] in scala-execution-context-global-37 - 	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+2022-06-20 21:57:59,935 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+2022-06-20 21:57:59,936 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+2022-06-20 21:57:59,937 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+2022-06-20 21:57:59,938 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+2022-06-20 21:57:59,938 [INFO] in scala-execution-context-global-40 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 21:57:59,938 [INFO] in scala-execution-context-global-40 - Caused by: java.lang.reflect.InvocationTargetException: null
+2022-06-20 21:57:59,938 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 21:57:59,939 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 21:57:59,939 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 21:57:59,939 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 21:57:59,940 [INFO] in scala-execution-context-global-40 - 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+2022-06-20 21:57:59,940 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 21:57:59,941 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 21:57:59,941 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 21:57:59,942 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 21:57:59,942 [INFO] in scala-execution-context-global-40 - 	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+2022-06-20 21:57:59,942 [INFO] in scala-execution-context-global-40 - Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-06-20 21:57:59,942 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+2022-06-20 21:57:59,943 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+2022-06-20 21:57:59,943 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:57:59,943 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+2022-06-20 21:57:59,943 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+2022-06-20 21:57:59,944 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+2022-06-20 21:57:59,944 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:57:59,944 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+2022-06-20 21:57:59,944 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+2022-06-20 21:57:59,945 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+2022-06-20 21:57:59,945 [INFO] in scala-execution-context-global-40 - Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:57:59,946 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+2022-06-20 21:57:59,947 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+2022-06-20 21:57:59,947 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+2022-06-20 21:57:59,948 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 21:57:59,949 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName0(Native Method)
+2022-06-20 21:57:59,949 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName(Class.java:398)
+2022-06-20 21:57:59,949 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+2022-06-20 21:57:59,950 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 21:57:59,950 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 21:57:59,950 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 21:57:59,950 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 21:57:59,958 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 21:57:59,964 [INFO] in scala-execution-context-global-37 - [info] c.j.m.s.Util$ - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:01:44,189 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 22:01:44,190 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 22:01:44,301 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @584702b0'
+2022-06-20 22:01:44,920 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:01:44,955 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 22:01:46,127 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 22:01:46,149 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 22:01:46,155 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:01:46,159 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 22:01:46,159 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 22:01:47,371 [INFO] in scala-execution-context-global-37 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:01:48,111 [INFO] in scala-execution-context-global-37 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:01:48,258 [INFO] in scala-execution-context-global-37 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:01:48,266 [INFO] in scala-execution-context-global-37 - [error] c.j.i.c.InstanceImpl - Error while starting application: 
+2022-06-20 22:01:48,268 [INFO] in scala-execution-context-global-37 - javafx.fxml.LoadException: 
+2022-06-20 22:01:48,268 [INFO] in scala-execution-context-global-37 - /C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+2022-06-20 22:01:48,269 [INFO] in scala-execution-context-global-37 - 
+2022-06-20 22:01:48,269 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+2022-06-20 22:01:48,270 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+2022-06-20 22:01:48,270 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+2022-06-20 22:01:48,272 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+2022-06-20 22:01:48,272 [INFO] in scala-execution-context-global-37 - 	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+2022-06-20 22:01:48,273 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+2022-06-20 22:01:48,277 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+2022-06-20 22:01:48,278 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+2022-06-20 22:01:48,279 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+2022-06-20 22:01:48,279 [INFO] in scala-execution-context-global-40 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 22:01:48,279 [INFO] in scala-execution-context-global-40 - Caused by: java.lang.reflect.InvocationTargetException: null
+2022-06-20 22:01:48,279 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 22:01:48,280 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 22:01:48,280 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 22:01:48,280 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 22:01:48,281 [INFO] in scala-execution-context-global-40 - 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+2022-06-20 22:01:48,281 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 22:01:48,282 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 22:01:48,282 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 22:01:48,283 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 22:01:48,283 [INFO] in scala-execution-context-global-40 - 	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+2022-06-20 22:01:48,283 [INFO] in scala-execution-context-global-40 - Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-06-20 22:01:48,283 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+2022-06-20 22:01:48,284 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+2022-06-20 22:01:48,285 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:01:48,286 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+2022-06-20 22:01:48,286 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+2022-06-20 22:01:48,286 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+2022-06-20 22:01:48,286 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:01:48,287 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+2022-06-20 22:01:48,287 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+2022-06-20 22:01:48,287 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+2022-06-20 22:01:48,287 [INFO] in scala-execution-context-global-40 - Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+2022-06-20 22:01:48,288 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+2022-06-20 22:01:48,288 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 22:01:48,288 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 22:01:48,289 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 22:01:48,289 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 22:01:48,289 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+2022-06-20 22:01:48,290 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+2022-06-20 22:01:48,290 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:01:48,291 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+2022-06-20 22:01:48,292 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+2022-06-20 22:01:48,293 [INFO] in scala-execution-context-global-40 - Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+2022-06-20 22:01:48,293 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+2022-06-20 22:01:48,294 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+2022-06-20 22:01:48,294 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 22:01:48,296 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.Class.forName0(Native Method)
+2022-06-20 22:01:48,296 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName(Class.java:398)
+2022-06-20 22:01:48,296 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+2022-06-20 22:01:48,297 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 22:01:48,297 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 22:01:48,298 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 22:01:48,299 [INFO] in scala-execution-context-global-40 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 22:01:48,316 [INFO] in scala-execution-context-global-40 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 22:01:48,325 [INFO] in scala-execution-context-global-40 - [info] c.j.m.s.Util$ - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:04:56,824 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 22:04:56,825 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 22:04:56,957 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6705c631'
+2022-06-20 22:04:57,587 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:04:57,624 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 22:04:59,025 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 22:04:59,048 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 22:04:59,053 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:04:59,057 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 22:04:59,058 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 22:04:59,912 [INFO] in scala-execution-context-global-37 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:05:00,570 [INFO] in scala-execution-context-global-37 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:05:00,820 [INFO] in scala-execution-context-global-37 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:05:00,830 [INFO] in scala-execution-context-global-37 - [error] c.j.i.c.InstanceImpl - Error while starting application: 
+2022-06-20 22:05:00,831 [INFO] in scala-execution-context-global-37 - javafx.fxml.LoadException: 
+2022-06-20 22:05:00,831 [INFO] in scala-execution-context-global-40 - /C:/Users/diego.montes/IdeaProjects/SDZPK/target/classes/com/example/sdzpk/hello-view.fxml
+2022-06-20 22:05:00,834 [INFO] in scala-execution-context-global-40 - 
+2022-06-20 22:05:00,837 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+2022-06-20 22:05:00,837 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+2022-06-20 22:05:00,838 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+2022-06-20 22:05:00,840 [INFO] in scala-execution-context-global-37 - 	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+2022-06-20 22:05:00,840 [INFO] in scala-execution-context-global-37 - 	at com.example.sdzpk.HelloApplication.start(HelloApplication.java:22)
+2022-06-20 22:05:00,840 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1(ApplicationStarter.scala:131)
+2022-06-20 22:05:00,840 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$startJApplication$1$adapted(ApplicationStarter.scala:128)
+2022-06-20 22:05:00,842 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.InstanceImpl.start(InstanceImpl.scala:39)
+2022-06-20 22:05:00,842 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.InstanceImpl.$anonfun$new$2(InstanceImpl.scala:31)
+2022-06-20 22:05:00,842 [INFO] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 22:05:00,843 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.reflect.InvocationTargetException: null
+2022-06-20 22:05:00,843 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 22:05:00,843 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 22:05:00,844 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 22:05:00,845 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 22:05:00,846 [INFO] in scala-execution-context-global-37 - 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+2022-06-20 22:05:00,846 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2022-06-20 22:05:00,846 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2022-06-20 22:05:00,847 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2022-06-20 22:05:00,847 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2022-06-20 22:05:00,847 [INFO] in scala-execution-context-global-37 - 	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+2022-06-20 22:05:00,848 [INFO] in scala-execution-context-global-37 - Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-06-20 22:05:00,850 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+2022-06-20 22:05:00,850 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+2022-06-20 22:05:00,850 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:05:00,850 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+2022-06-20 22:05:00,851 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+2022-06-20 22:05:00,851 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+2022-06-20 22:05:00,852 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:05:00,852 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+2022-06-20 22:05:00,853 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+2022-06-20 22:05:00,853 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+2022-06-20 22:05:00,854 [INFO] in scala-execution-context-global-37 - Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [com.mysql.cj.jdbc.Driver]
+2022-06-20 22:05:00,856 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:133)
+2022-06-20 22:05:00,856 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 22:05:00,857 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 22:05:00,857 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 22:05:00,857 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 22:05:00,858 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+2022-06-20 22:05:00,858 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+2022-06-20 22:05:00,858 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+2022-06-20 22:05:00,859 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+2022-06-20 22:05:00,859 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+2022-06-20 22:05:00,859 [INFO] in scala-execution-context-global-37 - Caused by: java.lang.ClassNotFoundException: Could not load requested class : com.mysql.cj.jdbc.Driver
+2022-06-20 22:05:00,859 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.AggregatedClassLoader.findClass(AggregatedClassLoader.java:210)
+2022-06-20 22:05:00,860 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+2022-06-20 22:05:00,860 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 22:05:00,861 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName0(Native Method)
+2022-06-20 22:05:00,861 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.Class.forName(Class.java:398)
+2022-06-20 22:05:00,861 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:130)
+2022-06-20 22:05:00,862 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.loadDriverIfPossible(DriverManagerConnectionProviderImpl.java:172)
+2022-06-20 22:05:00,863 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:110)
+2022-06-20 22:05:00,863 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:92)
+2022-06-20 22:05:00,863 [INFO] in scala-execution-context-global-37 - 	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:76)
+2022-06-20 22:05:00,864 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-20 22:05:00,887 [INFO] in scala-execution-context-global-37 - [info] c.j.m.s.Util$ - WORKAROUND! setting XY for Window because current XY is NaN
+2022-06-20 22:06:36,248 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 22:06:36,248 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 22:06:36,361 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @62e192f9'
+2022-06-20 22:06:37,187 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 22:06:37,216 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 22:06:38,556 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 22:06:38,570 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 22:06:38,575 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 22:06:38,579 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 22:06:38,580 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 22:06:39,576 [INFO] in scala-execution-context-global-37 - [info] o.h.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-20 22:06:40,292 [INFO] in scala-execution-context-global-37 - [info] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-20 22:06:40,456 [INFO] in scala-execution-context-global-37 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-20 22:06:40,479 [INFO] in scala-execution-context-global-37 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-20 22:06:40,482 [INFO] in scala-execution-context-global-37 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-20 22:06:40,483 [INFO] in scala-execution-context-global-40 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-20 22:06:40,507 [INFO] in scala-execution-context-global-40 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-20 22:06:41,115 [INFO] in scala-execution-context-global-40 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-20 22:06:42,706 [INFO] in scala-execution-context-global-40 - [info] o.h.o.c.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51a4e80f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-06-20 22:06:43,524 [INFO] in scala-execution-context-global-40 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-20 22:06:44,044 [INFO] in scala-execution-context-global-40 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-20 22:06:44,087 [INFO] in scala-execution-context-global-40 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-20 22:06:44,104 [INFO] in scala-execution-context-global-40 - [warn] javafx.css - Resource "hello.css" not found.
+2022-06-20 22:06:45,127 [INFO] in scala-execution-context-global-40 - [info] com.jpro.JS - received msg: new MainID: 884 userid: 1624094270

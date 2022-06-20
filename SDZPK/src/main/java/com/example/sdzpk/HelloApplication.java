@@ -25,19 +25,8 @@ public class HelloApplication extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        Runnable myThread = () ->
-        {
-            launch();
-        };
+    public static Session createSession(){
 
-        Thread run = new Thread(myThread);
-
-        run.start();
-
-
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd, MMM, yyyy", Locale.ENGLISH);
-        //create configuration
         Configuration configuration = new Configuration();
         configuration.configure(HelloApplication.class.getResource("hibernate.cfg.xml"));
         configuration.addAnnotatedClass(Proces_Karny.class);
@@ -57,19 +46,37 @@ public class HelloApplication extends Application {
         configuration.addAnnotatedClass(Wizyta.class);
         configuration.addAnnotatedClass(Więzienie.class);
         configuration.addAnnotatedClass(Wyrok.class);
-
-
-
         ///create session factory
         SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.openSession();
+        return sessionFactory.openSession();
+    }
+    public static void main(String[] args) {
 
-        List<Adwokat> Ad = session.createQuery("select osoba from Adwokat as osoba").list();
-        for(Adwokat os : Ad)
-            System.out.println(os.getAdres());
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd, MMM, yyyy", Locale.ENGLISH);
+        //create configuration
 
 
-       // List<Proces_Karny> processes = session.createQuery("select proces from com.example.sdzpk.Proces_Karny as proces").list();
+
+
+
+
+        Runnable myThread = () ->
+        {
+            launch();
+        };
+
+
+
+        Thread run = new Thread(myThread);
+
+        run.start();
+
+
+
+    /*    for(Osoba o : Adwokat.getExtension())
+            System.out.println(o.getClass());*/
+
+        // List<Proces_Karny> processes = session.createQuery("select proces from com.example.sdzpk.Proces_Karny as proces").list();
 
 
 

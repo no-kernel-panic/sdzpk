@@ -50,7 +50,5 @@ public class Adwokat extends Pracownik implements IExtension<Adwokat> {
     }
 
 
-
-
     //todo metody?
 }
