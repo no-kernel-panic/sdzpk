@@ -1,0 +1,851 @@
+2022-06-20 12:38:13,951 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 12:38:13,952 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 12:38:14,032 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @2ec028b2'
+2022-06-20 12:38:14,612 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 12:38:14,640 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 12:38:15,568 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:38:15,582 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:15,585 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:15,588 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:15,588 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:15,835 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:15,835 [INFO] in scala-execution-context-global-40 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:15,836 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:15,836 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:15,837 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:15,837 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:15,837 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:15,837 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:15,838 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:15,838 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:15,838 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:15,838 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:15,838 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:38:15,839 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:15,839 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:15,840 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:15,840 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:15,840 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:15,840 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:15,840 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:15,841 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:15,841 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:15,841 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:15,841 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:15,841 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:15,842 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:15,842 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:15,842 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:15,842 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:20,887 [INFO] in scala-execution-context-global-65 - [info] c.jpro - application requested: default
+2022-06-20 12:38:20,888 [INFO] in scala-execution-context-global-65 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:20,889 [INFO] in scala-execution-context-global-65 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:20,889 [INFO] in scala-execution-context-global-65 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:20,890 [INFO] in scala-execution-context-global-65 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:20,908 [INFO] in scala-execution-context-global-65 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:20,908 [INFO] in scala-execution-context-global-65 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:20,908 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:20,908 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:20,910 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:20,911 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:20,911 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:20,912 [ERROR] in scala-execution-context-global-65 - java.lang.NullPointerException
+2022-06-20 12:38:20,914 [ERROR] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:20,914 [ERROR] in scala-execution-context-global-65 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:20,914 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:20,915 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:20,916 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:20,916 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:20,916 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:20,916 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:20,916 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:20,917 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:20,917 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:20,917 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:20,918 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:20,918 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:20,918 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:20,918 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:26,170 [INFO] in scala-execution-context-global-65 - [info] c.jpro - application requested: default
+2022-06-20 12:38:26,170 [INFO] in scala-execution-context-global-65 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:26,170 [INFO] in scala-execution-context-global-65 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:26,170 [INFO] in scala-execution-context-global-65 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:26,171 [INFO] in scala-execution-context-global-65 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:26,183 [INFO] in scala-execution-context-global-65 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:26,184 [INFO] in scala-execution-context-global-65 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:26,185 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:26,186 [ERROR] in scala-execution-context-global-65 - java.lang.NullPointerException
+2022-06-20 12:38:26,186 [ERROR] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:26,188 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:26,189 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:26,189 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:26,189 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:26,189 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:26,190 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:26,190 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:26,190 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:26,191 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:26,191 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:31,219 [INFO] in scala-execution-context-global-65 - [info] c.jpro - application requested: default
+2022-06-20 12:38:31,219 [INFO] in scala-execution-context-global-65 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:31,220 [INFO] in scala-execution-context-global-65 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:31,220 [INFO] in scala-execution-context-global-65 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:31,220 [INFO] in scala-execution-context-global-65 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:31,228 [INFO] in scala-execution-context-global-65 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:31,228 [INFO] in scala-execution-context-global-65 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:31,228 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:31,229 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:31,230 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:31,242 [ERROR] in scala-execution-context-global-66 - java.lang.NullPointerException
+2022-06-20 12:38:31,243 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:31,243 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:31,244 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:31,244 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:31,245 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:31,245 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:31,245 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:31,245 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:31,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:31,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:31,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:31,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:31,247 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:31,247 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:31,247 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:31,248 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:36,358 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:38:36,359 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:36,359 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:36,360 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:36,361 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:36,373 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:36,374 [INFO] in scala-execution-context-global-65 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:36,374 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:36,374 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:36,374 [INFO] in scala-execution-context-global-65 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:36,374 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:36,375 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:36,378 [ERROR] in scala-execution-context-global-66 - java.lang.NullPointerException
+2022-06-20 12:38:36,378 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:36,379 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:36,379 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:36,379 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:36,379 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:36,380 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:36,380 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:36,380 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:36,382 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:36,382 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:36,382 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:36,382 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:36,383 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:36,383 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:36,383 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:36,383 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:41,415 [INFO] in scala-execution-context-global-66 - [info] c.jpro - application requested: default
+2022-06-20 12:38:41,416 [INFO] in scala-execution-context-global-66 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:41,416 [INFO] in scala-execution-context-global-66 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:41,416 [INFO] in scala-execution-context-global-66 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:41,417 [INFO] in scala-execution-context-global-66 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:41,429 [INFO] in scala-execution-context-global-66 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:41,429 [INFO] in scala-execution-context-global-66 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:41,429 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:41,430 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:41,430 [INFO] in scala-execution-context-global-66 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:41,430 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:41,431 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:41,436 [ERROR] in scala-execution-context-global-66 - java.lang.NullPointerException
+2022-06-20 12:38:41,436 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:41,436 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:41,437 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:41,437 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:41,437 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:41,437 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:41,438 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:41,438 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:41,438 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:41,439 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:41,439 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:41,439 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:41,439 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:41,439 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:41,440 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:41,440 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:46,572 [INFO] in scala-execution-context-global-66 - [info] c.jpro - application requested: default
+2022-06-20 12:38:46,574 [INFO] in scala-execution-context-global-66 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:46,574 [INFO] in scala-execution-context-global-66 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:46,575 [INFO] in scala-execution-context-global-66 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:46,575 [INFO] in scala-execution-context-global-66 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:46,588 [INFO] in scala-execution-context-global-66 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:46,588 [INFO] in scala-execution-context-global-66 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:46,589 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:46,590 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:46,590 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:46,591 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:46,592 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:46,603 [ERROR] in scala-execution-context-global-66 - java.lang.NullPointerException
+2022-06-20 12:38:46,603 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:46,603 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:46,603 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:46,603 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:46,604 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:46,604 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:46,604 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:46,604 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:46,605 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:46,605 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:46,605 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:46,605 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:46,606 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:46,606 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:46,606 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:46,606 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:51,637 [INFO] in scala-execution-context-global-66 - [info] c.jpro - application requested: default
+2022-06-20 12:38:51,638 [INFO] in scala-execution-context-global-66 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:51,638 [INFO] in scala-execution-context-global-66 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:51,638 [INFO] in scala-execution-context-global-66 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:51,639 [INFO] in scala-execution-context-global-66 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:51,655 [INFO] in scala-execution-context-global-66 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:51,656 [INFO] in scala-execution-context-global-66 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:51,656 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:51,656 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:51,656 [INFO] in scala-execution-context-global-66 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:51,656 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:51,657 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:51,657 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:51,657 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:51,658 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:51,658 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:51,658 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:51,659 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:38:51,659 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:51,660 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:51,660 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:51,660 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:51,661 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:51,661 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:51,662 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:51,662 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:51,662 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:51,663 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:51,663 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:51,663 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:51,664 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:51,664 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:51,664 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:51,664 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:38:56,785 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:38:56,786 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:38:56,786 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:38:56,787 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:38:56,787 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:38:56,802 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:38:56,803 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:38:56,803 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:38:56,803 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:38:56,803 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:38:56,803 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:38:56,804 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:38:56,804 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:38:56,804 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:38:56,804 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:38:56,804 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:38:56,805 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:38:56,810 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:38:56,810 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:38:56,811 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:38:56,811 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:38:56,811 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:38:56,811 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:38:56,812 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:38:56,812 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:38:56,812 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:38:56,812 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:38:56,813 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:38:56,813 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:38:56,813 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:38:56,814 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:38:56,814 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:38:56,814 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:38:56,814 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:01,855 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:01,855 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:01,856 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:01,857 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:01,857 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:01,870 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:01,871 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:01,871 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:01,871 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:01,871 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:01,872 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:01,872 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:01,872 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:01,872 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:01,873 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:01,873 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:01,873 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:01,882 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:01,882 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:01,883 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:01,883 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:01,883 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:01,883 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:01,884 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:01,884 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:01,884 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:01,884 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:01,885 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:01,885 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:01,885 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:01,885 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:01,886 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:01,886 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:01,886 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:07,010 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:07,010 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:07,011 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:07,011 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:07,012 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:07,023 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:07,023 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:07,024 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:07,025 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:07,025 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:07,025 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:07,025 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:07,034 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:07,034 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:07,035 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:07,035 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:07,035 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:07,036 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:07,036 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:07,036 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:07,037 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:07,037 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:07,037 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:07,037 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:07,038 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:07,038 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:07,038 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:07,038 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:07,039 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:12,066 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:12,067 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:12,068 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:12,068 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:12,068 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:12,080 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:12,081 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:12,082 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:12,082 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:12,082 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:12,082 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:12,090 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:12,092 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:12,092 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:12,092 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:12,093 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:12,093 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:12,093 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:12,093 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:12,093 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:12,094 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:12,094 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:12,094 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:12,094 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:12,095 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:12,095 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:12,095 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:12,095 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:17,216 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:17,216 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:17,217 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:17,217 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:17,218 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:17,232 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:17,232 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:17,232 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:17,232 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:17,233 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:17,233 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:17,233 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:17,233 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:17,233 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:17,234 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:17,234 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:17,234 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:17,242 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:17,242 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:17,243 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:17,243 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:17,243 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:17,244 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:17,244 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:17,244 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:17,245 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:17,245 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:17,245 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:17,245 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:17,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:17,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:17,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:17,246 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:17,247 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:22,282 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:22,283 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:22,284 [INFO] in scala-execution-context-global-65 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:22,284 [INFO] in scala-execution-context-global-65 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:22,284 [INFO] in scala-execution-context-global-65 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:22,297 [INFO] in scala-execution-context-global-65 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:22,298 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:22,299 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:22,299 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:22,299 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:22,299 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:22,299 [ERROR] in scala-execution-context-global-65 - java.lang.NullPointerException
+2022-06-20 12:39:22,300 [ERROR] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:22,300 [ERROR] in scala-execution-context-global-65 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:22,300 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:22,301 [ERROR] in scala-execution-context-global-65 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:22,301 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:22,301 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:22,302 [ERROR] in scala-execution-context-global-65 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:22,302 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:22,303 [ERROR] in scala-execution-context-global-65 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:22,303 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:22,303 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:22,303 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:22,304 [ERROR] in scala-execution-context-global-65 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:22,305 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:22,305 [ERROR] in scala-execution-context-global-65 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:22,305 [ERROR] in scala-execution-context-global-65 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:27,433 [INFO] in scala-execution-context-global-65 - [info] c.jpro - application requested: default
+2022-06-20 12:39:27,434 [INFO] in scala-execution-context-global-65 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:27,434 [INFO] in scala-execution-context-global-65 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:27,434 [INFO] in scala-execution-context-global-65 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:27,435 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:27,449 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:27,450 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:27,450 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:27,450 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:27,450 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:27,450 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:27,451 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:27,452 [ERROR] in scala-execution-context-global-66 - java.lang.NullPointerException
+2022-06-20 12:39:27,455 [ERROR] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:27,456 [ERROR] in scala-execution-context-global-66 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:27,456 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:27,456 [ERROR] in scala-execution-context-global-66 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:27,456 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:27,457 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:27,457 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:27,457 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:27,457 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:27,458 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:27,458 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:27,458 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:27,459 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:27,459 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:27,459 [ERROR] in scala-execution-context-global-66 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:27,459 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:32,477 [INFO] in scala-execution-context-global-66 - [info] c.jpro - application requested: default
+2022-06-20 12:39:32,477 [INFO] in scala-execution-context-global-66 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:32,477 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:32,477 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:32,477 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:32,486 [INFO] in scala-execution-context-global-40 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:32,486 [INFO] in scala-execution-context-global-40 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:32,487 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:32,487 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:32,487 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:32,487 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:32,488 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:32,490 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:32,490 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:32,490 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:32,490 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:32,491 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:32,491 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:32,491 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:32,491 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:32,492 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:32,492 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:32,492 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:32,492 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:32,493 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:32,493 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:32,493 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:32,493 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:32,493 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:37,612 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:37,613 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:37,613 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:37,613 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:37,613 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:37,625 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:37,625 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:37,625 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:37,626 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:37,627 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:37,627 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:37,627 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:37,628 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:37,628 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:37,628 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:37,628 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:37,629 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:37,629 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:37,629 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:37,630 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:37,630 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:37,630 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:37,630 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:37,630 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:37,631 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:37,631 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:37,631 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:37,632 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:42,659 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:42,660 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:42,660 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:42,660 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:42,660 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:42,668 [INFO] in scala-execution-context-global-40 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:42,668 [INFO] in scala-execution-context-global-40 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:42,668 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:42,668 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:42,668 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:42,669 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:42,684 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:42,684 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:42,684 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:42,685 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:42,685 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:42,685 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:42,685 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:42,686 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:42,687 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:42,687 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:42,687 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:42,687 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:47,791 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:47,791 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:47,791 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:47,791 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:47,792 [INFO] in scala-execution-context-global-66 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:47,798 [INFO] in scala-execution-context-global-66 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:47,798 [INFO] in scala-execution-context-global-66 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:47,799 [INFO] in scala-execution-context-global-66 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:47,803 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:47,803 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:47,803 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:47,804 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:47,805 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:47,806 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:52,823 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:52,823 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:52,823 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:52,824 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:52,824 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:52,830 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:52,831 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:52,831 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:52,831 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:52,831 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:52,831 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:52,844 [ERROR] in scala-execution-context-global-37 - java.lang.NullPointerException
+2022-06-20 12:39:52,845 [ERROR] in scala-execution-context-global-37 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:52,845 [ERROR] in scala-execution-context-global-37 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:52,845 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:52,845 [ERROR] in scala-execution-context-global-37 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:52,846 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:52,846 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:52,846 [ERROR] in scala-execution-context-global-37 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:52,846 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:52,847 [ERROR] in scala-execution-context-global-37 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:52,847 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:52,847 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:52,847 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:52,848 [ERROR] in scala-execution-context-global-37 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:52,848 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:52,848 [ERROR] in scala-execution-context-global-37 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:52,848 [ERROR] in scala-execution-context-global-37 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:39:57,938 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 12:39:57,939 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 12:39:57,940 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:39:57,940 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:39:57,940 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:39:57,948 [INFO] in scala-execution-context-global-37 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:39:57,949 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:39:57,949 [INFO] in scala-execution-context-global-37 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:39:57,949 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:39:57,949 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:39:57,949 [INFO] in scala-execution-context-global-65 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:39:57,952 [ERROR] in scala-execution-context-global-69 - java.lang.NullPointerException
+2022-06-20 12:39:57,952 [ERROR] in scala-execution-context-global-69 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:39:57,952 [ERROR] in scala-execution-context-global-69 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:39:57,953 [ERROR] in scala-execution-context-global-69 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:39:57,953 [ERROR] in scala-execution-context-global-69 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:39:57,953 [ERROR] in scala-execution-context-global-69 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:39:57,954 [ERROR] in scala-execution-context-global-66 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:39:57,954 [ERROR] in scala-execution-context-global-66 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:39:57,955 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:39:57,955 [ERROR] in scala-execution-context-global-66 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:39:57,955 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:39:57,955 [ERROR] in scala-execution-context-global-66 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:39:57,955 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:39:57,956 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:39:57,956 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:39:57,956 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:39:57,956 [ERROR] in scala-execution-context-global-40 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:40:02,985 [INFO] in scala-execution-context-global-70 - [info] c.jpro - application requested: default
+2022-06-20 12:40:02,986 [INFO] in scala-execution-context-global-70 - [info] c.jpro - Creating Application: default
+2022-06-20 12:40:02,986 [INFO] in scala-execution-context-global-70 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:40:02,986 [INFO] in scala-execution-context-global-70 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:40:02,986 [INFO] in scala-execution-context-global-70 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:40:02,994 [INFO] in scala-execution-context-global-70 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:40:02,995 [INFO] in scala-execution-context-global-70 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:40:02,995 [INFO] in scala-execution-context-global-70 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:40:02,995 [INFO] in scala-execution-context-global-70 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:40:03,002 [ERROR] in scala-execution-context-global-70 - java.lang.NullPointerException
+2022-06-20 12:40:03,002 [ERROR] in scala-execution-context-global-70 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:40:03,002 [ERROR] in scala-execution-context-global-70 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:40:03,002 [ERROR] in scala-execution-context-global-70 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:40:03,003 [ERROR] in scala-execution-context-global-70 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:40:03,004 [ERROR] in scala-execution-context-global-70 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:40:03,004 [ERROR] in scala-execution-context-global-70 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:40:03,004 [ERROR] in scala-execution-context-global-70 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:40:03,005 [ERROR] in scala-execution-context-global-70 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:40:03,005 [ERROR] in scala-execution-context-global-70 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:40:03,006 [ERROR] in scala-execution-context-global-70 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:40:03,006 [ERROR] in scala-execution-context-global-70 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:40:08,157 [INFO] in scala-execution-context-global-40 - [info] c.jpro - application requested: default
+2022-06-20 12:40:08,158 [INFO] in scala-execution-context-global-40 - [info] c.jpro - Creating Application: default
+2022-06-20 12:40:08,158 [INFO] in scala-execution-context-global-40 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:40:08,158 [INFO] in scala-execution-context-global-40 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:40:08,159 [INFO] in scala-execution-context-global-40 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:40:08,171 [INFO] in scala-execution-context-global-40 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-20 12:40:08,171 [INFO] in scala-execution-context-global-40 - java.lang.ClassNotFoundException: com.jpro.hellojpro.HelloJProFXML
+2022-06-20 12:40:08,171 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.loadClass(ReflectionUtil.scala:38)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at simplefx.util.ReflectionUtil.callNew(ReflectionUtil.scala:103)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.startApplication(ApplicationStarter.scala:108)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.requestApplication(ApplicationStarter.scala:94)
+2022-06-20 12:40:08,172 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:60)
+2022-06-20 12:40:08,173 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-20 12:40:08,173 [INFO] in scala-execution-context-global-40 - 	at com.jpro.internal.server.ViewByActor.<init>(ViewSerializerActor.scala:116)
+2022-06-20 12:40:08,173 [ERROR] in scala-execution-context-global-40 - java.lang.NullPointerException
+2022-06-20 12:40:08,174 [ERROR] in scala-execution-context-global-40 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-20 12:40:08,175 [ERROR] in scala-execution-context-global-40 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-20 12:40:08,175 [ERROR] in scala-execution-context-global-40 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-20 12:40:08,175 [ERROR] in scala-execution-context-global-40 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-20 12:40:08,176 [ERROR] in scala-execution-context-global-40 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-20 12:40:08,176 [ERROR] in scala-execution-context-global-40 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-20 12:40:08,176 [ERROR] in scala-execution-context-global-40 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-20 12:40:08,177 [ERROR] in scala-execution-context-global-40 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-20 12:40:08,177 [ERROR] in scala-execution-context-global-40 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-20 12:40:08,177 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-20 12:40:08,178 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-20 12:40:08,178 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-20 12:40:08,178 [ERROR] in scala-execution-context-global-40 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-20 12:40:08,178 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-20 12:40:08,178 [ERROR] in scala-execution-context-global-40 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-20 12:40:08,179 [ERROR] in scala-execution-context-global-40 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-20 12:40:22,386 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 12:40:22,387 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 12:40:22,465 [INFO] in scala-execution-context-global-38 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @1c2a3e4e'
+2022-06-20 12:40:22,924 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 12:40:22,956 [INFO] in scala-execution-context-global-38 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 12:40:22,994 [INFO] in scala-execution-context-global-38 - [info] c.jpro - application requested: default
+2022-06-20 12:40:23,007 [INFO] in scala-execution-context-global-38 - [info] c.jpro - Creating Application: default
+2022-06-20 12:40:23,012 [INFO] in scala-execution-context-global-38 - [info] c.jpro - remoteAddress 127.0.0.1
+2022-06-20 12:40:23,014 [INFO] in scala-execution-context-global-38 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:40:23,014 [INFO] in scala-execution-context-global-38 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:40:23,898 [INFO] in scala-execution-context-global-38 - [info] c.jpro - application requested: default
+2022-06-20 12:40:23,899 [INFO] in scala-execution-context-global-38 - [info] c.jpro - Creating Application: default
+2022-06-20 12:40:23,900 [INFO] in scala-execution-context-global-38 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 12:40:23,900 [INFO] in scala-execution-context-global-38 - [info] c.jpro - host          localhost:8080
+2022-06-20 12:40:23,901 [INFO] in scala-execution-context-global-38 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 12:40:24,079 [INFO] in scala-execution-context-global-41 - [info] com.jpro.JS - received msg: new MainID: 212 userid: 1167797801
+2022-06-20 12:40:24,107 [INFO] in scala-execution-context-global-38 - [info] com.jpro.JS - received msg: new MainID: 212 userid: 618954278
+2022-06-20 12:42:42,549 [INFO] in scala-execution-context-global-41 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 12:42:42,556 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 12:42:42,558 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 12:42:42,590 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 12:42:42 CEST 2022      
+2022-06-20 12:42:42,591 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-20 12:42:42,591 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-20 12:42:42,592 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 12:42:42,592 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 12:42:42,592 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - raw            : 218617
+2022-06-20 12:42:42,593 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - zipped         : 61626
+2022-06-20 12:42:42,593 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 12:42:43,542 [INFO] in scala-execution-context-global-41 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 12:42:44,866 [INFO] in scala-execution-context-global-41 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 12:42:44,868 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 12:42:44,868 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 12:42:44,869 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 12:42:44 CEST 2022      
+2022-06-20 12:42:44,869 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-20 12:42:44,870 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 12:42:44,871 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 12:42:44,872 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 12:42:44,873 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - raw            : 78152
+2022-06-20 12:42:44,874 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - zipped         : 21763
+2022-06-20 12:42:44,874 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 12:42:45,862 [INFO] in scala-execution-context-global-41 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-20 13:38:01,246 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - redirected OUT / ERR
+2022-06-20 13:38:01,248 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - installed SLF4JBridge
+2022-06-20 13:38:01,405 [INFO] in scala-execution-context-global-37 - [warn] javafx - Unsupported JavaFX configuration: classes were loaded from 'unnamed module @763697b7'
+2022-06-20 13:38:02,572 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - JavaFX version: 18.0.1.1-jpro+0-2022-05-06-133527
+2022-06-20 13:38:02,611 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.Initializer$ - finished init!
+2022-06-20 13:38:04,526 [INFO] in scala-execution-context-global-37 - [info] c.jpro - application requested: default
+2022-06-20 13:38:04,543 [INFO] in scala-execution-context-global-37 - [info] c.jpro - Creating Application: default
+2022-06-20 13:38:04,547 [INFO] in scala-execution-context-global-37 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-20 13:38:04,551 [INFO] in scala-execution-context-global-37 - [info] c.jpro - host          localhost:8080
+2022-06-20 13:38:04,551 [INFO] in scala-execution-context-global-37 - [info] c.jpro - uri           /app/ws/default
+2022-06-20 13:38:06,248 [INFO] in scala-execution-context-global-37 - [info] com.jpro.JS - received msg: new MainID: 212 userid: 797468909
+2022-06-20 13:38:18,686 [INFO] in scala-execution-context-global-37 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-20 13:38:18,692 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 13:38:18,693 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-20 13:38:18,707 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - startTime      : Mon Jun 20 13:38:18 CEST 2022      
+2022-06-20 13:38:18,708 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-20 13:38:18,708 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-20 13:38:18,709 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-20 13:38:18,710 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-20 13:38:18,710 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - raw            : 232912
+2022-06-20 13:38:18,711 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - zipped         : 59006
+2022-06-20 13:38:18,712 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-20 13:38:19,685 [INFO] in scala-execution-context-global-41 - [info] c.j.i.c.InstanceImpl - closing window!
