@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Więzienie implements IExtension<Więzienie>{
+public class Więzienie {
 
 
     public Więzienie() {
-        addToExtension(this);
+
     }
 
     public int getId() {
@@ -25,27 +25,6 @@ public class Więzienie implements IExtension<Więzienie>{
     @Id
     private int id;
 
-    /**
-     * Extension
-     */
-
-    @OneToMany
-    private List<Więzienie> extension = new ArrayList<>();
-
-
-    public List<Więzienie> getExtension() {
-        return extension;
-    }
-
-    @Override
-    public void addToExtension(Więzienie object) {
-extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Więzienie object) {
-        extension.remove(object);
-    }
 
 
 //todo metody?

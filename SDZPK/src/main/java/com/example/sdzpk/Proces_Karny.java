@@ -7,10 +7,10 @@ import java.util.List;
 
 
 @Entity
-public class Proces_Karny implements IExtension<Proces_Karny>{
+public class Proces_Karny {
 
     public Proces_Karny() {
-        addToExtension(this);
+
     }
 
     @Id
@@ -44,27 +44,6 @@ public class Proces_Karny implements IExtension<Proces_Karny>{
     private LocalDate dataZakończenia; //todo nullable (optional)
 
 
-    /**
-     * Extension
-     */
-    private static List<Proces_Karny> extension = new ArrayList<>();
-
-
-
-    public static List<Proces_Karny> getExtension(){
-        return extension;
-    }
-
-
-    @Override
-    public void addToExtension(Proces_Karny object) {
-        extension.add(this);
-    }
-
-    @Override
-    public void removeFromExtension(Proces_Karny object) {
-        extension.remove(this);
-    }
 
 
     /**

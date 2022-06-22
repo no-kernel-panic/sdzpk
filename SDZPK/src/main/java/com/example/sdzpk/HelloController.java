@@ -12,17 +12,21 @@ import javafx.stage.Stage;
 import org.hibernate.Session;
 
 import java.io.IOException;
+import java.util.Collection;
 import java.util.List;
 
 import static com.example.sdzpk.HelloApplication.webAPI;
 
 public class HelloController {
 
-    ObservableList<String> lawyers =
+    private List<Adwokat> Ad;
+    private List<Sędzia> Se;
+
+    private ObservableList<String> lawyers =
             FXCollections.observableArrayList();
 
 
-    ObservableList<String> judges =
+    private ObservableList<String> judges =
             FXCollections.observableArrayList();
 
     @FXML
@@ -36,9 +40,9 @@ public class HelloController {
     @FXML
     protected void initialize(){
         Session session =  HelloApplication.createSession();
-        List<Adwokat> Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
-        List<Sędzia> Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
-
+         Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
+         Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
+        session.close();
         for(Adwokat a : Ad) {
             lawyers.add(a.getImie() + " " + a.getNazwisko());
         }
@@ -65,7 +69,7 @@ public class HelloController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Judge Stage");
+            stage.setTitle("Lawyer Stage");
             stage.setScene(new Scene(root, 450, 450));
             webAPI.openStageAsPopup(stage);
         }
@@ -74,10 +78,13 @@ public class HelloController {
     protected void comboJudgeSelected() throws IOException {
         if (getJudgeBox().getValue() != null) {
             String judge = String.valueOf(getJudgeBox().getValue());
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
+            Sędzia sędzia = Se.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(judge)).findFirst().orElse(null);
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Sędzia-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
             stage.setTitle("Judge Stage");
+            SędziaController controller = fxmlLoader.getController();
+            controller.setSędzia(sędzia);
             stage.setScene(new Scene(root, 450, 450));
             webAPI.openStageAsPopup(stage);
         }

@@ -8,12 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Przestępstwo implements IExtension<Przestępstwo>{
+public class Przestępstwo {
 
 
     public Przestępstwo() {
-        addToExtension(this);
-    }
+        }
 
     @Id
     private int numer;
@@ -53,26 +52,6 @@ public class Przestępstwo implements IExtension<Przestępstwo>{
     }
 
     private String opis;
-
-    /**
-     * extension
-     */
-    @OneToMany
-    private List<Przestępstwo> extension = new ArrayList<>();
-
-    public List<Przestępstwo> getExtension() {
-        return extension;
-    }
-
-    @Override
-    public void addToExtension(Przestępstwo object) {
-    extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Przestępstwo object) {
-    extension.remove(object);
-    }
 
     /**
      * many to many relation between Przestępstwo - Oskarżony

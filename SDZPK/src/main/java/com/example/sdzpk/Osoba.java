@@ -94,9 +94,6 @@ Osoba {
         this.dowódOsobisty = dowódOsobistu;
     }
 
-    public static List<Osoba> getExtension() {
-        return extension;
-    }
 
 
     private String stanCiwilny;
@@ -106,9 +103,6 @@ Osoba {
 
     @Id
     private String dowódOsobisty;
-
-    @OneToMany()
-    protected static List<Osoba> extension = new ArrayList<>();
 
     /**
      * many to many relation osoba - proces karny

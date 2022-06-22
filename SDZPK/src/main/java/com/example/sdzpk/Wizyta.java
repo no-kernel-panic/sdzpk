@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Wizyta implements IExtension<Wizyta>{
+public class Wizyta {
 
 
     public Wizyta() {
-        addToExtension(this);
+
     }
 
     public int getId() {
@@ -61,27 +61,6 @@ public class Wizyta implements IExtension<Wizyta>{
 
     }
 
-    /**
-     * Extension
-     *
-     */
-
-    @OneToMany
-    private List<Wizyta> extension = new ArrayList<>();
-
-    public List<Wizyta> getExtension() {
-        return extension;
-    }
-
-    @Override
-    public void addToExtension(Wizyta object) {
-        extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Wizyta object) {
-        extension.remove(object);
-    }
 
 
 

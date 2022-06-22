@@ -6,26 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Sędzia extends Pracownik implements IExtension<Sędzia>{
+public class Sędzia extends Pracownik {
 
 
     public Sędzia() {
-        addToExtension(this);
     }
 
-    /**
-     * Extension (List in grandparent class)
-     */
-
-    @Override
-    public void addToExtension(Sędzia object) {
-    extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Sędzia object) {
-    extension.add(object);
-    }
 
     /**
      * many to one relation sędzia - wyrok

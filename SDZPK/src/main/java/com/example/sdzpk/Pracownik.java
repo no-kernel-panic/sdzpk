@@ -48,24 +48,48 @@ public abstract class Pracownik extends Osoba{
     private int staż;
 
 
+    public List<Prośba_do_sędziego> getProśba_do_sędziegoOtrzymaList() {
+        return prośba_do_sędziegoOtrzymaList;
+    }
+
+    public List<Prośba_do_sędziego> getProśba_do_sędziegoWysyłaList() {
+        return prośba_do_sędziegoWysyłaList;
+    }
+
     /**
      * many to one relation Pracownik prośba do sędziego
      *
      */
 
-    @OneToMany(mappedBy = "pracownik")
-    private List<Prośba_do_sędziego> prośba_do_sędziegoList = new ArrayList<>();
+    @OneToMany(mappedBy = "pracownikOtrzyma")
+    private List<Prośba_do_sędziego> prośba_do_sędziegoOtrzymaList = new ArrayList<>();
 
     public void addProśbadosędziego(Prośba_do_sędziego prośba_do_sędziego){
-        if(!this.prośba_do_sędziegoList.contains(prośba_do_sędziego)) {
-            this.prośba_do_sędziegoList.add(prośba_do_sędziego);
-            prośba_do_sędziego.setPracownik(this);
+        if(!this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
+            this.prośba_do_sędziegoOtrzymaList.add(prośba_do_sędziego);
+            prośba_do_sędziego.setPracownikOtrzyma(this);
         }
 
     }
-    public void removeProśbadosędziego(Prośba_do_sędziego prośba_do_sędziego) {
-        if (this.prośba_do_sędziegoList.contains(prośba_do_sędziego)) {
-            this.prośba_do_sędziegoList.remove(prośba_do_sędziego);
+    public void removeProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego) {
+        if (this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
+            this.prośba_do_sędziegoOtrzymaList.remove(prośba_do_sędziego);
+        }
+    }
+
+    @OneToMany(mappedBy = "pracownikWysyła")
+    private List<Prośba_do_sędziego> prośba_do_sędziegoWysyłaList = new ArrayList<>();
+
+    public void addProśbadosędziegoWysyła(Prośba_do_sędziego prośba_do_sędziego){
+        if(!this.prośba_do_sędziegoWysyłaList.contains(prośba_do_sędziego)) {
+            this.prośba_do_sędziegoWysyłaList.add(prośba_do_sędziego);
+            prośba_do_sędziego.setPracownikWysyła(this);
+        }
+
+    }
+    public void removeProśbadosędziegoWysyła(Prośba_do_sędziego prośba_do_sędziego) {
+        if (this.prośba_do_sędziegoWysyłaList.contains(prośba_do_sędziego)) {
+            this.prośba_do_sędziegoWysyłaList.remove(prośba_do_sędziego);
         }
     }
 

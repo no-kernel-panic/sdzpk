@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 @Entity
 
-public class Adwokat extends Pracownik implements IExtension<Adwokat> {
+public class Adwokat extends Pracownik {
 
 
     public Adwokat(){
-        addToExtension(this);
+
     }
 
     /**
@@ -34,21 +34,4 @@ public class Adwokat extends Pracownik implements IExtension<Adwokat> {
     }
 
 
-    /**
-     * extension List in grandparent class
-     */
-
-
-    @Override
-    public void addToExtension(Adwokat object) {
-    extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Adwokat object) {
-    extension.remove(object);
-    }
-
-
-    //todo metody?
 }

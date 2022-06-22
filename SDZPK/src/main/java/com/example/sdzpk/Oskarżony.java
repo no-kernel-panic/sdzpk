@@ -1,18 +1,31 @@
 package com.example.sdzpk;
 
 import javax.persistence.Entity;
+import javax.persistence.Enumerated;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 
 
-enum StanO { Wwięzieniu, AresztDomowy, WyjazdZaGranicę, Przepustka } //popełnione zostało z użyciem przemocy, i przeciw własności
+ //popełnione zostało z użyciem przemocy, i przeciw własności
 @Entity
-public class Oskarżony extends Osoba implements IExtension<Oskarżony>{
+public class Oskarżony extends Osoba {
 
     //todo initialization
-    private EnumSet<StanO> stan = EnumSet.noneOf(StanO.class);
+    private enum Stan { Wwięzieniu, AresztDomowy, WyjazdZaGranicę, Przepustka };
+
+    @Enumerated
+     public Stan getStan() {
+         return stan;
+     }
+
+     public void setStan(Stan stan) {
+         this.stan = stan;
+     }
+
+     private Stan stan;
+
 
     public int getNumerIdentyfikacjyny() {
         return numerIdentyfikacjyny;
@@ -24,24 +37,6 @@ public class Oskarżony extends Osoba implements IExtension<Oskarżony>{
 
     private int numerIdentyfikacjyny;
 
-
-    /**
-     * Extension (list in parent class)
-     */
-
-    public Oskarżony() {
-        addToExtension(this);
-    }
-
-    @Override
-    public void addToExtension(Oskarżony object) {
-    extension.add(object);
-    }
-
-    @Override
-    public void removeFromExtension(Oskarżony object) {
-    extension.remove(object);
-    }
 
 
     /**

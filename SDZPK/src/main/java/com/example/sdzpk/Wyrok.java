@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Wyrok implements IExtension<Wyrok>{
+public class Wyrok {
 
 
     public Wyrok() {
-        addToExtension(this);
+
     }
 
     public int getId() {
@@ -64,25 +64,6 @@ public class Wyrok implements IExtension<Wyrok>{
     private int okresWyroku;//todo pochodny
 
 
-    /**
-     * extension
-     */
-    @OneToMany
-    private List<Wyrok> extension = new ArrayList<>();
-
-    public List<Wyrok> getExtension() {
-        return extension;
-    }
-
-    @Override
-    public void addToExtension(Wyrok object) {
-    extension.add(this);
-    }
-
-    @Override
-    public void removeFromExtension(Wyrok object) {
-    extension.remove(this);
-    }
 
     /**
      * one to many relation wyrok - więzenie

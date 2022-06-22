@@ -1,33 +1,30 @@
 package com.example.sdzpk;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
-
+import com.jpro.webapi.WebAPI;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
 import java.util.Locale;
-import com.jpro.webapi.*;
 
 public class HelloApplication extends Application {
     public static WebAPI webAPI;
 
     @Override
     public void start(Stage stage) throws IOException {
+        setUserAgentStylesheet(STYLESHEET_CASPIAN);
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
-         webAPI = WebAPI.getWebAPI(stage);
-
-    }
+        webAPI = WebAPI.getWebAPI(stage);
+        }
 
 
     public static Session createSession(){

@@ -2,13 +2,11 @@ package com.example.sdzpk;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.EnumSet;
 import java.util.List;
 
-enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka } //popełnione zostało z użyciem przemocy, i przeciw własności
 
 @Entity
-public class Prośba_do_sędziego implements IExtension<Prośba_do_sędziego>{
+public class Prośba_do_sędziego{
     //todo initialization
 
     public int getId() {
@@ -19,14 +17,25 @@ public class Prośba_do_sędziego implements IExtension<Prośba_do_sędziego>{
         this.id = id;
     }
 
+    private enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka }
+
+    @Enumerated
+    public Stan getStan() {
+        return stan;
+    }
+
+    public void setStan(Stan stan) {
+        this.stan = stan;
+    }
+
+    private Stan stan;
+
     @Id
     private int id;
 
     public Prośba_do_sędziego() {
-        addToExtension(this);
     }
 
-    private EnumSet<Stan> crimeType = EnumSet.noneOf(Stan.class);
 
 
     public String getOpis() {
@@ -39,29 +48,7 @@ public class Prośba_do_sędziego implements IExtension<Prośba_do_sędziego>{
 
     private String opis;
 
-    /**
-     *extension
-     */
-    @OneToMany
-    private List<Prośba_do_sędziego> extension = new ArrayList<>();
 
-
-    public List<Prośba_do_sędziego> getExtension() {
-        return extension;
-    }
-
-
-    @Override
-    public void addToExtension(Prośba_do_sędziego object) {
-        extension.add(object);
-
-    }
-
-    @Override
-    public void removeFromExtension(Prośba_do_sędziego object) {
-        extension.remove(object);
-
-    }
 
     /**
      * 1 to many relation prośba do sędziego - oskarżony
@@ -88,20 +75,39 @@ public class Prośba_do_sędziego implements IExtension<Prośba_do_sędziego>{
      * 1 to many relation Pracownik -  prośba_do_sędziego
      */
     @ManyToOne(fetch = FetchType.LAZY)
-    private Pracownik pracownik;
+    private Pracownik pracownikOtrzyma;
 
-    public void setPracownik(Pracownik pracownik) {
-        if (this.pracownik == pracownik ) {
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Pracownik pracownikWysyła;
+
+    public void setPracownikOtrzyma(Pracownik pracownik) {
+        if (this.pracownikOtrzyma == pracownik ) {
             return;
         }
 
-        if (this.pracownik != null) {
-            this.pracownik.removeProśbadosędziego(this);
+        if (this.pracownikOtrzyma != null) {
+            this.pracownikOtrzyma.removeProśbadosędziegoOtrzyma(this);
         }
 
-        this.pracownik = pracownik;
-        this.pracownik.addProśbadosędziego(this);
+        this.pracownikOtrzyma = pracownik;
+        this.pracownikOtrzyma.addProśbadosędziego(this);
 
     }
+
+    public void setPracownikWysyła(Pracownik pracownik) {
+        if (this.pracownikWysyła == pracownik ) {
+            return;
+        }
+
+        if (this.pracownikWysyła != null) {
+            this.pracownikWysyła.removeProśbadosędziegoWysyła(this);
+        }
+
+        this.pracownikWysyła = pracownik;
+        this.pracownikWysyła.addProśbadosędziego(this);
+
+    }
+
+
 
 }
