@@ -6,13 +6,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.SędziaController">
    <children>
       <Hyperlink layoutX="14.0" layoutY="47.0" text="Home" />
       <Label fx:id="welcomeText" layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="591.0" text="Label" textFill="#1a20e2">
          <font>
-            <Font size="22.0" />
+            <Font size="11.0" />
          </font>
       </Label>
       <Button layoutX="29.0" layoutY="84.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="144.0" text="Check pending requests" />

@@ -1,6 +1,8 @@
 package com.example.sdzpk;
 
 
+import org.hibernate.Session;
+
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
@@ -32,6 +34,18 @@ public class Adwokat extends Pracownik {
             adwokatWizytaList.add(adwokatWizyta);
         }
     }
+    
+    public void createRequest(Session session){
+
+        Prośba_do_sędziego prośba = new Prośba_do_sędziego();
+        prośba.setPracownikWysyła(this);
+      //  prośba.setOskarżony();
+        // session.beginTransaction();
+        // session.save(proces_karny);//save(NEW PROCES_KARNY(...))
+        // session.getTransaction().commit();
+
+    }
+    
 
 
 }

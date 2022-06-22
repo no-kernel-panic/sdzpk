@@ -49,11 +49,8 @@ public class SędziaController {
             requests.add(p.getOpis());
         }
         Platform.runLater(() -> {
-            welcomeText.setText("Welcome Mr Judge: " + requests.stream().findFirst());
+            welcomeText.setText("Welcome: " + sędzia.getImie() + " " + sędzia.getNazwisko());
 
-
-
-                   // welcomeText.setText("Welcome Mr Judge: " + sędzia.getImie() + " " + sędzia.getNazwisko());
                 });
        /* Session session =  HelloApplication.createSession();
         List<Adwokat> Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();

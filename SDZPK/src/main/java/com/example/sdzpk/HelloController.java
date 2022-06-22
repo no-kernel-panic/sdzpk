@@ -65,20 +65,24 @@ public class HelloController {
     @FXML
     protected void comboLawyerSelected() throws IOException {
         if (getLawyerBox().getValue() != null) {
-            String adwokat = String.valueOf(getLawyerBox().getValue());
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
+            String lawyerName = String.valueOf(getLawyerBox().getValue());
+            Adwokat adwokat = Ad.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(lawyerName)).findFirst().orElse(null);
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("adwokat-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
             stage.setTitle("Lawyer Stage");
+            AdwokatController controller = fxmlLoader.getController();
+            controller.setAdwokat(adwokat);
             stage.setScene(new Scene(root, 450, 450));
-            webAPI.openStageAsPopup(stage);
+           // webAPI.openStageAsPopup(stage);
+            stage.show();
         }
     }
     @FXML
     protected void comboJudgeSelected() throws IOException {
         if (getJudgeBox().getValue() != null) {
-            String judge = String.valueOf(getJudgeBox().getValue());
-            Sędzia sędzia = Se.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(judge)).findFirst().orElse(null);
+            String judgeName = String.valueOf(getJudgeBox().getValue());
+            Sędzia sędzia = Se.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(judgeName)).findFirst().orElse(null);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Sędzia-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();

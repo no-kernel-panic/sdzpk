@@ -23,7 +23,8 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
-        webAPI = WebAPI.getWebAPI(stage);
+       // webAPI = WebAPI.getWebAPI(stage);
+        stage.show();
         }
 
 
