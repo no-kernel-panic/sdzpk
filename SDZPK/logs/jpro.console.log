@@ -2263,3 +2263,831 @@
 2022-06-22 12:49:32,270 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - zipped         : 26581
 2022-06-22 12:49:32,271 [INFO] in scala-execution-context-global-41 - [info] c.j.i.s.ViewInfo$ - 
 2022-06-22 12:49:33,269 [INFO] in scala-execution-context-global-41 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 13:21:47,916 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 13:21:47,920 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 13:21:47,920 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 13:21:47 CEST 2022      
+2022-06-22 13:21:47,921 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-22 13:21:47,921 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-22 13:21:47,921 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 13:21:47,922 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 13:21:47,922 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 690660
+2022-06-22 13:21:47,922 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 197290
+2022-06-22 13:21:47,923 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 13:21:47,923 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 13:21:47,923 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 13:21:47,923 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 13:21:47 CEST 2022      
+2022-06-22 13:21:47,923 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-22 13:21:47,924 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-22 13:21:47,924 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 13:21:47,924 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 13:21:47,924 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - raw            : 748871
+2022-06-22 13:21:47,925 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - zipped         : 208979
+2022-06-22 13:21:47,925 [INFO] in scala-execution-context-global-37 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 16:21:52,510 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 16:21:52,513 [INFO] in scala-execution-context-global-37 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 19:34:54,582 [INFO] in scala-execution-context-global-67 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 19:34:54,582 [INFO] in scala-execution-context-global-67 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 19:34:54,583 [INFO] in scala-execution-context-global-67 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 19:34:54,584 [INFO] in scala-execution-context-global-67 - [info] c.jpro - host          localhost:8080
+2022-06-22 19:34:54,585 [INFO] in scala-execution-context-global-67 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 19:34:54,605 [INFO] in scala-execution-context-global-67 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 19:34:54,606 [INFO] in scala-execution-context-global-67 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 19:34:54,606 [INFO] in scala-execution-context-global-67 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 19:34:54,606 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 19:34:54,607 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 19:34:54,607 [INFO] in scala-execution-context-global-67 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 19:34:54,607 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 19:34:54,608 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 19:34:54,609 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 19:34:54,609 [INFO] in scala-execution-context-global-67 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 19:34:54,609 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 19:34:54,609 [INFO] in scala-execution-context-global-67 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 19:34:54,609 [ERROR] in scala-execution-context-global-67 - java.lang.NullPointerException
+2022-06-22 19:34:54,610 [ERROR] in scala-execution-context-global-74 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 19:34:54,610 [ERROR] in scala-execution-context-global-74 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 19:34:54,610 [ERROR] in scala-execution-context-global-74 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 19:34:54,611 [ERROR] in scala-execution-context-global-74 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 19:34:54,611 [ERROR] in scala-execution-context-global-74 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 19:34:54,611 [ERROR] in scala-execution-context-global-74 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 19:34:54,611 [ERROR] in scala-execution-context-global-74 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 19:34:54,612 [ERROR] in scala-execution-context-global-74 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 19:34:54,612 [ERROR] in scala-execution-context-global-74 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 19:34:54,613 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 19:34:54,613 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 19:34:54,614 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 19:34:54,614 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 19:34:54,615 [ERROR] in scala-execution-context-global-74 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 19:34:54,615 [ERROR] in scala-execution-context-global-74 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 19:34:54,615 [ERROR] in scala-execution-context-global-74 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 19:35:09,472 [INFO] in scala-execution-context-global-74 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 19:35:09,474 [INFO] in scala-execution-context-global-74 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 19:35:09,474 [INFO] in scala-execution-context-global-74 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 19:35:09,475 [INFO] in scala-execution-context-global-74 - [info] c.jpro - host          localhost:8080
+2022-06-22 19:35:09,475 [INFO] in scala-execution-context-global-74 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 19:35:09,482 [INFO] in scala-execution-context-global-74 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 19:35:09,483 [INFO] in scala-execution-context-global-74 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 19:35:09,484 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 19:35:09,484 [INFO] in scala-execution-context-global-74 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 19:35:09,495 [ERROR] in scala-execution-context-global-74 - java.lang.NullPointerException
+2022-06-22 19:35:09,495 [ERROR] in scala-execution-context-global-74 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 19:35:09,495 [ERROR] in scala-execution-context-global-74 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 19:35:09,496 [ERROR] in scala-execution-context-global-74 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 19:35:09,496 [ERROR] in scala-execution-context-global-74 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 19:35:09,496 [ERROR] in scala-execution-context-global-74 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 19:35:09,496 [ERROR] in scala-execution-context-global-74 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 19:35:09,496 [ERROR] in scala-execution-context-global-74 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 19:35:09,497 [ERROR] in scala-execution-context-global-74 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 19:35:09,497 [ERROR] in scala-execution-context-global-74 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 19:35:09,497 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 19:35:09,497 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 19:35:09,498 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 19:35:09,498 [ERROR] in scala-execution-context-global-74 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 19:35:09,498 [ERROR] in scala-execution-context-global-74 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 19:35:09,498 [ERROR] in scala-execution-context-global-74 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 19:35:09,499 [ERROR] in scala-execution-context-global-74 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 19:41:41,545 [INFO] in scala-execution-context-global-75 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 19:41:41,547 [INFO] in scala-execution-context-global-75 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 19:41:41,547 [INFO] in scala-execution-context-global-75 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 19:41:41,547 [INFO] in scala-execution-context-global-75 - [info] c.jpro - host          localhost:8080
+2022-06-22 19:41:41,548 [INFO] in scala-execution-context-global-75 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 19:41:41,556 [INFO] in scala-execution-context-global-75 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 19:41:41,556 [INFO] in scala-execution-context-global-75 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 19:41:41,557 [INFO] in scala-execution-context-global-75 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 19:41:41,568 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 19:41:41,568 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 19:41:41,569 [INFO] in scala-execution-context-global-75 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 19:41:41,569 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 19:41:41,569 [INFO] in scala-execution-context-global-72 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 19:41:41,570 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 19:41:41,571 [INFO] in scala-execution-context-global-75 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 19:41:41,571 [INFO] in scala-execution-context-global-72 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 19:41:41,572 [INFO] in scala-execution-context-global-72 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 19:41:41,572 [ERROR] in scala-execution-context-global-72 - java.lang.NullPointerException
+2022-06-22 19:41:41,581 [ERROR] in scala-execution-context-global-72 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 19:41:41,582 [ERROR] in scala-execution-context-global-72 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 19:41:41,583 [ERROR] in scala-execution-context-global-91 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 19:41:41,584 [ERROR] in scala-execution-context-global-90 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 19:41:41,585 [ERROR] in scala-execution-context-global-90 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 19:41:41,587 [ERROR] in scala-execution-context-global-90 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 19:41:41,587 [ERROR] in scala-execution-context-global-90 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 19:41:41,587 [ERROR] in scala-execution-context-global-90 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 19:41:41,588 [ERROR] in scala-execution-context-global-90 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 19:41:41,588 [ERROR] in scala-execution-context-global-90 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 19:41:41,588 [ERROR] in scala-execution-context-global-90 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 19:41:41,588 [ERROR] in scala-execution-context-global-90 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 19:41:41,588 [ERROR] in scala-execution-context-global-90 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 19:41:41,589 [ERROR] in scala-execution-context-global-90 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 19:41:41,589 [ERROR] in scala-execution-context-global-90 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 19:41:41,590 [ERROR] in scala-execution-context-global-90 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:13:22,991 [INFO] in scala-execution-context-global-75 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:13:22,992 [INFO] in scala-execution-context-global-75 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:13:22,993 [INFO] in scala-execution-context-global-75 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:13:22,993 [INFO] in scala-execution-context-global-75 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:13:22,993 [INFO] in scala-execution-context-global-75 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:13:23,001 [INFO] in scala-execution-context-global-100 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-100 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-100 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-75 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:13:23,002 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:13:23,003 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:13:23,003 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:13:23,003 [INFO] in scala-execution-context-global-75 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:13:23,003 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:13:23,003 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:13:23,006 [ERROR] in scala-execution-context-global-75 - java.lang.NullPointerException
+2022-06-22 21:13:23,006 [ERROR] in scala-execution-context-global-75 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:13:23,006 [ERROR] in scala-execution-context-global-75 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:13:23,006 [ERROR] in scala-execution-context-global-75 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:13:23,007 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:13:23,008 [ERROR] in scala-execution-context-global-75 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:13:23,008 [ERROR] in scala-execution-context-global-75 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:13:23,008 [ERROR] in scala-execution-context-global-75 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:13:28,151 [INFO] in scala-execution-context-global-75 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:13:28,151 [INFO] in scala-execution-context-global-75 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:13:28,151 [INFO] in scala-execution-context-global-75 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:13:28,151 [INFO] in scala-execution-context-global-75 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:13:28,152 [INFO] in scala-execution-context-global-75 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:13:28,158 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:13:28,159 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:13:28,159 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:13:28,159 [INFO] in scala-execution-context-global-75 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:13:28,159 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:13:28,159 [INFO] in scala-execution-context-global-75 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:13:28,159 [ERROR] in scala-execution-context-global-75 - java.lang.NullPointerException
+2022-06-22 21:13:28,159 [ERROR] in scala-execution-context-global-75 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:13:28,159 [ERROR] in scala-execution-context-global-75 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:13:28,160 [ERROR] in scala-execution-context-global-75 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:13:28,160 [ERROR] in scala-execution-context-global-75 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:13:28,160 [ERROR] in scala-execution-context-global-75 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:13:28,160 [ERROR] in scala-execution-context-global-75 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:13:28,160 [ERROR] in scala-execution-context-global-75 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:13:28,161 [ERROR] in scala-execution-context-global-75 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:13:28,162 [ERROR] in scala-execution-context-global-75 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:13:28,162 [ERROR] in scala-execution-context-global-75 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:31:33,266 [INFO] in scala-execution-context-global-100 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:31:33,267 [INFO] in scala-execution-context-global-100 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:31:33,269 [INFO] in scala-execution-context-global-100 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:31:33,269 [INFO] in scala-execution-context-global-100 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:31:33,269 [INFO] in scala-execution-context-global-100 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:31:33,277 [INFO] in scala-execution-context-global-100 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:31:33,277 [INFO] in scala-execution-context-global-100 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:31:33,278 [INFO] in scala-execution-context-global-100 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:31:33,278 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:31:33,279 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:31:33,283 [INFO] in scala-execution-context-global-100 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:31:33,284 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:31:33,284 [ERROR] in scala-execution-context-global-114 - java.lang.NullPointerException
+2022-06-22 21:31:33,284 [ERROR] in scala-execution-context-global-114 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:31:33,285 [ERROR] in scala-execution-context-global-114 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:31:33,286 [ERROR] in scala-execution-context-global-114 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:31:33,286 [ERROR] in scala-execution-context-global-114 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:31:33,286 [ERROR] in scala-execution-context-global-114 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:31:33,286 [ERROR] in scala-execution-context-global-114 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:31:33,286 [ERROR] in scala-execution-context-global-114 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:31:35,736 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:31:35,738 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:31:35,739 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:31:35,740 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:31:35,741 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:31:35,746 [INFO] in scala-execution-context-global-114 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:31:35,747 [INFO] in scala-execution-context-global-114 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:31:35,748 [INFO] in scala-execution-context-global-113 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:31:35,748 [INFO] in scala-execution-context-global-113 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:31:35,758 [ERROR] in scala-execution-context-global-115 - java.lang.NullPointerException
+2022-06-22 21:31:35,758 [ERROR] in scala-execution-context-global-115 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:31:35,758 [ERROR] in scala-execution-context-global-115 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:31:35,759 [ERROR] in scala-execution-context-global-115 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:31:35,759 [ERROR] in scala-execution-context-global-115 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:31:35,759 [ERROR] in scala-execution-context-global-115 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:31:35,760 [ERROR] in scala-execution-context-global-115 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:31:35,760 [ERROR] in scala-execution-context-global-115 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:31:35,760 [ERROR] in scala-execution-context-global-115 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:31:35,760 [ERROR] in scala-execution-context-global-115 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:31:35,761 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:31:35,761 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:31:35,761 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:31:35,762 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:31:35,762 [ERROR] in scala-execution-context-global-115 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:31:35,763 [ERROR] in scala-execution-context-global-115 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:31:35,763 [ERROR] in scala-execution-context-global-115 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:31:42,472 [INFO] in scala-execution-context-global-115 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:31:42,472 [INFO] in scala-execution-context-global-115 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:31:42,473 [INFO] in scala-execution-context-global-115 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:31:42,473 [INFO] in scala-execution-context-global-115 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:31:42,474 [INFO] in scala-execution-context-global-115 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:31:42,481 [INFO] in scala-execution-context-global-115 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:31:42,481 [INFO] in scala-execution-context-global-115 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:31:42,481 [INFO] in scala-execution-context-global-115 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:31:42,481 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:31:42,482 [INFO] in scala-execution-context-global-115 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:31:42,494 [ERROR] in scala-execution-context-global-115 - java.lang.NullPointerException
+2022-06-22 21:31:42,494 [ERROR] in scala-execution-context-global-115 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:31:42,495 [ERROR] in scala-execution-context-global-115 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:31:42,495 [ERROR] in scala-execution-context-global-115 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:31:42,495 [ERROR] in scala-execution-context-global-115 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:31:42,495 [ERROR] in scala-execution-context-global-115 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:31:42,495 [ERROR] in scala-execution-context-global-115 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:31:42,496 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:31:42,497 [ERROR] in scala-execution-context-global-115 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:31:42,497 [ERROR] in scala-execution-context-global-115 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:31:42,497 [ERROR] in scala-execution-context-global-115 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:31:42,497 [ERROR] in scala-execution-context-global-115 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:31:46,864 [INFO] in scala-execution-context-global-115 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:31:46,866 [INFO] in scala-execution-context-global-115 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:31:46,867 [INFO] in scala-execution-context-global-115 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:31:46,868 [INFO] in scala-execution-context-global-115 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:31:46,868 [INFO] in scala-execution-context-global-111 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:31:46,874 [INFO] in scala-execution-context-global-111 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:31:46,875 [INFO] in scala-execution-context-global-111 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:31:46,878 [ERROR] in scala-execution-context-global-111 - java.lang.NullPointerException
+2022-06-22 21:31:46,878 [ERROR] in scala-execution-context-global-111 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:31:46,878 [ERROR] in scala-execution-context-global-111 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:31:46,878 [ERROR] in scala-execution-context-global-111 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:31:46,879 [ERROR] in scala-execution-context-global-111 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:31:46,879 [ERROR] in scala-execution-context-global-111 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:31:46,879 [ERROR] in scala-execution-context-global-111 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:31:46,879 [ERROR] in scala-execution-context-global-111 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:31:46,880 [ERROR] in scala-execution-context-global-111 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:31:46,880 [ERROR] in scala-execution-context-global-111 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:31:46,880 [ERROR] in scala-execution-context-global-111 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:31:46,880 [ERROR] in scala-execution-context-global-111 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:31:46,880 [ERROR] in scala-execution-context-global-111 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:31:46,881 [ERROR] in scala-execution-context-global-111 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:31:46,881 [ERROR] in scala-execution-context-global-111 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:31:46,881 [ERROR] in scala-execution-context-global-111 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:31:46,881 [ERROR] in scala-execution-context-global-111 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:33:09,038 [INFO] in scala-execution-context-global-100 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:33:09,038 [INFO] in scala-execution-context-global-100 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:33:09,039 [INFO] in scala-execution-context-global-100 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:33:09,040 [INFO] in scala-execution-context-global-100 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:33:09,040 [INFO] in scala-execution-context-global-100 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:33:09,048 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:33:09,049 [INFO] in scala-execution-context-global-100 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:33:09,049 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:33:09,049 [INFO] in scala-execution-context-global-100 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:33:09,055 [ERROR] in scala-execution-context-global-100 - java.lang.NullPointerException
+2022-06-22 21:33:09,056 [ERROR] in scala-execution-context-global-100 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:33:09,056 [ERROR] in scala-execution-context-global-100 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:33:09,057 [ERROR] in scala-execution-context-global-100 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:33:09,057 [ERROR] in scala-execution-context-global-100 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:33:09,058 [ERROR] in scala-execution-context-global-100 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:33:09,058 [ERROR] in scala-execution-context-global-100 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:33:09,059 [ERROR] in scala-execution-context-global-100 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:33:09,059 [ERROR] in scala-execution-context-global-100 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:33:09,060 [ERROR] in scala-execution-context-global-100 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:33:09,060 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:33:09,060 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:33:09,061 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:33:09,061 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:33:09,061 [ERROR] in scala-execution-context-global-100 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:33:09,061 [ERROR] in scala-execution-context-global-100 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:33:09,062 [ERROR] in scala-execution-context-global-100 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:33:56,401 [INFO] in scala-execution-context-global-100 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:33:56,401 [INFO] in scala-execution-context-global-100 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:33:56,401 [INFO] in scala-execution-context-global-100 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:33:56,402 [INFO] in scala-execution-context-global-100 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:33:56,402 [INFO] in scala-execution-context-global-100 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:33:56,409 [INFO] in scala-execution-context-global-112 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:33:56,410 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:33:56,411 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:33:56,414 [ERROR] in scala-execution-context-global-112 - java.lang.NullPointerException
+2022-06-22 21:33:56,414 [ERROR] in scala-execution-context-global-112 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:33:56,414 [ERROR] in scala-execution-context-global-112 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:33:56,414 [ERROR] in scala-execution-context-global-112 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:33:56,415 [ERROR] in scala-execution-context-global-112 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:33:56,415 [ERROR] in scala-execution-context-global-112 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:33:56,415 [ERROR] in scala-execution-context-global-112 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:33:56,415 [ERROR] in scala-execution-context-global-112 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:33:56,416 [ERROR] in scala-execution-context-global-112 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:33:56,416 [ERROR] in scala-execution-context-global-112 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:33:56,416 [ERROR] in scala-execution-context-global-112 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:33:56,416 [ERROR] in scala-execution-context-global-112 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:33:56,417 [ERROR] in scala-execution-context-global-112 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:33:56,417 [ERROR] in scala-execution-context-global-112 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:33:56,417 [ERROR] in scala-execution-context-global-112 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:33:56,417 [ERROR] in scala-execution-context-global-112 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:33:56,417 [ERROR] in scala-execution-context-global-112 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:34:00,124 [INFO] in scala-execution-context-global-112 - [info] c.jpro - application requested: 1786449911!1786449911
+2022-06-22 21:34:00,125 [INFO] in scala-execution-context-global-112 - [info] c.jpro - Creating Application: 1786449911!1786449911
+2022-06-22 21:34:00,126 [INFO] in scala-execution-context-global-112 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:34:00,126 [INFO] in scala-execution-context-global-112 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:34:00,126 [INFO] in scala-execution-context-global-112 - [info] c.jpro - uri           /app/ws/1786449911!1786449911
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got Exception: 
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - java.lang.AssertionError: assertion failed: Couldn't find the instance for: AppByID(1786449911,None)
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - 	at scala.Predef$.assert(Predef.scala:223)
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:56)
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$2(ApplicationStarter.scala:54)
+2022-06-22 21:34:00,136 [INFO] in scala-execution-context-global-112 - 	at scala.Option.map(Option.scala:230)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.appor$lzycompute$1(ApplicationStarter.scala:54)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.appor$1(ApplicationStarter.scala:54)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.$anonfun$getApplication$3(ApplicationStarter.scala:55)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at scala.Option.orElse(Option.scala:447)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.config.ApplicationStarter$.getApplication(ApplicationStarter.scala:55)
+2022-06-22 21:34:00,137 [INFO] in scala-execution-context-global-112 - 	at com.jpro.internal.communicator.ViewImpl.<init>(ViewImpl.scala:30)
+2022-06-22 21:34:00,142 [ERROR] in scala-execution-context-global-100 - java.lang.NullPointerException
+2022-06-22 21:34:00,142 [ERROR] in scala-execution-context-global-100 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2$$anonfun$applyOrElse$1.$anonfun$applyOrElse$5(ViewSerializerActor.scala:84)
+2022-06-22 21:34:00,142 [ERROR] in scala-execution-context-global-100 - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+2022-06-22 21:34:00,142 [ERROR] in scala-execution-context-global-100 - 	at simplefx.cores.standard.parts.CoreTimeEvent.$anonfun$runAsAnimation$1(CoreTimeEvent.scala:64)
+2022-06-22 21:34:00,143 [ERROR] in scala-execution-context-global-100 - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$2.handle(CoreTimeEvent.scala:46)
+2022-06-22 21:34:00,143 [ERROR] in scala-execution-context-global-100 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$0(AnimationTimer.java:58)
+2022-06-22 21:34:00,143 [ERROR] in scala-execution-context-global-100 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-06-22 21:34:00,143 [ERROR] in scala-execution-context-global-100 - 	at javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:57)
+2022-06-22 21:34:00,143 [ERROR] in scala-execution-context-global-100 - 	at com.sun.scenario.animation.AbstractPrimaryTimer.timePulseImpl(AbstractPrimaryTimer.java:356)
+2022-06-22 21:34:00,144 [ERROR] in scala-execution-context-global-100 - 	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.run(AbstractPrimaryTimer.java:266)
+2022-06-22 21:34:00,144 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:581)
+2022-06-22 21:34:00,144 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:565)
+2022-06-22 21:34:00,144 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.pulseFromQueue(QuantumToolkit.java:558)
+2022-06-22 21:34:00,145 [ERROR] in scala-execution-context-global-100 - 	at com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$12(QuantumToolkit.java:358)
+2022-06-22 21:34:00,145 [ERROR] in scala-execution-context-global-100 - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92)
+2022-06-22 21:34:00,145 [ERROR] in scala-execution-context-global-100 - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51)
+2022-06-22 21:34:00,145 [ERROR] in scala-execution-context-global-100 - 	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-06-22 21:37:31,479 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 792315447!default
+2022-06-22 21:37:31,481 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 792315447!default
+2022-06-22 21:37:31,482 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:31,482 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:31,484 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/792315447!default
+2022-06-22 21:37:31,674 [INFO] in scala-execution-context-global-114 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:31,677 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:31,679 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:31,679 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:31,680 [INFO] in scala-execution-context-global-114 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:31,714 [INFO] in scala-execution-context-global-114 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:31,938 [INFO] in scala-execution-context-global-114 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:31,942 [INFO] in scala-execution-context-global-114 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:31,948 [INFO] in scala-execution-context-global-114 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:31,956 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:32,107 [INFO] in scala-execution-context-global-114 - [info] com.jpro.JS - received msg: new MainID: 1408 userid: 598304964
+2022-06-22 21:37:32,142 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 848993005
+2022-06-22 21:37:32,142 [INFO] in scala-execution-context-global-114 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 21:37:32,370 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:32,381 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:32,382 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:32,383 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:32 CEST 2022      
+2022-06-22 21:37:32,383 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.003 
+2022-06-22 21:37:32,384 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.004  
+2022-06-22 21:37:32,385 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:32,385 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:32,386 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - raw            : 48425
+2022-06-22 21:37:32,387 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - zipped         : 5977
+2022-06-22 21:37:32,389 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:32,463 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 933070119
+2022-06-22 21:37:32,464 [INFO] in scala-execution-context-global-114 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 21:37:32,492 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 231610192
+2022-06-22 21:37:32,493 [INFO] in scala-execution-context-global-114 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 21:37:32,518 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 349116877!default
+2022-06-22 21:37:32,519 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 349116877!default
+2022-06-22 21:37:32,519 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:32,520 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:32,520 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/349116877!default
+2022-06-22 21:37:32,545 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 810789189
+2022-06-22 21:37:32,545 [INFO] in scala-execution-context-global-114 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 21:37:32,703 [INFO] in scala-execution-context-global-114 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:32,703 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:32,704 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:32,704 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:32,705 [INFO] in scala-execution-context-global-114 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:32,760 [INFO] in scala-execution-context-global-114 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:32,794 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:32,848 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 283674760!default
+2022-06-22 21:37:32,850 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 283674760!default
+2022-06-22 21:37:32,851 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:32,851 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:32,852 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/283674760!default
+2022-06-22 21:37:32,932 [INFO] in scala-execution-context-global-114 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:32,937 [INFO] in scala-execution-context-global-114 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:32,945 [INFO] in scala-execution-context-global-114 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:32,951 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:33,035 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:33,035 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:33,038 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:32 CEST 2022      
+2022-06-22 21:37:33,038 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.000 
+2022-06-22 21:37:33,039 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-22 21:37:33,039 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:33,040 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:33,040 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - raw            : 0
+2022-06-22 21:37:33,040 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - zipped         : 0
+2022-06-22 21:37:33,041 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:33,212 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:33,275 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 1049933330!default
+2022-06-22 21:37:33,276 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 1049933330!default
+2022-06-22 21:37:33,276 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:33,277 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:33,277 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/1049933330!default
+2022-06-22 21:37:33,293 [INFO] in scala-execution-context-global-114 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:33,293 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:33,294 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:33,295 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:33,295 [INFO] in scala-execution-context-global-114 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:33,326 [INFO] in scala-execution-context-global-114 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:33,488 [INFO] in scala-execution-context-global-114 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:33,490 [INFO] in scala-execution-context-global-114 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:33,498 [INFO] in scala-execution-context-global-114 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:33,504 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:33,608 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:33,609 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:33,609 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:33 CEST 2022      
+2022-06-22 21:37:33,610 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.000 
+2022-06-22 21:37:33,610 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-22 21:37:33,611 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:33,611 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:33,611 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - raw            : 0
+2022-06-22 21:37:33,611 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - zipped         : 0
+2022-06-22 21:37:33,612 [INFO] in scala-execution-context-global-114 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:33,613 [INFO] in scala-execution-context-global-114 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:33,654 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:33,694 [INFO] in scala-execution-context-global-114 - [info] c.jpro - application requested: 1587778780!default
+2022-06-22 21:37:33,695 [INFO] in scala-execution-context-global-114 - [info] c.jpro - Creating Application: 1587778780!default
+2022-06-22 21:37:33,695 [INFO] in scala-execution-context-global-114 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:33,695 [INFO] in scala-execution-context-global-114 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:33,695 [INFO] in scala-execution-context-global-114 - [info] c.jpro - uri           /app/ws/1587778780!default
+2022-06-22 21:37:33,766 [INFO] in scala-execution-context-global-114 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:33,766 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:33,767 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:33,767 [INFO] in scala-execution-context-global-114 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:33,767 [INFO] in scala-execution-context-global-114 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:33,792 [INFO] in scala-execution-context-global-114 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:34,011 [INFO] in scala-execution-context-global-114 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:34,014 [INFO] in scala-execution-context-global-114 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:34,024 [INFO] in scala-execution-context-global-114 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:34,033 [INFO] in scala-execution-context-global-114 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:34,068 [INFO] in scala-execution-context-global-114 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got exception: 
+2022-06-22 21:37:34,069 [INFO] in scala-execution-context-global-114 - java.lang.ClassCastException: class p.Data$Input$ClientMessageClose cannot be cast to class p.Data$Input$ClientMessageInput (p.Data$Input$ClientMessageClose and p.Data$Input$ClientMessageInput are in unnamed module of loader java.net.URLClassLoader @2d209079)
+2022-06-22 21:37:34,070 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2.applyOrElse(ViewSerializerActor.scala:57)
+2022-06-22 21:37:34,071 [INFO] in scala-execution-context-global-114 - 	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+2022-06-22 21:37:34,071 [INFO] in scala-execution-context-global-114 - 	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+2022-06-22 21:37:34,072 [INFO] in scala-execution-context-global-114 - 	at com.jpro.internal.server.ViewSerializerActor.aroundReceive(ViewSerializerActor.scala:40)
+2022-06-22 21:37:34,073 [INFO] in scala-execution-context-global-114 - 	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+2022-06-22 21:37:34,074 [INFO] in scala-execution-context-global-114 - 	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+2022-06-22 21:37:34,074 [INFO] in scala-execution-context-global-114 - 	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+2022-06-22 21:37:34,075 [INFO] in scala-execution-context-global-114 - 	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+2022-06-22 21:37:34,075 [INFO] in scala-execution-context-global-113 - 	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+2022-06-22 21:37:34,076 [INFO] in scala-execution-context-global-113 - 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+2022-06-22 21:37:34,122 [INFO] in scala-execution-context-global-133 - [info] c.jpro - application requested: 946823869!default
+2022-06-22 21:37:34,122 [INFO] in scala-execution-context-global-133 - [info] c.jpro - Creating Application: 946823869!default
+2022-06-22 21:37:34,123 [INFO] in scala-execution-context-global-133 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:34,124 [INFO] in scala-execution-context-global-133 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:34,126 [INFO] in scala-execution-context-global-133 - [info] c.jpro - uri           /app/ws/946823869!default
+2022-06-22 21:37:34,135 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:34,136 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:34,136 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:33 CEST 2022      
+2022-06-22 21:37:34,136 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.000 
+2022-06-22 21:37:34,136 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000  
+2022-06-22 21:37:34,137 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:34,137 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:34,137 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - raw            : 0
+2022-06-22 21:37:34,137 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - zipped         : 0
+2022-06-22 21:37:34,137 [INFO] in scala-execution-context-global-133 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:34,292 [INFO] in scala-execution-context-global-133 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:34,293 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:34,294 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:34,294 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:34,294 [INFO] in scala-execution-context-global-133 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:34,341 [INFO] in scala-execution-context-global-133 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:34,508 [INFO] in scala-execution-context-global-133 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got exception: 
+2022-06-22 21:37:34,509 [INFO] in scala-execution-context-global-133 - java.lang.ClassCastException: class p.Data$Input$ClientMessageClose cannot be cast to class p.Data$Input$ClientMessageInput (p.Data$Input$ClientMessageClose and p.Data$Input$ClientMessageInput are in unnamed module of loader java.net.URLClassLoader @2d209079)
+2022-06-22 21:37:34,509 [INFO] in scala-execution-context-global-133 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2.applyOrElse(ViewSerializerActor.scala:57)
+2022-06-22 21:37:34,509 [INFO] in scala-execution-context-global-133 - 	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+2022-06-22 21:37:34,509 [INFO] in scala-execution-context-global-133 - 	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+2022-06-22 21:37:34,510 [INFO] in scala-execution-context-global-133 - 	at com.jpro.internal.server.ViewSerializerActor.aroundReceive(ViewSerializerActor.scala:40)
+2022-06-22 21:37:34,510 [INFO] in scala-execution-context-global-133 - 	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+2022-06-22 21:37:34,511 [INFO] in scala-execution-context-global-133 - 	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+2022-06-22 21:37:34,511 [INFO] in scala-execution-context-global-133 - 	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+2022-06-22 21:37:34,511 [INFO] in scala-execution-context-global-133 - 	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+2022-06-22 21:37:34,512 [INFO] in scala-execution-context-global-133 - 	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+2022-06-22 21:37:34,512 [INFO] in scala-execution-context-global-133 - 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+2022-06-22 21:37:34,583 [INFO] in scala-execution-context-global-133 - [info] c.jpro - application requested: 709088829!default
+2022-06-22 21:37:34,583 [INFO] in scala-execution-context-global-133 - [info] c.jpro - Creating Application: 709088829!default
+2022-06-22 21:37:34,584 [INFO] in scala-execution-context-global-133 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:34,584 [INFO] in scala-execution-context-global-133 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:34,584 [INFO] in scala-execution-context-global-133 - [info] c.jpro - uri           /app/ws/709088829!default
+2022-06-22 21:37:34,590 [INFO] in scala-execution-context-global-133 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:34,591 [INFO] in scala-execution-context-global-133 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:34,598 [INFO] in scala-execution-context-global-133 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:34,602 [INFO] in scala-execution-context-global-133 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:34,805 [INFO] in scala-execution-context-global-133 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:34,805 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:34,806 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:34,806 [INFO] in scala-execution-context-global-133 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:34,807 [INFO] in scala-execution-context-global-133 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:34,852 [INFO] in scala-execution-context-global-133 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:34,942 [INFO] in scala-execution-context-global-133 - [error] c.j.i.s.ViewSerializerActor - JavaFXStreamer - got exception: 
+2022-06-22 21:37:34,942 [INFO] in scala-execution-context-global-133 - java.lang.ClassCastException: class p.Data$Input$ClientMessageClose cannot be cast to class p.Data$Input$ClientMessageInput (p.Data$Input$ClientMessageClose and p.Data$Input$ClientMessageInput are in unnamed module of loader java.net.URLClassLoader @2d209079)
+2022-06-22 21:37:34,942 [INFO] in scala-execution-context-global-133 - 	at com.jpro.internal.server.ViewSerializerActor$$anonfun$receive$2.applyOrElse(ViewSerializerActor.scala:57)
+2022-06-22 21:37:34,942 [INFO] in scala-execution-context-global-132 - 	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+2022-06-22 21:37:34,942 [INFO] in scala-execution-context-global-132 - 	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+2022-06-22 21:37:34,943 [INFO] in scala-execution-context-global-132 - 	at com.jpro.internal.server.ViewSerializerActor.aroundReceive(ViewSerializerActor.scala:40)
+2022-06-22 21:37:34,943 [INFO] in scala-execution-context-global-132 - 	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+2022-06-22 21:37:34,943 [INFO] in scala-execution-context-global-132 - 	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+2022-06-22 21:37:34,943 [INFO] in scala-execution-context-global-132 - 	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+2022-06-22 21:37:34,943 [INFO] in scala-execution-context-global-132 - 	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+2022-06-22 21:37:34,944 [INFO] in scala-execution-context-global-132 - 	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+2022-06-22 21:37:34,944 [INFO] in scala-execution-context-global-132 - 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+2022-06-22 21:37:35,070 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:35,073 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:35,080 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:35,086 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:35,372 [INFO] in scala-execution-context-global-132 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:35,373 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:35,374 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:35,374 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:35,374 [INFO] in scala-execution-context-global-132 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:35,416 [INFO] in scala-execution-context-global-132 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:35,606 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:35,609 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:35,619 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:35,626 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:37,551 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:38,046 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:38,144 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 1650946661!default
+2022-06-22 21:37:38,144 [INFO] in scala-execution-context-global-132 - [info] c.jpro - Creating Application: 1650946661!default
+2022-06-22 21:37:38,145 [INFO] in scala-execution-context-global-132 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:38,145 [INFO] in scala-execution-context-global-132 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:38,145 [INFO] in scala-execution-context-global-132 - [info] c.jpro - uri           /app/ws/1650946661!default
+2022-06-22 21:37:38,380 [INFO] in scala-execution-context-global-132 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:38,380 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:38,381 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:38,381 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:38,381 [INFO] in scala-execution-context-global-132 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:38,426 [INFO] in scala-execution-context-global-132 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:38,624 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:38,627 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:38,637 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:38,644 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:38,728 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:38,773 [INFO] in scala-execution-context-global-132 - [info] com.jpro.JS - received msg: new MainID: 1408 userid: 886220885
+2022-06-22 21:37:43,272 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:43,277 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:43,279 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:43,285 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:43 CEST 2022      
+2022-06-22 21:37:43,287 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.004 
+2022-06-22 21:37:43,288 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.003  
+2022-06-22 21:37:43,289 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:43,290 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:43,291 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - raw            : 49449
+2022-06-22 21:37:43,291 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - zipped         : 6251
+2022-06-22 21:37:43,292 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:44,087 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 1084275117!default
+2022-06-22 21:37:44,087 [INFO] in scala-execution-context-global-132 - [info] c.jpro - Creating Application: 1084275117!default
+2022-06-22 21:37:44,087 [INFO] in scala-execution-context-global-132 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:44,087 [INFO] in scala-execution-context-global-132 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:44,087 [INFO] in scala-execution-context-global-132 - [info] c.jpro - uri           /app/ws/1084275117!default
+2022-06-22 21:37:44,290 [INFO] in scala-execution-context-global-132 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:44,291 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:44,291 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:44,291 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:44,292 [INFO] in scala-execution-context-global-132 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:44,326 [INFO] in scala-execution-context-global-132 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:44,550 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:44,554 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:44,561 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:44,565 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:44,632 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:44,677 [INFO] in scala-execution-context-global-132 - [info] com.jpro.JS - received msg: new MainID: 1408 userid: 170652643
+2022-06-22 21:37:45,808 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:45,811 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:45,815 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:45,815 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:45 CEST 2022      
+2022-06-22 21:37:45,815 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-22 21:37:45,816 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.002  
+2022-06-22 21:37:45,817 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:45,817 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:45,819 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - raw            : 48423
+2022-06-22 21:37:45,820 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - zipped         : 5928
+2022-06-22 21:37:45,820 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:46,799 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:47,237 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 1209181844!default
+2022-06-22 21:37:47,237 [INFO] in scala-execution-context-global-132 - [info] c.jpro - Creating Application: 1209181844!default
+2022-06-22 21:37:47,238 [INFO] in scala-execution-context-global-132 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:47,238 [INFO] in scala-execution-context-global-132 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:47,238 [INFO] in scala-execution-context-global-132 - [info] c.jpro - uri           /app/ws/1209181844!default
+2022-06-22 21:37:47,445 [INFO] in scala-execution-context-global-132 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:47,446 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:47,447 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:47,447 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:47,447 [INFO] in scala-execution-context-global-132 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:47,487 [INFO] in scala-execution-context-global-132 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:47,659 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:47,662 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:47,669 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:47,675 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:47,793 [INFO] in scala-execution-context-global-132 - [info] com.jpro.JS - received msg: new MainID: 1408 userid: 1712806352
+2022-06-22 21:37:48,222 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:48,225 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:48,228 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:48,230 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:48 CEST 2022      
+2022-06-22 21:37:48,234 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.001 
+2022-06-22 21:37:48,236 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001  
+2022-06-22 21:37:48,238 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:48,238 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:48,239 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - raw            : 48425
+2022-06-22 21:37:48,239 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - zipped         : 5929
+2022-06-22 21:37:48,240 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:49,214 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:49,972 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 2140377553!default
+2022-06-22 21:37:49,972 [INFO] in scala-execution-context-global-132 - [info] c.jpro - Creating Application: 2140377553!default
+2022-06-22 21:37:49,973 [INFO] in scala-execution-context-global-132 - [info] c.jpro - remoteAddress 0:0:0:0:0:0:0:1
+2022-06-22 21:37:49,973 [INFO] in scala-execution-context-global-132 - [info] c.jpro - host          localhost:8080
+2022-06-22 21:37:49,974 [INFO] in scala-execution-context-global-132 - [info] c.jpro - uri           /app/ws/2140377553!default
+2022-06-22 21:37:50,177 [INFO] in scala-execution-context-global-132 - [warn] o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-22 21:37:50,177 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SDZPK]
+2022-06-22 21:37:50,178 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-22 21:37:50,178 [INFO] in scala-execution-context-global-132 - [info] o.h.o.c.pooling - HHH10001003: Autocommit mode: false
+2022-06-22 21:37:50,178 [INFO] in scala-execution-context-global-132 - [info] o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-22 21:37:50,226 [INFO] in scala-execution-context-global-132 - [info] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-22 21:37:50,391 [INFO] in scala-execution-context-global-132 - [info] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-22 21:37:50,394 [INFO] in scala-execution-context-global-132 - Hibernate: select adwokat0_.dowódOsobisty as dowódoso1_3_, adwokat0_2_.adres as adres2_3_, adwokat0_2_.email as email3_3_, adwokat0_2_.imie as imie4_3_, adwokat0_2_.narodowość as narodowo5_3_, adwokat0_2_.nazwisko as nazwisko6_3_, adwokat0_2_.płeć as płeć7_3_, adwokat0_2_.stanCiwilny as stanciwi8_3_, adwokat0_2_.telefon as telefon9_3_, adwokat0_2_.wiek as wiek10_3_, adwokat0_1_.numerIdentyfikacyjny as numeride1_6_, adwokat0_1_.pensja as pensja2_6_, adwokat0_1_.staż as staż3_6_, adwokat0_1_.stopień as stopień4_6_ from Adwokat adwokat0_ inner join Pracownik adwokat0_1_ on adwokat0_.dowódOsobisty=adwokat0_1_.dowódOsobisty inner join Osoba adwokat0_2_ on adwokat0_.dowódOsobisty=adwokat0_2_.dowódOsobisty
+2022-06-22 21:37:50,402 [INFO] in scala-execution-context-global-132 - Hibernate: select sędzia0_.dowódOsobisty as dowódoso1_3_, sędzia0_2_.adres as adres2_3_, sędzia0_2_.email as email3_3_, sędzia0_2_.imie as imie4_3_, sędzia0_2_.narodowość as narodowo5_3_, sędzia0_2_.nazwisko as nazwisko6_3_, sędzia0_2_.płeć as płeć7_3_, sędzia0_2_.stanCiwilny as stanciwi8_3_, sędzia0_2_.telefon as telefon9_3_, sędzia0_2_.wiek as wiek10_3_, sędzia0_1_.numerIdentyfikacyjny as numeride1_6_, sędzia0_1_.pensja as pensja2_6_, sędzia0_1_.staż as staż3_6_, sędzia0_1_.stopień as stopień4_6_ from Sędzia sędzia0_ inner join Pracownik sędzia0_1_ on sędzia0_.dowódOsobisty=sędzia0_1_.dowódOsobisty inner join Osoba sędzia0_2_ on sędzia0_.dowódOsobisty=sędzia0_2_.dowódOsobisty
+2022-06-22 21:37:50,407 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.c.InstanceImpl - Application didn't show the stage. JPro is now calling show()
+2022-06-22 21:37:50,537 [INFO] in scala-execution-context-global-132 - [info] com.jpro.JS - received msg: new MainID: 1408 userid: 566373024
+2022-06-22 21:37:51,031 [INFO] in scala-execution-context-global-132 - [warn] c.j.i.s.ViewSerializerActor - Unexpected message form client, closing session.
+2022-06-22 21:37:51,037 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:51,039 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - Application closed:
+2022-06-22 21:37:51,041 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - startTime      : Wed Jun 22 21:37:51 CEST 2022      
+2022-06-22 21:37:51,042 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.002 
+2022-06-22 21:37:51,043 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.002  
+2022-06-22 21:37:51,044 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000
+2022-06-22 21:37:51,045 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000
+2022-06-22 21:37:51,045 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - raw            : 48425
+2022-06-22 21:37:51,046 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - zipped         : 5931
+2022-06-22 21:37:51,047 [INFO] in scala-execution-context-global-132 - [info] c.j.i.s.ViewInfo$ - 
+2022-06-22 21:37:52,030 [INFO] in scala-execution-context-global-132 - [info] c.j.i.c.InstanceImpl - closing window!
+2022-06-22 21:37:54,510 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 21:37:54,510 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 21:37:54,536 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 21:37:54,536 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 21:37:54,573 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 21:37:54,573 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 21:37:54,606 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 21:37:54,606 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 21:42:39,705 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 21:42:39,706 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 21:42:39,736 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 21:42:39,736 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 21:42:39,765 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 21:42:39,765 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 21:42:39,798 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 21:42:39,798 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 21:42:59,626 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 21:42:59,626 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 21:42:59,661 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 21:42:59,663 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 21:42:59,705 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 21:42:59,705 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 21:42:59,753 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 21:42:59,753 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 21:43:02,648 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 21:43:02,649 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 21:43:02,684 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 21:43:02,684 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 21:43:02,715 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 21:43:02,715 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 21:43:02,754 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 21:43:02,755 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:00:08,407 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:00:08,407 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:00:08,433 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:00:08,434 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:00:08,461 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:00:08,461 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:00:08,495 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:00:08,496 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:00:22,879 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:00:22,879 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:00:22,907 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:00:22,907 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:00:22,940 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:00:22,941 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:00:22,977 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:00:22,978 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:01:09,821 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:01:09,821 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:01:09,855 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:01:09,856 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:01:09,891 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:01:09,891 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:01:09,924 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:01:09,924 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:03:42,782 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:03:42,783 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:03:42,809 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:03:42,810 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:03:42,835 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:03:42,835 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:03:42,859 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:03:42,860 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:06:22,770 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:06:22,772 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:06:22,797 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:06:22,797 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:06:22,822 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:06:22,822 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:06:22,851 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:06:22,852 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:06:24,480 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 933070119
+2022-06-22 22:06:24,481 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "933070119" because it does not exist!
+2022-06-22 22:06:24,514 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:06:24,514 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:06:24,547 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:06:24,547 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:06:24,582 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:06:24,583 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!
+2022-06-22 22:06:26,224 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:06:26,225 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:06:27,687 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 848993005
+2022-06-22 22:06:27,691 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "848993005" because it does not exist!
+2022-06-22 22:06:27,718 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 231610192
+2022-06-22 22:06:27,719 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "231610192" because it does not exist!
+2022-06-22 22:06:27,758 [INFO] in scala-execution-context-global-132 - [info] c.jpro - application requested: 810789189
+2022-06-22 22:06:27,759 [INFO] in scala-execution-context-global-132 - [warn] c.jpro - Can't reconnect to instanceID "810789189" because it does not exist!

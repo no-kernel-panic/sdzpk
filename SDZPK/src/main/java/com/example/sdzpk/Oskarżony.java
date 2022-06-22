@@ -117,4 +117,13 @@ public class Oskarżony extends Osoba {
             this.prośba_do_sędziegoList.remove(prośba_do_sędziego);
         }
     }
+
+
+    @Override
+     public String toString(){
+        return "Identification number: "+ numerIdentyfikacjyny+ "\n "+
+               "Name: "+ getImie()+" "+numerIdentyfikacjyny+" "+"State: " +stan;
+
+
+    }
 }

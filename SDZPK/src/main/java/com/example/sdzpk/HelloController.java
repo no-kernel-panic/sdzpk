@@ -73,8 +73,10 @@ public class HelloController {
             stage.setTitle("Lawyer Stage");
             AdwokatController controller = fxmlLoader.getController();
             controller.setAdwokat(adwokat);
+            controller.setJudgeNames(judges);
+            controller.setSe(Se);
             stage.setScene(new Scene(root, 450, 450));
-           // webAPI.openStageAsPopup(stage);
+            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
     }

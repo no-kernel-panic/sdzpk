@@ -5,13 +5,14 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.AdwokatController">
    <children>
       <Label fx:id="welcomeText" layoutX="53.0" layoutY="36.0" text="Label" />
       <Button fx:id="createrequest" layoutX="67.0" layoutY="90.0" mnemonicParsing="false" onAction="#createRequestButton" text="Create request" />
       <ComboBox fx:id="accusedBox" layoutX="39.0" layoutY="90.0" prefWidth="150.0" visible="false" />
       <Label fx:id="selectAccused" layoutX="46.0" layoutY="63.0" prefHeight="17.0" prefWidth="115.0" text="Select accused:" visible="false" />
-      <Button fx:id="next" layoutX="182.0" layoutY="90.0" mnemonicParsing="false" onAction="#requestPane" text="Next" visible="false" />
+      <Button fx:id="nextToJudgeSelection" layoutX="182.0" layoutY="90.0" mnemonicParsing="false" onAction="#accusedSelection" text="Next" visible="false" />
+      <ComboBox fx:id="judgeBox" layoutX="53.0" layoutY="138.0" prefWidth="150.0" visible="false" />
+      <Button fx:id="sendRequest" layoutX="189.0" layoutY="138.0" mnemonicParsing="false" onAction="#comboJudgeSelected" text="Next" visible="false" />
    </children>
 </AnchorPane>

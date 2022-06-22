@@ -12,7 +12,6 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import org.hibernate.Session;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -21,8 +20,23 @@ import static com.example.sdzpk.HelloApplication.webAPI;
 
 public class AdwokatController {
 
-    private List<Prośba_do_sędziego> Re;
     private List<Oskarżony> Os;
+
+    public void setSe(List<Sędzia> se) {
+        Se = se;
+    }
+
+    private List<Sędzia> Se;
+
+    public Oskarżony getOskarżony() {
+        return oskarżony;
+    }
+
+    public void setOskarżony(Oskarżony oskarżony) {
+        this.oskarżony = oskarżony;
+    }
+
+    private  Oskarżony oskarżony;
 
     public Adwokat getAdwokat() {
         return adwokat;
@@ -34,12 +48,14 @@ public class AdwokatController {
 
     private Adwokat adwokat;
 
-
-    private ObservableList<String> requests =
+    ObservableList<String> accusedNames =
             FXCollections.observableArrayList();
 
+    public void setJudgeNames(ObservableList<String> judgeNames) {
+        this.judgeNames = judgeNames;
+    }
 
-    ObservableList<String> accusedNames =
+    ObservableList<String> judgeNames =
             FXCollections.observableArrayList();
 
     public ComboBox getAccusedBox() {
@@ -49,21 +65,30 @@ public class AdwokatController {
     @FXML
     protected ComboBox accusedBox;
 
+    public ComboBox getJudgeBox() {
+        return judgeBox;
+    }
+
+    @FXML
+    protected ComboBox judgeBox;
+
     @FXML
     protected void initialize(){
         Session session =  HelloApplication.createSession();
-      //Re = session.createQuery("select prośba from Prośba_do_sędziego as prośba").list();
         Os = session.createQuery("select oskarżony from Oskarżony as oskarżony").list();
         session.close();
+
         for(Oskarżony o : Os){
-        accusedNames.add(o.getImie() + " " + o.getNazwisko());
+            if(!accusedNames.contains(o)) {
+                accusedNames.add(o.getImie() + " " + o.getNazwisko());
+            }
         }
         accusedBox.setItems(accusedNames);
-     /*   for(Prośba_do_sędziego p : Re) {
-            requests.add(p.getOpis());
-        }*/
+
         Platform.runLater(() -> {
             welcomeText.setText("Welcome: " + adwokat.getImie() + " " + adwokat.getNazwisko());
+            judgeBox.setItems(judgeNames);
+
         });
 
 
@@ -78,38 +103,53 @@ public class AdwokatController {
     private Button createrequest;
 
     @FXML
-    private Button next;
+    private Button nextToJudgeSelection;
+
+    @FXML
+    private Button sendRequest;
 
 
     @FXML
-    protected void requestPane() throws IOException {
+    protected void accusedSelection() throws IOException {
         if (getAccusedBox().getValue() != null) {
             String accusedName = String.valueOf(getAccusedBox().getValue());
-            Oskarżony oskarżony = Os.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(accusedName)).findFirst().orElse(null);
+            oskarżony = Os.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(accusedName)).findFirst().orElse(null);
+            welcomeText.setText(oskarżony.getNazwisko());
+            nextToJudgeSelection.setVisible(false);
+            accusedBox.setVisible(false);
+            judgeBox.setVisible(true);
+            sendRequest.setVisible(true);
+
+        }
+    }
+
+    @FXML
+    protected void comboJudgeSelected() throws IOException {
+        if (getJudgeBox().getValue() != null) {
+            String judgeName = String.valueOf(getJudgeBox().getValue());
+            Sędzia sędzia = Se.stream().filter(e -> (e.getImie() + " " + e.getNazwisko()).equals(judgeName)).findFirst().orElse(null);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sendrequest-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Accused Stage");
+            stage.setTitle("Judge Stage");
             SendRequestController controller = fxmlLoader.getController();
-            controller.setAdwokat(adwokat);
+            controller.setSędzia(sędzia);
             controller.setOskarżony(oskarżony);
+            controller.setAdwokat(adwokat);
             stage.setScene(new Scene(root, 450, 450));
             //webAPI.openStageAsPopup(stage);
             stage.show();
         }
     }
-
     @FXML
     protected void createRequestButton() throws IOException {
-       prepareWidgets();
+        createrequest.setVisible(false);
+        selectAccused.setVisible(true);
+        accusedBox.setVisible(true);
+        nextToJudgeSelection.setVisible(true);
 
     }
 
 
-        protected void prepareWidgets(){
-            createrequest.setVisible(false);
-            selectAccused.setVisible(true);
-            accusedBox.setVisible(true);
-            next.setVisible(true);
-        }
+
 }

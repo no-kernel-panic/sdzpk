@@ -21,8 +21,7 @@ import static com.example.sdzpk.HelloApplication.webAPI;
 
 public class SendRequestController {
 
-    //private List<Prośba_do_sędziego> Re;
-    //private List<Oskarżony> Os;
+    private List<Prośba_do_sędziego> Re;
 
     public Adwokat getAdwokat() {
         return adwokat;
@@ -37,6 +36,16 @@ public class SendRequestController {
     public Oskarżony getOskarżony() {
         return oskarżony;
     }
+
+    public Sędzia getSędzia() {
+        return sędzia;
+    }
+
+    public void setSędzia(Sędzia sędzia) {
+        this.sędzia = sędzia;
+    }
+
+    private Sędzia sędzia;
 
     public void setOskarżony(Oskarżony oskarżony) {
         this.oskarżony = oskarżony;
@@ -72,7 +81,7 @@ public class SendRequestController {
             requests.add(p.getOpis());
         }*/
         Platform.runLater(() -> {
-            welcomeText.setText("Welcome: " + oskarżony.getImie() + " " + oskarżony.getNazwisko());
+            welcomeText.setText( oskarżony.toString() );
         });
 
 
@@ -88,11 +97,6 @@ public class SendRequestController {
 
     @FXML
     private Button next;
-
-
-
-    private void setAccused(Oskarżony oskarżony) {
-    }
 
 
 
