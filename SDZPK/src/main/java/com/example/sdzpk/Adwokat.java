@@ -1,6 +1,8 @@
 package com.example.sdzpk;
 
 import org.hibernate.Session;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
@@ -18,6 +20,7 @@ public class Adwokat extends Pracownik {
     /**
      * many to many relation between adwokat and wizyta
      */
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "adwokat")
     private List<AdwokatWizyta> adwokatWizytaList = new ArrayList<>();
 

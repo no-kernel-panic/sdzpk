@@ -1,6 +1,10 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.time.LocalDate;
@@ -57,8 +61,8 @@ public class Przestępstwo {
      * many to many relation between Przestępstwo - Oskarżony
      *
      */
-
-    @OneToMany(mappedBy = "przestępstwo")
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany( mappedBy = "przestępstwo")
     private List<PrzestępstwoOskarżony> przestępstwoOskarżonyList = new ArrayList<>();
 
     public void addPrzestępstwoOskarżony(PrzestępstwoOskarżony przestępstwoOskarżony) {
@@ -77,7 +81,8 @@ public class Przestępstwo {
      * many to many relation between Przestępstwo - Proces_Karny
      *
      */
-    @OneToMany(mappedBy = "przestępstwo")
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany( mappedBy = "przestępstwo")
     private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
 
     public void addPrzestępstwoProces_karny(PrzestępstwoProces_karny przestępstwoProces_karny) {

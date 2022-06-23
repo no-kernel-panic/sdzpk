@@ -1,5 +1,8 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -71,6 +74,7 @@ public class Proces_Karny {
     /**
      * many to many relation przestepstwo - proces karny
      */
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "proces_karny")
     private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
 
@@ -92,6 +96,7 @@ public class Proces_Karny {
     /**
      * many to many relation osoba - proces karny
      */
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "proces_karny")
     private List<OsobaProces_karny> osobaProces_karnyList = new ArrayList<>();
 

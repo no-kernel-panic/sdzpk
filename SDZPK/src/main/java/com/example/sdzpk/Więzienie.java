@@ -1,6 +1,10 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
@@ -33,7 +37,7 @@ public class Więzienie {
     /**
      * many to many relation oskarżony wiezienie
      */
-
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "więzienie")
     private List<Pobyt_w_więzieniu> pobyt_w_więzieniuList = new ArrayList<>();
 
@@ -54,7 +58,7 @@ public class Więzienie {
      * many to one relation Więzenie - wyrok
      *
      */
-
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "więzienie")
     private List<Wyrok> wyrokList = new ArrayList<>();
 
@@ -75,6 +79,7 @@ public class Więzienie {
     /**
      * many to many relation Wizyta - wiezienie
      */
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "więzienie")
     private List<Wizita_w_więzieniu> wizyta_w_więzieniuList = new ArrayList<>();
 

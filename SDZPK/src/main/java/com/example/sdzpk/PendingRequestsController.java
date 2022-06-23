@@ -13,7 +13,6 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.List;
 
 public class PendingRequestsController {
 
@@ -52,18 +51,8 @@ public class PendingRequestsController {
         private ObservableList<String> requests =
                 FXCollections.observableArrayList();
 
+        private Prośba_do_sędziego prośbaDoSędziego;
 
-    /*ObservableList<String> judges =
-            FXCollections.observableArrayList();
-*/
-
-        /* @FXML
-         private Label errorText;
-
-         @FXML
-         protected ComboBox lawyerBox;
-
-     */
         @FXML
         protected void initialize(){
 
@@ -74,11 +63,6 @@ public class PendingRequestsController {
                 }
                 requestsBox.setItems(requests);
             });
-       /* Session session =  HelloApplication.createSession();
-        List<Adwokat> Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
-        List<Sędzia> Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
-        session.close();
-*/
 
         }
 
@@ -101,22 +85,38 @@ public class PendingRequestsController {
         public void nextButtonAction(){
             if(requestsBox.getValue() != null){
                 String opis = (String) requestsBox.getValue();
-            Prośba_do_sędziego prośbaDoSędziego = sędzia.getProśba_do_sędziegoOtrzymaList().stream()
+             prośbaDoSędziego = sędzia.getProśba_do_sędziegoOtrzymaList().stream()
                                                     .filter(e -> e.getId() == Integer.parseInt(opis.substring(0,4).trim()))
                                                     .findFirst()
                                                     .orElse(null);
-            nextButton.setVisible(false);
+                oskarżony = prośbaDoSędziego.getOskarżony();
+                nextButton.setVisible(false);
             issueDescription.setText("Request id: " + prośbaDoSędziego.getId()+ "\n" +
                             "Request for: "+prośbaDoSędziego.getStan()+ "\n" +
-                          "Accused: "+ prośbaDoSędziego.getOskarżony().getImie()+" "
-                                     +  prośbaDoSędziego.getOskarżony().getNazwisko()+ "\n" +
-                            "In state: "+ prośbaDoSędziego.getOskarżony().getStan() + "\n" +
+                          "Accused: "+ oskarżony.getImie()+" "
+                                     +  oskarżony.getNazwisko()+ "\n" +
+                            "In state: "+ oskarżony.getStan() + "\n" +
                               "Sent by: "+ prośbaDoSędziego.getPracownikWysyła().getImie()+ " "+
                                 prośbaDoSędziego.getPracownikWysyła().getNazwisko() +"\n" +
                                         "Description: "+ prośbaDoSędziego.getOpis() );
             confirmButton.setVisible(true);
             rejectButton.setVisible(true);
             }
+        }
+
+        public void confirmButtonAction() throws IOException {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Confirm Stage");
+            ConfirmController controller = fxmlLoader.getController();
+            controller.setSędzia(sędzia);
+            controller.setOskarżony(oskarżony);
+            controller.setProśbaDoSędziego(prośbaDoSędziego);
+            stage.setScene(new Scene(root, 450, 450));
+            //webAPI.openStageAsPopup(stage);
+            stage.show();
+
         }
 
 

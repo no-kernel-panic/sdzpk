@@ -42,7 +42,7 @@ public class HelloController {
         Session session =  HelloApplication.createSession();
          Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
          Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
-       // session.close();
+         session.close();
         for(Adwokat a : Ad) {
             lawyers.add(a.getImie() + " " + a.getNazwisko());
         }

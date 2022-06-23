@@ -1,7 +1,11 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.Entity;
 import javax.persistence.Enumerated;
+import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.EnumSet;
@@ -13,7 +17,7 @@ import java.util.List;
 public class Oskarżony extends Osoba {
 
     //todo initialization
-    private enum Stan { Wwięzieniu, AresztDomowy, WyjazdZaGranicę, Przepustka };
+    public enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka, Wwięzieniu };
 
     @Enumerated
      public Stan getStan() {
@@ -39,12 +43,8 @@ public class Oskarżony extends Osoba {
 
 
 
-    /**
-     * many to one relation oskarżóny wizyta
-     *
-     */
-
-    @OneToMany(mappedBy = "oskarżony")
+     @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany( mappedBy = "oskarżony")
     private List<Wizyta> wizytaList = new ArrayList<>();
 
     public void addWizyta(Wizyta wizyta){
@@ -63,8 +63,8 @@ public class Oskarżony extends Osoba {
     /**
      * many to many relation oskarżony wiezienie
      */
-
-    @OneToMany(mappedBy = "oskarżony")
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany( mappedBy = "oskarżony")
     private List<Pobyt_w_więzieniu> pobyt_w_więzieniuList = new ArrayList<>();
 
     public void addPobytwWięzeniu(Pobyt_w_więzieniu pobyt_w_więzieniu) {
@@ -83,7 +83,8 @@ public class Oskarżony extends Osoba {
      * many to many relation between Przestępstwo - Oskarżony
      *
      */
-    @OneToMany(mappedBy = "oskarżony")
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany( mappedBy = "oskarżony")
     private List<PrzestępstwoOskarżony> przestępstwoOskarżonyList = new ArrayList<>();
 
     public void addPrzestępstwoOskarżony(PrzestępstwoOskarżony przestępstwoOskarżony) {
@@ -102,6 +103,7 @@ public class Oskarżony extends Osoba {
      * many to one relation oskarżóny - prośba do sędziego
      *
      */
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "oskarżony")
     private List<Prośba_do_sędziego> prośba_do_sędziegoList = new ArrayList<>();
 

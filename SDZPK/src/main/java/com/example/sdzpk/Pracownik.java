@@ -1,5 +1,8 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +63,7 @@ public abstract class Pracownik extends Osoba{
      * many to one relation Pracownik prośba do sędziego
      *
      */
-
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "pracownikOtrzyma")
     private List<Prośba_do_sędziego> prośba_do_sędziegoOtrzymaList = new ArrayList<>();
 
@@ -76,7 +79,7 @@ public abstract class Pracownik extends Osoba{
             this.prośba_do_sędziegoOtrzymaList.remove(prośba_do_sędziego);
         }
     }
-
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "pracownikWysyła")
     private List<Prośba_do_sędziego> prośba_do_sędziegoWysyłaList = new ArrayList<>();
 
