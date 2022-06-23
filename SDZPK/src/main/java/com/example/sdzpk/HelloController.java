@@ -92,7 +92,8 @@ public class HelloController {
             SędziaController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             stage.setScene(new Scene(root, 450, 450));
-            webAPI.openStageAsPopup(stage);
+            //webAPI.openStageAsPopup(stage);
+            stage.show();
         }
 
     }

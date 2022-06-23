@@ -4,14 +4,20 @@ import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 import org.hibernate.Session;
 
+import java.io.IOException;
 import java.util.List;
 
 public class SędziaController {
 
-    private List<Prośba_do_sędziego> Re;
 
     public Sędzia getSędzia() {
         return sędzia;
@@ -24,8 +30,6 @@ public class SędziaController {
     private Sędzia sędzia;
 
 
-    private ObservableList<String> requests =
-            FXCollections.observableArrayList();
 
 
     /*ObservableList<String> judges =
@@ -37,19 +41,13 @@ public class SędziaController {
 
     @FXML
     protected ComboBox lawyerBox;
-    @FXML
-    protected ComboBox judgeBox;
+
 */
     @FXML
     protected void initialize(){
-        Session session =  HelloApplication.createSession();
-        Re = session.createQuery("select prośba from Prośba_do_sędziego as prośba").list();
-        session.close();
-        for(Prośba_do_sędziego p : Re) {
-            requests.add(p.getOpis());
-        }
+
         Platform.runLater(() -> {
-            welcomeText.setText("Welcome: " + sędzia.getImie() + " " + sędzia.getNazwisko());
+            welcomeText.setText("Welcome : " + sędzia.getImie()+" "+sędzia.getNazwisko());
 
                 });
        /* Session session =  HelloApplication.createSession();
@@ -59,9 +57,29 @@ public class SędziaController {
 */
 
     }
+
+    @FXML
+    protected ComboBox requestsBox;
+
     @FXML
     private Label welcomeText;
 
+    @FXML
+    private Button checkPendingRequests;
+
+    @FXML
+    protected void checkPendingRequests() throws IOException {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("checkRequests-view.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Requests Stage");
+            PendingRequestsController controller = fxmlLoader.getController();
+            controller.setSędzia(sędzia);
+            stage.setScene(new Scene(root, 450, 450));
+            //webAPI.openStageAsPopup(stage);
+            stage.show();
+        }
+    }
 
 
-}
+

@@ -99,6 +99,7 @@ public class SendRequestController {
     public void submitRequest(){
        Prośba_do_sędziego.Stan stan = (Prośba_do_sędziego.Stan) stanBox.getValue();
        adwokat.createRequest(textArea.getText(), stan, oskarżony, sędzia);
+       welcomeText.setText("Request ");
 
     }
     @FXML

@@ -89,6 +89,18 @@ public class Prośba_do_sędziego{
 
     }
 
+    public Oskarżony getOskarżony() {
+        return oskarżony;
+    }
+
+    public Pracownik getPracownikOtrzyma() {
+        return pracownikOtrzyma;
+    }
+
+    public Pracownik getPracownikWysyła() {
+        return pracownikWysyła;
+    }
+
     public void setPracownikWysyła(Pracownik pracownik) {
         if (this.pracownikWysyła == pracownik ) {
             return;
