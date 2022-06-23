@@ -44,7 +44,7 @@ public class Wizyta {
     /**
      * 1 to many relation wizyta oskarżony
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Oskarżony oskarżony;
 
     public void setOskarżony(Oskarżony oskarżony) {

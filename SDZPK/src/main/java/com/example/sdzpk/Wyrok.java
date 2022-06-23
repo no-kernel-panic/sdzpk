@@ -68,7 +68,7 @@ public class Wyrok {
     /**
      * one to many relation wyrok - więzenie
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Więzienie więzienie;
     public void setWięzienie(Więzienie więzienie) {
         if (this.więzienie == więzienie ) {
@@ -87,7 +87,7 @@ public class Wyrok {
     /**
      * one to many relation wyrok - Sędzia
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Sędzia sędzia;
     public void setSędzia(Sędzia sędzia) {
         if (this.sędzia == sędzia ) {

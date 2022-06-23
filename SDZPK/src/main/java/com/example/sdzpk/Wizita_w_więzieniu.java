@@ -15,10 +15,10 @@ public class Wizita_w_więzieniu {
     @Id
     private int id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Wizyta wizyta;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Więzienie więzienie; //< przebywa w
 
     public Wizita_w_więzieniu(Oskarżony oskarżony, Wizyta wizyta){

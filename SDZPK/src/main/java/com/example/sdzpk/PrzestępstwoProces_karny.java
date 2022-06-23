@@ -13,11 +13,11 @@ public class PrzestępstwoProces_karny  {
     private int id;
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Przestępstwo przestępstwo;//< oskarżony o
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Proces_Karny proces_karny;
 
     public PrzestępstwoProces_karny(Proces_Karny proces_karny, Przestępstwo przestępstwo){

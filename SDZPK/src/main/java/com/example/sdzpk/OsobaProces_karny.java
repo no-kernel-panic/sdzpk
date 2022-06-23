@@ -10,10 +10,10 @@ public class OsobaProces_karny {
     @Id
     private int id;
 
-    @ManyToOne(fetch= FetchType.LAZY)
+    @ManyToOne(fetch= FetchType.EAGER)
     private Osoba osoba;
 
-    @ManyToOne(fetch= FetchType.LAZY)
+    @ManyToOne(fetch= FetchType.EAGER)
     private Proces_Karny proces_karny;
 
     public OsobaProces_karny(Proces_Karny proces_karny, Osoba osoba){

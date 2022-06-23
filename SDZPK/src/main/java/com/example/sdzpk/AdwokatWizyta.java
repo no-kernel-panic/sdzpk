@@ -16,10 +16,10 @@ public class AdwokatWizyta  {
     @Id
     private int id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Adwokat adwokat;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Wizyta wizyta; //< umówi się na
 
     public AdwokatWizyta(Adwokat adwokat, Wizyta wizyta){

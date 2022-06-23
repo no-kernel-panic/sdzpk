@@ -17,7 +17,7 @@ public class Prośba_do_sędziego{
         this.id = id;
     }
 
-    private enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka }
+    public enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka }
 
     @Enumerated
     public Stan getStan() {
@@ -32,11 +32,6 @@ public class Prośba_do_sędziego{
 
     @Id
     private int id;
-
-    public Prośba_do_sędziego() {
-    }
-
-
 
     public String getOpis() {
         return opis;
@@ -74,10 +69,10 @@ public class Prośba_do_sędziego{
     /**
      * 1 to many relation Pracownik -  prośba_do_sędziego
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Pracownik pracownikOtrzyma;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Pracownik pracownikWysyła;
 
     public void setPracownikOtrzyma(Pracownik pracownik) {

@@ -1,6 +1,5 @@
 package com.example.sdzpk;
 
-
 import org.hibernate.Session;
 
 import javax.persistence.Entity;
@@ -35,17 +34,23 @@ public class Adwokat extends Pracownik {
         }
     }
     
-    public void createRequest(Session session){
-
+    public void createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia)  {
+        Session session =  HelloApplication.createSession();
         Prośba_do_sędziego prośba = new Prośba_do_sędziego();
+        prośba.setStan(stan);
+        prośba.setOpis(opis);
         prośba.setPracownikWysyła(this);
-      //  prośba.setOskarżony();
-        // session.beginTransaction();
-        // session.save(proces_karny);//save(NEW PROCES_KARNY(...))
-        // session.getTransaction().commit();
+        prośba.setOskarżony(oskarżony);
+        prośba.setPracownikOtrzyma(sędzia);
+         session.beginTransaction();
+         session.save(prośba);//save(NEW PROCES_KARNY(...))
+         session.getTransaction().commit();
+         session.close();
 
     }
     
 
 
 }
+
+

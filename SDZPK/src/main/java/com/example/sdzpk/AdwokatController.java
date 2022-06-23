@@ -76,7 +76,7 @@ public class AdwokatController {
     protected void initialize(){
         Session session =  HelloApplication.createSession();
         Os = session.createQuery("select oskarżony from Oskarżony as oskarżony").list();
-        session.close();
+      //  session.close();
 
         for(Oskarżony o : Os){
             if(!accusedNames.contains(o)) {

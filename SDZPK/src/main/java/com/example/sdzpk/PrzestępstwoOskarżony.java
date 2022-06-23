@@ -11,11 +11,11 @@ public class PrzestępstwoOskarżony {
     @Id
     private int id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Przestępstwo przestępstwo;//< oskarżony o
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Oskarżony oskarżony;
 
     public PrzestępstwoOskarżony(Oskarżony oskarżony, Przestępstwo przestępstwo){

@@ -20,10 +20,10 @@ public class Pobyt_w_więzieniu  {
     @Id
     private int id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Oskarżony oskarżony;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Więzienie więzienie; //< przebywa w
 
     public Pobyt_w_więzieniu(Oskarżony oskarżony, Więzienie więzienie){

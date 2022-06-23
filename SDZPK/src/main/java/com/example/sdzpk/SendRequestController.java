@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 import org.hibernate.Session;
 
@@ -17,9 +18,14 @@ import java.io.IOException;
 import java.util.List;
 
 import static com.example.sdzpk.HelloApplication.webAPI;
+import static javafx.application.Application.setUserAgentStylesheet;
 
 
 public class SendRequestController {
+
+
+    private ObservableList<Enum> stanList = FXCollections.observableArrayList(Prośba_do_sędziego.Stan.AresztDomowy,
+            Prośba_do_sędziego.Stan.Przepustka, Prośba_do_sędziego.Stan.WyjazdZaGranicę);
 
     private List<Prośba_do_sędziego> Re;
 
@@ -64,11 +70,13 @@ public class SendRequestController {
         return accusedBox;
     }
 */
-//    @FXML
-//    protected ComboBox accusedBox;
+    @FXML
+    protected ComboBox stanBox;
 
     @FXML
     protected void initialize(){
+      stanBox.setItems(stanList);
+
        // Session session =  HelloApplication.createSession();
      /* //Re = session.createQuery("select prośba from Prośba_do_sędziego as prośba").list();
         Os = session.createQuery("select oskarżony from Oskarżony as oskarżony").list();
@@ -86,8 +94,18 @@ public class SendRequestController {
 
 
     }
+
+    @FXML
+    public void submitRequest(){
+       Prośba_do_sędziego.Stan stan = (Prośba_do_sędziego.Stan) stanBox.getValue();
+       adwokat.createRequest(textArea.getText(), stan, oskarżony, sędzia);
+
+    }
     @FXML
     private Label welcomeText;
+
+    @FXML
+    private TextArea textArea;
 
     @FXML
     private Label selectAccused;
