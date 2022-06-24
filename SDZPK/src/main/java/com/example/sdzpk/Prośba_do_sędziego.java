@@ -85,7 +85,7 @@ public class Prośba_do_sędziego{
         }
 
         this.pracownikOtrzyma = pracownik;
-        this.pracownikOtrzyma.addProśbadosędziego(this);
+        this.pracownikOtrzyma.addProśbadosędziegoOtrzyma(this);
 
     }
 
@@ -111,7 +111,7 @@ public class Prośba_do_sędziego{
         }
 
         this.pracownikWysyła = pracownik;
-        this.pracownikWysyła.addProśbadosędziego(this);
+        this.pracownikWysyła.addProśbadosędziegoWysyła(this);
 
     }
 

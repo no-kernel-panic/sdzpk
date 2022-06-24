@@ -15,8 +15,6 @@ import org.hibernate.Session;
 import java.io.IOException;
 import java.util.List;
 
-import static com.example.sdzpk.HelloApplication.webAPI;
-
 
 public class AdwokatController {
 
@@ -103,6 +101,9 @@ public class AdwokatController {
     private Button createrequest;
 
     @FXML
+    private Button checkRequests;
+
+    @FXML
     private Button nextToJudgeSelection;
 
     @FXML
@@ -142,14 +143,26 @@ public class AdwokatController {
         }
     }
     @FXML
-    protected void createRequestButton() throws IOException {
+    protected void createRequestButton() {
         createrequest.setVisible(false);
         selectAccused.setVisible(true);
         accusedBox.setVisible(true);
         nextToJudgeSelection.setVisible(true);
-
     }
 
 
+
+    @FXML
+    protected void checkRequestButton() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("checkRequestsAdwokat-view.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setTitle("Requests Stage");
+        PendingRequestsControllerAdwokat controller = fxmlLoader.getController();
+        controller.setAdwokat(adwokat);
+        stage.setScene(new Scene(root, 450, 450));
+        //webAPI.openStageAsPopup(stage);
+        stage.show();
+    }
 
 }

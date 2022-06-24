@@ -14,5 +14,6 @@
       <Button fx:id="nextToJudgeSelection" layoutX="182.0" layoutY="90.0" mnemonicParsing="false" onAction="#accusedSelection" text="Next" visible="false" />
       <ComboBox fx:id="judgeBox" layoutX="53.0" layoutY="138.0" prefWidth="150.0" visible="false" />
       <Button fx:id="sendRequest" layoutX="189.0" layoutY="138.0" mnemonicParsing="false" onAction="#comboJudgeSelected" text="Next" visible="false" />
+      <Button fx:id="checkRequests" layoutX="67.0" layoutY="163.0" mnemonicParsing="false" onAction="#checkRequestButton" text="Check requests" />
    </children>
 </AnchorPane>

@@ -4,17 +4,13 @@ import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class PendingRequestsController {
+public class PendingRequestsControllerAdwokat {
 
 
     public Adwokat getAdwokat() {
@@ -58,7 +54,7 @@ public class PendingRequestsController {
 
             Platform.runLater(() -> {
 //                welcomeText.setText("Request for : " + sędzia.getProśba_do_sędziegoOtrzymaList().get(0).getOpis() + " " + sędzia.getNazwisko());
-                for (Prośba_do_sędziego re : sędzia.getProśba_do_sędziegoOtrzymaList()) {
+                for (Prośba_do_sędziego re : adwokat.getProśba_do_sędziegoWysyłaList()) {
                     requests.add(re.getId()+"    "+ re.getOpis().substring(0, Math.min(re.getOpis().length(), 15)));
                 }
                 requestsBox.setItems(requests);
@@ -79,19 +75,18 @@ public class PendingRequestsController {
         private Button confirmButton;
 
         @FXML
-        private Button rejectButton;
+        private Button withdrawnButton;
 
         @FXML
         public void nextButtonAction(){
             if(requestsBox.getValue() != null){
                 String opis = (String) requestsBox.getValue();
-             prośbaDoSędziego = sędzia.getProśba_do_sędziegoOtrzymaList().stream()
+             prośbaDoSędziego = adwokat.getProśba_do_sędziegoWysyłaList().stream()
                                                     .filter(e -> e.getId() == Integer.parseInt(opis.substring(0,4).trim()))
                                                     .findFirst()
                                                     .orElse(null);
                 oskarżony = prośbaDoSędziego.getOskarżony();
-                nextButton.setVisible(false);
-            issueDescription.setText("Request id: " + prośbaDoSędziego.getId()+ "\n" +
+            issueDescription.setText("Sent request: \n"+ "Request id: " + prośbaDoSędziego.getId()+ "\n" +
                             "Request for: "+prośbaDoSędziego.getStan()+ "\n" +
                           "Accused: "+ oskarżony.getImie()+" "
                                      +  oskarżony.getNazwisko()+ "\n" +
@@ -99,24 +94,15 @@ public class PendingRequestsController {
                               "Sent by: "+ prośbaDoSędziego.getPracownikWysyła().getImie()+ " "+
                                 prośbaDoSędziego.getPracownikWysyła().getNazwisko() +"\n" +
                                         "Description: "+ prośbaDoSędziego.getOpis() );
-            confirmButton.setVisible(true);
-            rejectButton.setVisible(true);
+                     withdrawnButton.setVisible(true);
             }
         }
 
-        public void confirmButtonAction() throws IOException {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
-            Parent root = fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.setTitle("Confirm Stage");
-            ConfirmController controller = fxmlLoader.getController();
-            controller.setSędzia(sędzia);
-            controller.setOskarżony(oskarżony);
-            controller.setProśbaDoSędziego(prośbaDoSędziego);
-            stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
-            stage.show();
-
+        public void withdrawnButtonAction() throws IOException {
+           adwokat.withdrawnRequest(prośbaDoSędziego);
+           requestsBox.getItems().remove(prośbaDoSędziego.getId()+"    "+
+                   prośbaDoSędziego.getOpis().substring(0,
+                           Math.min(prośbaDoSędziego.getOpis().length(), 15)));
         }
 
 

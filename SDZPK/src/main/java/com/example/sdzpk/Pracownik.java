@@ -67,7 +67,7 @@ public abstract class Pracownik extends Osoba{
     @OneToMany(mappedBy = "pracownikOtrzyma")
     private List<Prośba_do_sędziego> prośba_do_sędziegoOtrzymaList = new ArrayList<>();
 
-    public void addProśbadosędziego(Prośba_do_sędziego prośba_do_sędziego){
+    public void addProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego){
         if(!this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
             this.prośba_do_sędziegoOtrzymaList.add(prośba_do_sędziego);
             prośba_do_sędziego.setPracownikOtrzyma(this);

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsControllerSędzia">
    <children>
       <ComboBox fx:id="requestsBox" layoutX="82.0" layoutY="119.0" prefWidth="150.0" />
       <Button fx:id="nextButton" layoutX="256.0" layoutY="119.0" mnemonicParsing="false" onAction="#nextButtonAction" text="next" />

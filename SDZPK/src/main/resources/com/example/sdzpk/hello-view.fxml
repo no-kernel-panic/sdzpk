@@ -12,27 +12,27 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1920.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.HelloController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.HelloController">
 
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <ImageView fitHeight="211.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
-      <image>
-         <Image url="@legal.jpg" />
-      </image>
-   </ImageView>
    <Label alignment="BOTTOM_CENTER" prefHeight="66.0" prefWidth="855.0" text="Criminal Trial Management System" textAlignment="CENTER" textFill="#1900be">
       <font>
          <Font name="Modern No. 20" size="52.0" />
       </font>
    </Label>
-   <VBox prefHeight="111.0" prefWidth="1880.0" spacing="5.0">
+   <ImageView fitHeight="211.0" fitWidth="244.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@legal.jpg" />
+      </image>
+   </ImageView>
+   <VBox spacing="5.0">
       <padding>
          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
       </padding>
       <children>
-         <GridPane alignment="CENTER" prefHeight="111.0" prefWidth="1860.0">
+         <GridPane alignment="CENTER">
            <columnConstraints>
              <ColumnConstraints hgrow="SOMETIMES" maxWidth="807.0" minWidth="0.0" prefWidth="674.5" />
              <ColumnConstraints hgrow="SOMETIMES" maxWidth="526.6666679382324" minWidth="0.0" prefWidth="488.0" />
@@ -44,13 +44,13 @@
                <RowConstraints maxHeight="252.5" minHeight="0.0" prefHeight="59.5" vgrow="SOMETIMES" />
            </rowConstraints>
             <children>
-               <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="48.0" prefWidth="686.0" text="Lawyer:" textAlignment="CENTER" textFill="#1c22c0" GridPane.rowIndex="1">
+               <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="48.0" prefWidth="686.0" text="Lawyer -&gt;" textAlignment="CENTER" textFill="#1c22c0" GridPane.rowIndex="1">
                   <font>
                      <Font size="26.0" />
                   </font></Label>
-               <ComboBox fx:id="lawyerBox" prefHeight="27.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-               <ComboBox fx:id="judgeBox" prefHeight="27.0" prefWidth="400.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
-               <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="48.0" prefWidth="685.0" text="Judge:" textAlignment="CENTER" textFill="#1c22c0" GridPane.rowIndex="2">
+               <ComboBox fx:id="lawyerBox" prefHeight="27.0" prefWidth="173.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+               <ComboBox fx:id="judgeBox" prefHeight="27.0" prefWidth="173.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+               <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="48.0" prefWidth="685.0" text="Judge -&gt;" textAlignment="CENTER" textFill="#1c22c0" GridPane.rowIndex="2">
                   <font>
                      <Font size="26.0" />
                   </font>
@@ -66,6 +66,9 @@
                   </font>
                </Button>
             </children>
+            <VBox.margin>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
          </GridPane>
       </children>
    </VBox>

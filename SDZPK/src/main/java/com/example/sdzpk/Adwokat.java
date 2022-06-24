@@ -13,7 +13,7 @@ import java.util.List;
 public class Adwokat extends Pracownik {
 
 
-    public Adwokat(){
+    public Adwokat() {
 
     }
 
@@ -36,24 +36,33 @@ public class Adwokat extends Pracownik {
             adwokatWizytaList.add(adwokatWizyta);
         }
     }
-    
-    public void createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia)  {
-        Session session =  HelloApplication.createSession();
+
+    public void createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia) {
+        Session session = HelloApplication.createSession();
         Prośba_do_sędziego prośba = new Prośba_do_sędziego();
         prośba.setStan(stan);
         prośba.setOpis(opis);
         prośba.setPracownikWysyła(this);
         prośba.setOskarżony(oskarżony);
         prośba.setPracownikOtrzyma(sędzia);
-         session.beginTransaction();
-         session.save(prośba);//save(NEW PROCES_KARNY(...))
-         session.getTransaction().commit();
-         session.close();
+        session.beginTransaction();
+        session.save(prośba);//save(NEW PROCES_KARNY(...))
+        session.getTransaction().commit();
+        session.close();
 
     }
-    
+
+    public void withdrawnRequest(Prośba_do_sędziego prośbadoSędziego) {
+
+        Session session = HelloApplication.createSession();
+        session.beginTransaction();
+        session.delete(prośbadoSędziego);//save(NEW PROCES_KARNY(...))
+        session.getTransaction().commit();
+        session.close();
+        this.removeProśbadosędziegoWysyła(prośbadoSędziego);
+        this.removeProśbadosędziegoOtrzyma(prośbadoSędziego);
+
+    }
 
 
 }
-
-
