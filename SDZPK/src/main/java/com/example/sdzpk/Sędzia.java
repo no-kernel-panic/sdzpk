@@ -38,18 +38,25 @@ public class Sędzia extends Pracownik {
         }
     }
 
-    public void confirmRequest(Prośba_do_sędziego prośbadoSędziego, Oskarżony oskarżony, Prośba_do_sędziego.Stan stan) {
+    public boolean confirmRequest(Prośba_do_sędziego prośbadoSędziego, Oskarżony oskarżony, Prośba_do_sędziego.Stan stan) {
 
 
         Oskarżony _oskarżony = oskarżony;
         Prośba_do_sędziego prośba = prośbadoSędziego;
-        _oskarżony.setStan(Oskarżony.Stan.values()[stan.ordinal()]);
-        Session session =  HelloApplication.createSession();
-        session.beginTransaction();
-        session.update(oskarżony);
-        session.delete(prośba);//save(NEW PROCES_KARNY(...))
-        session.getTransaction().commit();
-        session.close();
+        try {
+            _oskarżony.setStan(Oskarżony.Stan.values()[stan.ordinal()]);
+            Session session = HelloApplication.createSession();
+            session.beginTransaction();
+            session.update(oskarżony);
+            session.delete(prośba);
+            session.getTransaction().commit();
+            session.close();
+        }catch (Exception exception){
+            return false;
+        }
+        prośbadoSędziego.getPracownikWysyła().removeProśbadosędziegoWysyła(prośbadoSędziego);
+        removeProśbadosędziegoOtrzyma(prośbadoSędziego);
+    return true;
     }
 
     //todo metody

@@ -44,17 +44,8 @@ public class ConfirmController {
     public void setProśbaDoSędziego(Prośba_do_sędziego prośbaDoSędziego) {
         this.prośbaDoSędziego = prośbaDoSędziego;
     }
-    /*ObservableList<String> judges =
-            FXCollections.observableArrayList();
-*/
 
-   /* @FXML
-    private Label errorText;
 
-    @FXML
-    protected ComboBox lawyerBox;
-
-*/
     @FXML
     protected void initialize(){
 
@@ -64,11 +55,7 @@ public class ConfirmController {
                     +  prośbaDoSędziego.getOskarżony().getNazwisko()+ "\n" +
                     "has been granted and the accused is now in status: "+ prośbaDoSędziego.getStan() + "\n");
                 });
-       /* Session session =  HelloApplication.createSession();
-        List<Adwokat> Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
-        List<Sędzia> Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
-        session.close();
-*/
+
 
     }
 
@@ -84,18 +71,31 @@ public class ConfirmController {
     @FXML
     private Button withdrawn;
 
+    private ComboBox requestsBox;
+
     @FXML
     protected void confirmRequest() {
            Stage stage = (Stage) ok.getScene().getWindow();
-            getSędzia().confirmRequest(prośbaDoSędziego, oskarżony, prośbaDoSędziego.getStan());
-            stage.close();
+          if(  getSędzia().confirmRequest(prośbaDoSędziego, oskarżony, prośbaDoSędziego.getStan())) {
+              ;
+              requestsBox.getItems().remove(prośbaDoSędziego.getId() + "    " +
+                      prośbaDoSędziego.getOpis().substring(0,
+                              Math.min(prośbaDoSędziego.getOpis().length(), 15)));
+              stage.close();
+          } else {
+              confirmationText.setText("Error");
+          }
         }
     @FXML
     protected void withdrawnRequest() {
         Stage stage = (Stage) ok.getScene().getWindow();
         stage.close();
     }
+
+    public void setCombobox(ComboBox requestsBox) {
+        this.requestsBox = requestsBox;
     }
+}
 
 
 

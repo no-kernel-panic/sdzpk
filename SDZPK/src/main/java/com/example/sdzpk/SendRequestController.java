@@ -77,45 +77,29 @@ public class SendRequestController {
     protected void initialize(){
       stanBox.setItems(stanList);
 
-       // Session session =  HelloApplication.createSession();
-     /* //Re = session.createQuery("select prośba from Prośba_do_sędziego as prośba").list();
-        Os = session.createQuery("select oskarżony from Oskarżony as oskarżony").list();
-        session.close();
-        for(Oskarżony o : Os){
-        accusedNames.add(o.getImie() + " " + o.getNazwisko());
+        Platform.runLater( () -> accusedDescription.setText( "Request for: "+  oskarżony.toString() ));
+    }
+
+    @FXML
+    public void submitRequest() {
+        Prośba_do_sędziego.Stan stan = (Prośba_do_sędziego.Stan) stanBox.getValue();
+        if (adwokat.createRequest(textArea.getText(), stan, oskarżony, sędzia)) {
+            confirmationText.setText("The request has been sent to " +getSędzia().getImie()+" "+getSędzia().getNazwisko() );
+        } else {
+            confirmationText.setText("Error. There is another request" +
+                    "for the same accused already in the system.");
         }
-        accusedBox.setItems(accusedNames);
-     *//*   for(Prośba_do_sędziego p : Re) {
-            requests.add(p.getOpis());
-        }*/
-        Platform.runLater(() -> {
-            welcomeText.setText( oskarżony.toString() );
-        });
-
-
-    }
-
-    @FXML
-    public void submitRequest(){
-       Prośba_do_sędziego.Stan stan = (Prośba_do_sędziego.Stan) stanBox.getValue();
-       adwokat.createRequest(textArea.getText(), stan, oskarżony, sędzia);
-       welcomeText.setText("Request ");
-
     }
     @FXML
-    private Label welcomeText;
+    private Label confirmationText;
 
     @FXML
     private TextArea textArea;
 
     @FXML
-    private Label selectAccused;
+    private Label accusedDescription;
 
-    @FXML
-    private Button createrequest;
 
-    @FXML
-    private Button next;
 
 
 

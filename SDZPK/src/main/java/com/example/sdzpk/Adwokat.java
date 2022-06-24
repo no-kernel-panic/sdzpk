@@ -37,19 +37,27 @@ public class Adwokat extends Pracownik {
         }
     }
 
-    public void createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia) {
-        Session session = HelloApplication.createSession();
+    public boolean createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia) {
         Prośba_do_sędziego prośba = new Prośba_do_sędziego();
-        prośba.setStan(stan);
-        prośba.setOpis(opis);
-        prośba.setPracownikWysyła(this);
-        prośba.setOskarżony(oskarżony);
-        prośba.setPracownikOtrzyma(sędzia);
-        session.beginTransaction();
-        session.save(prośba);//save(NEW PROCES_KARNY(...))
-        session.getTransaction().commit();
-        session.close();
+        try {
+            prośba.setStan(stan);
+            prośba.setOpis(opis);
+            prośba.setPracownikWysyła(this);
+            prośba.setOskarżony(oskarżony);
+            prośba.setPracownikOtrzyma(sędzia);
+          Session session = HelloApplication.createSession();
+          session.beginTransaction();
+          session.save(prośba);
+          session.getTransaction().commit();
+          session.close();
+      } catch (Exception e) {
+            prośba.getPracownikWysyła().removeProśbadosędziegoWysyła(prośba);
+            prośba.getPracownikOtrzyma().removeProśbadosędziegoOtrzyma(prośba);
+            prośba.getOskarżony().removeProśbadoSedziego(prośba);
+            return false;
+      }
 
+        return true;
     }
 
     public void withdrawnRequest(Prośba_do_sędziego prośbadoSędziego) {
@@ -59,8 +67,8 @@ public class Adwokat extends Pracownik {
         session.delete(prośbadoSędziego);//save(NEW PROCES_KARNY(...))
         session.getTransaction().commit();
         session.close();
-        this.removeProśbadosędziegoWysyła(prośbadoSędziego);
-        this.removeProśbadosędziegoOtrzyma(prośbadoSędziego);
+        removeProśbadosędziegoWysyła(prośbadoSędziego);
+        prośbadoSędziego.getPracownikOtrzyma().removeProśbadosędziegoOtrzyma(prośbadoSędziego);
 
     }
 

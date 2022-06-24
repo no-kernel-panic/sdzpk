@@ -55,7 +55,7 @@ public class PendingRequestsControllerSędzia {
 
         @FXML
         protected void initialize(){
-
+                requests.clear();
             Platform.runLater(() -> {
 //                welcomeText.setText("Request for : " + sędzia.getProśba_do_sędziegoOtrzymaList().get(0).getOpis() + " " + sędzia.getNazwisko());
                 for (Prośba_do_sędziego re : sędzia.getProśba_do_sędziegoOtrzymaList()) {
@@ -105,6 +105,7 @@ public class PendingRequestsControllerSędzia {
         }
 
         public void confirmButtonAction() throws IOException {
+            System.out.println(prośbaDoSędziego);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
@@ -112,6 +113,7 @@ public class PendingRequestsControllerSędzia {
             ConfirmController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             controller.setOskarżony(oskarżony);
+            controller.setCombobox(requestsBox);
             controller.setProśbaDoSędziego(prośbaDoSędziego);
             stage.setScene(new Scene(root, 450, 450));
             //webAPI.openStageAsPopup(stage);

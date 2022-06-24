@@ -21,7 +21,7 @@
          <jpro.version>2022.1.2</jpro.version>
          <maven.compiler.source>1.8</maven.compiler.source>
          <maven.compiler.target>1.8</maven.compiler.target>
-         <javafx.version>17.0.1</javafx.version>
+         <javafx.version>18.0.1</javafx.version>
     </properties>
 
     <dependencies>
@@ -36,13 +36,13 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>17.0.1</version>
+            <version>18.0.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>17.0.1</version>
+            <version>18.0.1</version>
             <scope>compile</scope>
 
         </dependency>
@@ -73,19 +73,19 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
-            <version>17.0.1</version>
+            <version>18.0.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
-            <version>17.0.1</version>
+            <version>18.0.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-swing</artifactId>
-            <version>17.0.1</version>
+            <version>18.0.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
