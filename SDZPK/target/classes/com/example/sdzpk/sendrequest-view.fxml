@@ -25,7 +25,7 @@
          <children>
             <TextArea fx:id="textArea" prefHeight="7.0" prefWidth="11.0" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
             </TextArea>
             <Button mnemonicParsing="false" onAction="#submitRequest" prefHeight="29.0" prefWidth="120.0" text="Send request" textFill="#1c22c0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
@@ -33,12 +33,12 @@
                   <Font size="14.0" />
                </font>
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
             </Button>
             <ComboBox fx:id="stanBox" prefHeight="25.0" prefWidth="227.0" GridPane.halignment="CENTER" GridPane.valignment="BASELINE">
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
             </ComboBox>
             <Label text="Requesting:" textFill="#1c22c0" GridPane.valignment="BASELINE">
@@ -46,28 +46,28 @@
                   <Font size="14.0" />
                </font>
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
             </Label>
-            <Label text="Description:" textFill="#1c22c0" GridPane.valignment="BOTTOM">
+            <Label text="Description:" textFill="#1c22c0" GridPane.rowIndex="1" GridPane.valignment="BASELINE">
                <font>
                   <Font size="14.0" />
                </font>
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
                </GridPane.margin>
             </Label>
-            <Label fx:id="accusedDescription" prefHeight="45.0" prefWidth="470.0" textFill="#121660" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Label fx:id="accusedDescription" prefHeight="82.0" prefWidth="446.0" textFill="#121660" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>
                <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets left="20.0" right="20.0" top="50.0" />
                </GridPane.margin>
             </Label>
             <Label fx:id="confirmationText" alignment="CENTER" prefHeight="17.0" prefWidth="281.0" textFill="#1c22c0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                <GridPane.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" />
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
                <font>
                   <Font size="14.0" />

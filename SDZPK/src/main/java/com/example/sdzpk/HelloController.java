@@ -88,7 +88,7 @@ public class HelloController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Sędzia-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Judge Stage");
+            stage.setTitle("Judge home");
             SędziaController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             stage.setScene(new Scene(root, 450, 450));

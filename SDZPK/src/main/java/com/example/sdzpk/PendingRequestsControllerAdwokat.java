@@ -85,7 +85,8 @@ public class PendingRequestsControllerAdwokat {
                                                     .findFirst()
                                                     .orElse(null);
                 oskarżony = prośbaDoSędziego.getOskarżony();
-            issueDescription.setText("Sent request: \n"+ "Request id: " + prośbaDoSędziego.getId()+ "\n" +
+            issueDescription.setText("Sent to: "+prośbaDoSędziego.getPracownikOtrzyma().getImie()+" "
+                    +prośbaDoSędziego.getPracownikOtrzyma().getNazwisko() +"\n"+ "Request id: " + prośbaDoSędziego.getId()+ "\n" +
                             "Request for: "+prośbaDoSędziego.getStan()+ "\n" +
                           "Accused: "+ oskarżony.getImie()+" "
                                      +  oskarżony.getNazwisko()+ "\n" +

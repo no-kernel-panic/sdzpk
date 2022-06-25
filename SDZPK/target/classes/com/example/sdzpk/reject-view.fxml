@@ -40,6 +40,9 @@
                <GridPane.margin>
                   <Insets left="40.0" right="40.0" />
                </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
             </Label>
          </children>
       </GridPane>

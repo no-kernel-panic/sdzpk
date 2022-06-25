@@ -44,7 +44,7 @@ public class SędziaController {
 
         Platform.runLater(() -> {
             String title = sędzia.isPłeć() ? "Mr" : "Mrs";
-            welcomeText.setText("Welcome "+title+" " + sędzia.getImie()+" "+sędzia.getNazwisko());
+            welcomeText.setText("Welcome \n "+title+" " + sędzia.getImie()+" "+sędzia.getNazwisko());
 
                 });
 
@@ -65,7 +65,7 @@ public class SędziaController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("checkRequestsSędzia-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Requests Stage");
+            stage.setTitle("Check requests");
             PendingRequestsControllerSędzia controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             stage.setScene(new Scene(root, 450, 450));

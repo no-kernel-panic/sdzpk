@@ -77,7 +77,9 @@ public class SendRequestController {
     protected void initialize(){
       stanBox.setItems(stanList);
 
-        Platform.runLater( () -> accusedDescription.setText( "Request for: "+  oskarżony.toString() ));
+        Platform.runLater( () -> accusedDescription.setText( "Request for: "+ sędzia.getImie() +" "+sędzia.getNazwisko()+"\n" +
+                "Accused: "+
+                oskarżony.toString() ));
     }
 
     @FXML

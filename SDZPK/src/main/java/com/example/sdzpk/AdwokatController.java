@@ -85,7 +85,7 @@ public class AdwokatController {
         Platform.runLater(() -> {
             String title = adwokat.isPłeć() ? "Mr" : "Mrs";
 
-            welcomeText.setText("Welcome " +title+ " "+ adwokat.getImie() + " " + adwokat.getNazwisko());
+            welcomeText.setText("Welcome \n" +title+ " "+ adwokat.getImie() + " " + adwokat.getNazwisko());
             judgeBox.setItems(judgeNames);
 
         });
@@ -133,7 +133,7 @@ public class AdwokatController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sendrequest-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Judge Stage");
+            stage.setTitle("New request");
             SendRequestController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             controller.setOskarżony(oskarżony);
@@ -158,7 +158,7 @@ public class AdwokatController {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("checkRequestsAdwokat-view.fxml"));
         Parent root = fxmlLoader.load();
         Stage stage = new Stage();
-        stage.setTitle("Requests Stage");
+        stage.setTitle("Check requests");
         PendingRequestsControllerAdwokat controller = fxmlLoader.getController();
         controller.setAdwokat(adwokat);
         stage.setScene(new Scene(root, 450, 450));

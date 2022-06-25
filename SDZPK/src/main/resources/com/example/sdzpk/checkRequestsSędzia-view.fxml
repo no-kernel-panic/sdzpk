@@ -36,7 +36,7 @@
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirmButtonAction" prefHeight="29.0" prefWidth="120.0" text="Confirm" textFill="#2c27c0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirmButtonAction" prefHeight="29.0" prefWidth="120.0" text="Accept" textFill="#2c27c0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
