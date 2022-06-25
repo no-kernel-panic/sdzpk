@@ -10,7 +10,10 @@ import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Pracownkik is the main entity used for representing an employee in our system
+ * Please see the {@link com.example.sdzpk.Osoba} for true identity
+ */
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Pracownik extends Osoba {

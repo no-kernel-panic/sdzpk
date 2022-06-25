@@ -8,7 +8,11 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Sędzia is the main entity used for representing a judge in our system
+ *
+ * Please see the {@link com.example.sdzpk.Pracownik} for true identity
+ */
 @Entity
 public class Sędzia extends Pracownik {
 
@@ -37,16 +41,23 @@ public class Sędzia extends Pracownik {
         this.wyrokList.remove(wyrok);
     }
 
-    public boolean confirmRequest(Prośba_do_sędziego prośbadoSędziego, Oskarżony oskarżony, Prośba_do_sędziego.Stan stan) {
+    /**
+     *
+     * Changes the state of an accused according to the request, and then deletes the request.
+     *
+     * @param prośbadoSędziego the selected request from the requests combobox
+     *
+     */
+    public boolean confirmRequest(Prośba_do_sędziego prośbadoSędziego) {
 
 
-        Oskarżony _oskarżony = oskarżony;
+        Oskarżony _oskarżony = prośbadoSędziego.getOskarżony();
         Prośba_do_sędziego prośba = prośbadoSędziego;
         try {
-            _oskarżony.setStan(Oskarżony.Stan.values()[stan.ordinal()]);
+            _oskarżony.setStan(Oskarżony.Stan.values()[prośbadoSędziego.getStan().ordinal()]);
             Session session = HelloApplication.createSession();
             session.beginTransaction();
-            session.update(oskarżony);
+            session.update(_oskarżony);
             session.delete(prośba);
             session.getTransaction().commit();
             session.close();
@@ -58,6 +69,11 @@ public class Sędzia extends Pracownik {
         return true;
     }
 
+    /**
+     * Deletes the request from the db without changing the state of the accused.
+     *
+     * @param prośbadoSędziego the selected request from the requests combobox
+     */
     public void withdrawnRequest(Prośba_do_sędziego prośbadoSędziego) {
 
         Session session = HelloApplication.createSession();

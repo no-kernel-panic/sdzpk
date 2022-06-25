@@ -27,6 +27,7 @@ public class SędziaController {
         this.sędzia = sędzia;
     }
 
+
     @FXML
     protected void initialize() {
 
@@ -38,6 +39,13 @@ public class SędziaController {
 
 
     }
+
+    /**
+     *
+     * Opens up a new scene where the judge can see the requests he has assigned.
+     *
+     * @throws IOException
+     */
 
     @FXML
     protected void checkPendingRequests() throws IOException {

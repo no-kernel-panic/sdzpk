@@ -28,6 +28,12 @@ public class HelloController {
     private List<Adwokat> Ad;
     private List<Sędzia> Se;
 
+
+    /**
+     *
+     * Fetches all the lawyers and judges from the db using a hibernate query
+     *
+     */
     @FXML
     protected void initialize() {
         Session session = HelloApplication.createSession();
@@ -54,6 +60,11 @@ public class HelloController {
         return judgeBox;
     }
 
+    /**
+     * Opens up a new scene showing the main menu for the lawyer selected from the combobox
+     *
+     * @throws IOException
+     */
     @FXML
     protected void comboLawyerSelected() throws IOException {
         if (getLawyerBox().getValue() != null) {
@@ -72,6 +83,11 @@ public class HelloController {
         }
     }
 
+    /**
+     * Opens up a new scene showing the main menu for the judge selected from the combobox
+     *
+     * @throws IOException
+     */
     @FXML
     protected void comboJudgeSelected() throws IOException {
         if (getJudgeBox().getValue() != null) {

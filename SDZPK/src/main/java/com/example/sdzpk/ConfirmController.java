@@ -7,6 +7,8 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class ConfirmController {
 
 
@@ -44,6 +46,7 @@ public class ConfirmController {
         this.prośbaDoSędziego = prośbaDoSędziego;
     }
 
+
     @FXML
     protected void initialize() {
 
@@ -55,11 +58,16 @@ public class ConfirmController {
 
 
     }
-
+    /**
+     * Accepts a request and persists it in the system by calling the following method
+     *
+     * {@link com.example.sdzpk.Sędzia#confirmRequest(Prośba_do_sędziego)}
+     *
+     */
     @FXML
     protected void confirmRequest() {
         Stage stage = (Stage) ok.getScene().getWindow();
-        if (getSędzia().confirmRequest(prośbaDoSędziego, oskarżony, prośbaDoSędziego.getStan())) {
+        if (getSędzia().confirmRequest(prośbaDoSędziego)) {
             requestsBox.getItems().remove(prośbaDoSędziego.getId() + "    " +
                     prośbaDoSędziego.getOpis().substring(0,
                             Math.min(prośbaDoSędziego.getOpis().length(), 15)));
@@ -68,6 +76,7 @@ public class ConfirmController {
             confirmationText.setText("Error");
         }
     }
+
 
     @FXML
     protected void withdrawnRequest() {

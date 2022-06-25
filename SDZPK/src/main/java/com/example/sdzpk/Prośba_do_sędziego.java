@@ -58,6 +58,13 @@ public class Prośba_do_sędziego {
         return oskarżony;
     }
 
+
+    /**
+     * Creates a two way association between {@link com.example.sdzpk.Prośba_do_sędziego}
+     * and {@link com.example.sdzpk.Oskarżony}
+     *
+     * @param oskarżony the accused for which the request is done
+     */
     public void setOskarżony(Oskarżony oskarżony) {
         if (this.oskarżony == oskarżony) {
             return;
@@ -76,6 +83,12 @@ public class Prośba_do_sędziego {
         return pracownikOtrzyma;
     }
 
+    /**
+     * Creates a two way association between {@link com.example.sdzpk.Prośba_do_sędziego}
+     * and {@link com.example.sdzpk.Pracownik
+     * }
+     * @param pracownik the judge that receives the request
+     */
     public void setPracownikOtrzyma(Pracownik pracownik) {
         if (this.pracownikOtrzyma == pracownik) {
             return;
@@ -94,6 +107,12 @@ public class Prośba_do_sędziego {
         return pracownikWysyła;
     }
 
+    /**
+     * Creates a two way association between {@link com.example.sdzpk.Prośba_do_sędziego}
+     * and {@link com.example.sdzpk.Pracownik
+     * }
+     * @param pracownik the lawyer that sends the request
+     */
     public void setPracownikWysyła(Pracownik pracownik) {
         if (this.pracownikWysyła == pracownik) {
             return;

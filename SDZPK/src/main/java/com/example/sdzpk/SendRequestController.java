@@ -8,6 +8,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
 import java.util.List;
 
 
@@ -52,6 +53,7 @@ public class SendRequestController {
         this.sędzia = sędzia;
     }
 
+
     @FXML
     protected void initialize() {
         stanBox.setItems(stanList);
@@ -60,7 +62,14 @@ public class SendRequestController {
                 "Accused: " +
                 oskarżony.toString()));
     }
-
+    /**
+     *
+     * Prepares the attributes that will be used for the creation of a new request and calls following
+     *
+     * method {@link com.example.sdzpk.Adwokat#createRequest(String, Prośba_do_sędziego.Stan, Oskarżony, Sędzia)}
+     *
+     *
+     */
     @FXML
     public void submitRequest() {
         if (stanBox.getValue() != null) {

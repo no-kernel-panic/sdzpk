@@ -6,9 +6,14 @@ import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Adwokat is the main entity used for representing a lawyer in our system
+ * Please see the {@link com.example.sdzpk.Pracownik} for true identity
+ */
 @Entity
 
 public class Adwokat extends Pracownik {
@@ -37,6 +42,21 @@ public class Adwokat extends Pracownik {
         }
     }
 
+    /**
+     *
+     * Creates a new request and persists it to the db.
+     *
+     * Creates then the right associations by calling the following methods
+     *  {@link com.example.sdzpk.Prośba_do_sędziego#setOskarżony(Oskarżony)} and
+     * {@link com.example.sdzpk.Prośba_do_sędziego#setPracownikOtrzyma(Pracownik)} and
+     * {@link com.example.sdzpk.Prośba_do_sędziego#setPracownikOtrzyma(Pracownik)}
+     *
+     * @param opis the description of the request inserted in the front-end by the user
+     * @param oskarżony the accused for which the request applies selected from the accused combobox
+     * @param sędzia the judge to which the request is sent selected from the judge combobox
+     * @param stan the accused state which is requested
+     *
+     */
     public boolean createRequest(String opis, Prośba_do_sędziego.Stan stan, Oskarżony oskarżony, Sędzia sędzia) {
         Prośba_do_sędziego prośba = new Prośba_do_sędziego();
         try {

@@ -8,6 +8,8 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 import static com.example.sdzpk.HelloApplication.webAPI;
 
 public class RejectController {
@@ -46,6 +48,7 @@ public class RejectController {
         this.prośbaDoSędziego = prośbaDoSędziego;
     }
 
+
     @FXML
     protected void initialize() {
 
@@ -58,6 +61,12 @@ public class RejectController {
 
     }
 
+    /**
+     * Rejects a request and deletes it from the system by calling the following method
+     *
+     * {@link com.example.sdzpk.Sędzia#withdrawnRequest(Prośba_do_sędziego)}
+     *
+     */
     @FXML
     protected void confirmRejectRequest() {
         Stage stage = (Stage) withdrawn.getScene().getWindow();
@@ -68,11 +77,13 @@ public class RejectController {
         stage.close();
     }
 
+
     @FXML
     protected void withdrawnRequest() {
         Stage stage = (Stage) withdrawn.getScene().getWindow();
         stage.close();
     }
+
 
     public void setCombobox(ComboBox requestsBox) {
         this.requestsBox = requestsBox;

@@ -76,6 +76,10 @@ public class AdwokatController {
         return judgeBox;
     }
 
+    /**
+     * Fetches all the accused from the system by the help of a hibernate query
+     *
+     */
     @FXML
     protected void initialize() {
         Session session = HelloApplication.createSession();
@@ -98,9 +102,12 @@ public class AdwokatController {
 
 
     }
-
+    /**
+     * Selects from the combobox the accused for which the request is going to be
+     *
+     */
     @FXML
-    protected void accusedSelection() throws IOException {
+    protected void accusedSelection() {
         if (getAccusedBox().getValue() != null) {
             String accusedName = String.valueOf(getAccusedBox().getValue());
             oskarżony = Os.stream().filter(e -> (e.getImie() + " " + e.getNazwisko()).equals(accusedName)).findFirst().orElse(null);
@@ -112,7 +119,11 @@ public class AdwokatController {
 
         }
     }
-
+    /**
+     * Selects from the combobox the judge to which the request is going to be sent
+     * and opens up a new scene where the request can be sent
+     *
+     */
     @FXML
     protected void comboJudgeSelected() throws IOException {
         if (getJudgeBox().getValue() != null) {
@@ -139,7 +150,11 @@ public class AdwokatController {
         nextToJudgeSelection.setVisible(true);
     }
 
-
+    /**
+     * Opens up a new scene with the requests done by the lawyer which are not processed by a judge yet
+     *
+     * @throws IOException
+     */
     @FXML
     protected void checkRequestButton() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("checkRequestsAdwokat-view.fxml"));
