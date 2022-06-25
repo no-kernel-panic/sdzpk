@@ -10,6 +10,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import static com.example.sdzpk.HelloApplication.webAPI;
+
 public class SędziaController {
 
 
@@ -46,7 +48,6 @@ public class SędziaController {
         PendingRequestsControllerSędzia controller = fxmlLoader.getController();
         controller.setSędzia(sędzia);
         stage.setScene(new Scene(root, 450, 450));
-        //webAPI.openStageAsPopup(stage);
         stage.show();
     }
 }

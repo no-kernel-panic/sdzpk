@@ -7,8 +7,8 @@ import javax.persistence.*;
 @Entity
 public class OsobaProces_karny {
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
 
     private int id;

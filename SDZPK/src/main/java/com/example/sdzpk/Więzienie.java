@@ -16,8 +16,8 @@ public class Więzienie {
 
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
 
     private int id;
@@ -40,9 +40,6 @@ public class Więzienie {
     @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "więzienie")
     private List<Wizita_w_więzieniu> wizyta_w_więzieniuList = new ArrayList<>();
-
-
-//todo metody?
 
 
     public Więzienie() {

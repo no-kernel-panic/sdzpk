@@ -13,18 +13,20 @@ import org.hibernate.Session;
 import java.io.IOException;
 import java.util.List;
 
+import static com.example.sdzpk.HelloApplication.webAPI;
+
 public class HelloController {
 
+    private final ObservableList<String> lawyers =
+            FXCollections.observableArrayList();
+    private final ObservableList<String> judges =
+            FXCollections.observableArrayList();
     @FXML
     protected ComboBox lawyerBox;
     @FXML
     protected ComboBox judgeBox;
     private List<Adwokat> Ad;
     private List<Sędzia> Se;
-    private final ObservableList<String> lawyers =
-            FXCollections.observableArrayList();
-    private final ObservableList<String> judges =
-            FXCollections.observableArrayList();
 
     @FXML
     protected void initialize() {
@@ -66,7 +68,6 @@ public class HelloController {
             controller.setJudgeNames(judges);
             controller.setSe(Se);
             stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
     }
@@ -83,7 +84,6 @@ public class HelloController {
             SędziaController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
 

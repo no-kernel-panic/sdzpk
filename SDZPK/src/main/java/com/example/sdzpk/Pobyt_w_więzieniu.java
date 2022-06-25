@@ -11,15 +11,14 @@ import java.time.LocalDate;
 @Entity
 public class Pobyt_w_więzieniu {
 
-    //todo relations
     private String powód;
     private LocalDate odKiedy;
     private LocalDate doKiedy;
 
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
     private int id;
 

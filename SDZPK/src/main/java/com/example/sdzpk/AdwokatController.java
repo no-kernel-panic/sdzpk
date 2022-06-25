@@ -16,6 +16,8 @@ import org.hibernate.Session;
 import java.io.IOException;
 import java.util.List;
 
+import static com.example.sdzpk.HelloApplication.webAPI;
+
 
 public class AdwokatController {
 
@@ -125,7 +127,6 @@ public class AdwokatController {
             controller.setOskarżony(oskarżony);
             controller.setAdwokat(adwokat);
             stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
     }
@@ -148,7 +149,7 @@ public class AdwokatController {
         PendingRequestsControllerAdwokat controller = fxmlLoader.getController();
         controller.setAdwokat(adwokat);
         stage.setScene(new Scene(root, 450, 450));
-        //webAPI.openStageAsPopup(stage);
+
         stage.show();
     }
 

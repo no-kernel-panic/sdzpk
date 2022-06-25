@@ -4,20 +4,21 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 @Entity
 public class Wyrok {
 
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
     private int id;
     private LocalDate dataRospoczęcia;
     private LocalDate dataZakończenia;
     private float mandatKarny;
-    private int okresWyroku;//todo pochodny
+    private int okresWyroku;
     /*
      * one to many relation wyrok - więzenie
      */
@@ -70,8 +71,9 @@ public class Wyrok {
         this.mandatKarny = mandatKarny;
     }
 
+    @Transient
     public int getOkresWyroku() {
-        return okresWyroku;
+        return (int) dataRospoczęcia.until(dataZakończenia, ChronoUnit.DAYS);
     }
 
     public void setOkresWyroku(int okresWyroku) {

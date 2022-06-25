@@ -13,10 +13,10 @@ import java.util.List;
 
 public class SendRequestController {
 
-    @FXML
-    protected ComboBox stanBox;
     private final ObservableList<Enum> stanList = FXCollections.observableArrayList(Prośba_do_sędziego.Stan.AresztDomowy,
             Prośba_do_sędziego.Stan.Przepustka, Prośba_do_sędziego.Stan.WyjazdZaGranicę);
+    @FXML
+    protected ComboBox stanBox;
     private List<Prośba_do_sędziego> Re;
     private Adwokat adwokat;
     private Sędzia sędzia;

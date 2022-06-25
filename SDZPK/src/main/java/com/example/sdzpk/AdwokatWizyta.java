@@ -10,11 +10,10 @@ import javax.persistence.*;
  */
 @Entity
 public class AdwokatWizyta {
-    //todo at least one!
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
 
     private int id;

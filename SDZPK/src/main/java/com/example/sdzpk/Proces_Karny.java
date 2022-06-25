@@ -14,13 +14,15 @@ import java.util.List;
 public class Proces_Karny {
 
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
 
     private int numer;
     private LocalDate dataRospoczęcia;
-    private LocalDate dataZakończenia; //todo nullable (optional)
+
+
+    private LocalDate dataZakończenia;
     /*
      * one to one relation wyrok - Proces Karny
      */

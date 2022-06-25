@@ -11,13 +11,13 @@ import javafx.scene.control.Label;
 public class PendingRequestsControllerAdwokat {
 
 
+    private final ObservableList<String> requests =
+            FXCollections.observableArrayList();
     public Adwokat adwokat;
     public Oskarżony oskarżony;
     @FXML
     protected ComboBox requestsBox;
     private Sędzia sędzia;
-    private final ObservableList<String> requests =
-            FXCollections.observableArrayList();
     private Prośba_do_sędziego prośbaDoSędziego;
     @FXML
     private Label issueDescription;

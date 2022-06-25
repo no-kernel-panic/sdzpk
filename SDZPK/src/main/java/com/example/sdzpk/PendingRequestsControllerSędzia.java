@@ -14,16 +14,18 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import static com.example.sdzpk.HelloApplication.webAPI;
+
 public class PendingRequestsControllerSędzia {
 
 
+    private final ObservableList<String> requests =
+            FXCollections.observableArrayList();
     public Adwokat adwokat;
     public Oskarżony oskarżony;
     @FXML
     protected ComboBox requestsBox;
     private Sędzia sędzia;
-    private final ObservableList<String> requests =
-            FXCollections.observableArrayList();
     private Prośba_do_sędziego prośbaDoSędziego;
     @FXML
     private Label issueDescription;
@@ -106,7 +108,6 @@ public class PendingRequestsControllerSędzia {
             controller.setCombobox(requestsBox);
             controller.setProśbaDoSędziego(prośbaDoSędziego);
             stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
     }
@@ -124,7 +125,6 @@ public class PendingRequestsControllerSędzia {
             controller.setCombobox(requestsBox);
             controller.setProśbaDoSędziego(prośbaDoSędziego);
             stage.setScene(new Scene(root, 450, 450));
-            //webAPI.openStageAsPopup(stage);
             stage.show();
         }
 

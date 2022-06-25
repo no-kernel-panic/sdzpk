@@ -11,8 +11,8 @@ public class Prośba_do_sędziego {
 
     private Stan stan;
     @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy
             = "increment")
     private int id;
     private String opis;

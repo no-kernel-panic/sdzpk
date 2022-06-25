@@ -1,11 +1,14 @@
 package com.example.sdzpk;
 
+import com.jpro.webapi.WebAPI;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
+
+import static com.example.sdzpk.HelloApplication.webAPI;
 
 public class RejectController {
 
