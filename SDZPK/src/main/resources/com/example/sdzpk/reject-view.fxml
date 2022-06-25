@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox prefHeight="262.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.ConfirmController">
+<VBox prefHeight="262.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.RejectController">
    <children>
       <GridPane prefHeight="287.0" prefWidth="431.0">
         <columnConstraints>
@@ -21,15 +20,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label fx:id="confirmationText" textFill="#2d22c7">
-               <GridPane.margin>
-                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
-               </GridPane.margin>
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Label>
-            <Button fx:id="ok" mnemonicParsing="false" onAction="#confirmRequest" prefHeight="29.0" prefWidth="120.0" text="Ok" textFill="#2d22c7" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+            <Button mnemonicParsing="false" onAction="#confirmRejectRequest" prefHeight="29.0" prefWidth="120.0" text="Ok" textFill="#2d22c7" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
                </GridPane.margin>
@@ -45,6 +36,11 @@
                   <Font size="14.0" />
                </font>
             </Button>
+            <Label fx:id="confirmationText" prefHeight="62.0" prefWidth="348.0" textFill="#2d22c7">
+               <GridPane.margin>
+                  <Insets left="40.0" right="40.0" />
+               </GridPane.margin>
+            </Label>
          </children>
       </GridPane>
    </children>

@@ -2,17 +2,12 @@ package com.example.sdzpk;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
-public class ConfirmController {
+public class RejectController {
 
 
     public Oskarżony getOskarżony() {
@@ -52,20 +47,14 @@ public class ConfirmController {
         Platform.runLater(() -> {
             confirmationText.setText(prośbaDoSędziego.getOskarżony().getImie()+" "
                     +  prośbaDoSędziego.getOskarżony().getNazwisko()+ "\n" +
-                    "has now status ->"+ prośbaDoSędziego.getStan() + "\n");
+                    "will stay on status ->"+ oskarżony.getStan() + "\n");
                 });
 
 
     }
 
     @FXML
-    private Label withdrawnText;
-
-    @FXML
     private Label confirmationText;
-
-    @FXML
-    private Button ok;
 
     @FXML
     private Button withdrawn;
@@ -73,21 +62,17 @@ public class ConfirmController {
     private ComboBox requestsBox;
 
     @FXML
-    protected void confirmRequest() {
-           Stage stage = (Stage) ok.getScene().getWindow();
-          if(  getSędzia().confirmRequest(prośbaDoSędziego, oskarżony, prośbaDoSędziego.getStan())) {
-              ;
+    protected void confirmRejectRequest() {
+           Stage stage = (Stage) withdrawn.getScene().getWindow();
+           getSędzia().withdrawnRequest(prośbaDoSędziego);
               requestsBox.getItems().remove(prośbaDoSędziego.getId() + "    " +
                       prośbaDoSędziego.getOpis().substring(0,
                               Math.min(prośbaDoSędziego.getOpis().length(), 15)));
               stage.close();
-          } else {
-              confirmationText.setText("Error");
-          }
         }
     @FXML
     protected void withdrawnRequest() {
-        Stage stage = (Stage) ok.getScene().getWindow();
+        Stage stage = (Stage) withdrawn.getScene().getWindow();
         stage.close();
     }
 

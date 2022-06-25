@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox prefHeight="275.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsControllerAdwokat">
    <children>
       <GridPane prefHeight="261.0" prefWidth="262.0">
@@ -28,7 +27,7 @@
                   <Insets bottom="20.0" left="20.0" right="20.0" top="40.0" />
                </GridPane.margin>
             </ComboBox>
-            <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="29.0" prefWidth="126.0" text="Expand details" textFill="#1c22c0" GridPane.halignment="RIGHT">
+            <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="29.0" prefWidth="120.0" text="Expand details" textFill="#1c22c0" GridPane.halignment="RIGHT">
                <font>
                   <Font size="14.0" />
                </font>
@@ -41,10 +40,13 @@
                   <Insets left="20.0" right="20.0" />
                </GridPane.margin>
             </Label>
-            <Button fx:id="withdrawnButton" mnemonicParsing="false" onAction="#withdrawnButtonAction" text="Withdrawn" textFill="#1c22c0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+            <Button fx:id="withdrawnButton" mnemonicParsing="false" onAction="#withdrawnButtonAction" prefWidth="120.0" text="Withdrawn" textFill="#1c22c0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                <GridPane.margin>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
             </Button>
          </children>
       </GridPane>

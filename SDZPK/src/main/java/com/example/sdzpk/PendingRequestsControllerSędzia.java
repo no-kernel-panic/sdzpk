@@ -106,11 +106,10 @@ public class PendingRequestsControllerSędzia {
 
         public void confirmButtonAction() throws IOException {
             issueDescription.setText("");
-            System.out.println(prośbaDoSędziego);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Confirm Stage");
+            stage.setTitle("Confirm request");
             ConfirmController controller = fxmlLoader.getController();
             controller.setSędzia(sędzia);
             controller.setOskarżony(oskarżony);
@@ -121,6 +120,23 @@ public class PendingRequestsControllerSędzia {
             stage.show();
 
         }
+
+    public void rejectButtonAction() throws IOException {
+        issueDescription.setText("");
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reject-view.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setTitle("Reject request");
+        RejectController controller = fxmlLoader.getController();
+        controller.setSędzia(sędzia);
+        controller.setOskarżony(oskarżony);
+        controller.setCombobox(requestsBox);
+        controller.setProśbaDoSędziego(prośbaDoSędziego);
+        stage.setScene(new Scene(root, 450, 450));
+        //webAPI.openStageAsPopup(stage);
+        stage.show();
+
+    }
 
 
 

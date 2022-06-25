@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.SendRequestController">
    <children>
       <GridPane prefHeight="427.0" prefWidth="251.0">
@@ -29,7 +28,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </GridPane.margin>
             </TextArea>
-            <Button mnemonicParsing="false" onAction="#submitRequest" text="Send request" textFill="#1c22c0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#submitRequest" prefHeight="29.0" prefWidth="120.0" text="Send request" textFill="#1c22c0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <font>
                   <Font size="14.0" />
                </font>
