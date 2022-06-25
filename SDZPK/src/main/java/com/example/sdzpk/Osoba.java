@@ -6,6 +6,7 @@ import org.hibernate.annotations.LazyCollectionOption;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class
@@ -16,6 +17,18 @@ Osoba {
     private int wiek;
     private boolean płeć;
     private String narodowość;
+    private String stanCiwilny;
+    private String adres;
+    private String email;
+    private int telefon;
+    @Id
+    private String dowódOsobisty;
+    /*
+     * many to many relation osoba - proces karny
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "osoba")
+    private List<OsobaProces_karny> osobaProces_karnyList = new ArrayList<>();
 
     public String getImie() {
         return imie;
@@ -97,26 +110,6 @@ Osoba {
         this.dowódOsobisty = dowódOsobistu;
     }
 
-
-
-    private String stanCiwilny;
-    private String adres;
-    private String email;
-    private int telefon;
-
-    @Id
-    private String dowódOsobisty;
-
-    /**
-     * many to many relation osoba - proces karny
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany( mappedBy = "osoba")
-    private List<OsobaProces_karny> osobaProces_karnyList = new ArrayList<>();
-
-
-
-
     public void addOsobaProces_karny(OsobaProces_karny osobaProces_karny) {
         if (!osobaProces_karnyList.contains(osobaProces_karny)) {
             osobaProces_karnyList.add(osobaProces_karny);
@@ -124,9 +117,7 @@ Osoba {
     }
 
     public void removeOsobaProces_karny(OsobaProces_karny osobaProces_karny) {
-        if (osobaProces_karnyList.contains(osobaProces_karny)) {
-            osobaProces_karnyList.remove(osobaProces_karny);
-        }
+        osobaProces_karnyList.remove(osobaProces_karny);
     }
 
 }

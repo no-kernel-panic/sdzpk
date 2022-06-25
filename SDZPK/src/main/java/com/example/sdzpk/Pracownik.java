@@ -3,18 +3,32 @@ package com.example.sdzpk;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class Pracownik extends Osoba{
+public abstract class Pracownik extends Osoba {
 
     private int numerIdentyfikacyjny;
     private int pensja;
-    private int stopień; //todo od 1 do 5
+    private int stopień;
+    private int staż;
+    /*
+     * many to one relation Pracownik prośba do sędziego
+     *
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "pracownikOtrzyma")
+    private List<Prośba_do_sędziego> prośba_do_sędziegoOtrzymaList = new ArrayList<>();
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "pracownikWysyła")
+    private List<Prośba_do_sędziego> prośba_do_sędziegoWysyłaList = new ArrayList<>();
 
     public int getNumerIdentyfikacyjny() {
         return numerIdentyfikacyjny;
@@ -48,9 +62,6 @@ public abstract class Pracownik extends Osoba{
         this.staż = staż;
     }
 
-    private int staż;
-
-
     public List<Prośba_do_sędziego> getProśba_do_sędziegoOtrzymaList() {
         return prośba_do_sędziegoOtrzymaList;
     }
@@ -59,41 +70,28 @@ public abstract class Pracownik extends Osoba{
         return prośba_do_sędziegoWysyłaList;
     }
 
-    /**
-     * many to one relation Pracownik prośba do sędziego
-     *
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "pracownikOtrzyma")
-    private List<Prośba_do_sędziego> prośba_do_sędziegoOtrzymaList = new ArrayList<>();
-
-    public void addProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego){
-        if(!this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
+    public void addProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego) {
+        if (!this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
             this.prośba_do_sędziegoOtrzymaList.add(prośba_do_sędziego);
             prośba_do_sędziego.setPracownikOtrzyma(this);
         }
 
     }
-    public void removeProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego) {
-        if (this.prośba_do_sędziegoOtrzymaList.contains(prośba_do_sędziego)) {
-            this.prośba_do_sędziegoOtrzymaList.remove(prośba_do_sędziego);
-        }
-    }
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "pracownikWysyła")
-    private List<Prośba_do_sędziego> prośba_do_sędziegoWysyłaList = new ArrayList<>();
 
-    public void addProśbadosędziegoWysyła(Prośba_do_sędziego prośba_do_sędziego){
-        if(!this.prośba_do_sędziegoWysyłaList.contains(prośba_do_sędziego)) {
+    public void removeProśbadosędziegoOtrzyma(Prośba_do_sędziego prośba_do_sędziego) {
+        this.prośba_do_sędziegoOtrzymaList.remove(prośba_do_sędziego);
+    }
+
+    public void addProśbadosędziegoWysyła(Prośba_do_sędziego prośba_do_sędziego) {
+        if (!this.prośba_do_sędziegoWysyłaList.contains(prośba_do_sędziego)) {
             this.prośba_do_sędziegoWysyłaList.add(prośba_do_sędziego);
             prośba_do_sędziego.setPracownikWysyła(this);
         }
 
     }
+
     public void removeProśbadosędziegoWysyła(Prośba_do_sędziego prośba_do_sędziego) {
-        if (this.prośba_do_sędziegoWysyłaList.contains(prośba_do_sędziego)) {
-            this.prośba_do_sędziegoWysyłaList.remove(prośba_do_sędziego);
-        }
+        this.prośba_do_sędziegoWysyłaList.remove(prośba_do_sędziego);
     }
 
 }

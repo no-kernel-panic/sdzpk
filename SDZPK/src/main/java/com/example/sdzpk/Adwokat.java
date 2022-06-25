@@ -8,22 +8,22 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
+
 @Entity
 
 public class Adwokat extends Pracownik {
 
 
-    public Adwokat() {
-
-    }
-
-    /**
+    /*
      * many to many relation between adwokat and wizyta
      */
     @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "adwokat")
     private List<AdwokatWizyta> adwokatWizytaList = new ArrayList<>();
 
+    public Adwokat() {
+
+    }
 
     public void removeAdwokatWizyta(AdwokatWizyta adwokatWizyta) {
         if (!adwokatWizytaList.contains(adwokatWizyta)) {
@@ -45,17 +45,17 @@ public class Adwokat extends Pracownik {
             prośba.setPracownikWysyła(this);
             prośba.setOskarżony(oskarżony);
             prośba.setPracownikOtrzyma(sędzia);
-          Session session = HelloApplication.createSession();
-          session.beginTransaction();
-          session.save(prośba);
-          session.getTransaction().commit();
-          session.close();
-      } catch (Exception e) {
+            Session session = HelloApplication.createSession();
+            session.beginTransaction();
+            session.save(prośba);
+            session.getTransaction().commit();
+            session.close();
+        } catch (Exception e) {
             prośba.getPracownikWysyła().removeProśbadosędziegoWysyła(prośba);
             prośba.getPracownikOtrzyma().removeProśbadosędziegoOtrzyma(prośba);
             prośba.getOskarżony().removeProśbadoSedziego(prośba);
             return false;
-      }
+        }
 
         return true;
     }

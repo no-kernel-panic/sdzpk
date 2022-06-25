@@ -10,6 +10,15 @@ import javafx.stage.Stage;
 public class RejectController {
 
 
+    private Oskarżony oskarżony;
+    private Sędzia sędzia;
+    private Prośba_do_sędziego prośbaDoSędziego;
+    @FXML
+    private Label confirmationText;
+    @FXML
+    private Button withdrawn;
+    private ComboBox requestsBox;
+
     public Oskarżony getOskarżony() {
         return oskarżony;
     }
@@ -17,8 +26,6 @@ public class RejectController {
     public void setOskarżony(Oskarżony oskarżony) {
         this.oskarżony = oskarżony;
     }
-
-    private Oskarżony oskarżony;
 
     public Sędzia getSędzia() {
         return sędzia;
@@ -28,10 +35,6 @@ public class RejectController {
         this.sędzia = sędzia;
     }
 
-    private Sędzia sędzia;
-
-    private Prośba_do_sędziego prośbaDoSędziego;
-
     public Prośba_do_sędziego getProśbaDoSędziego() {
         return prośbaDoSędziego;
     }
@@ -40,36 +43,28 @@ public class RejectController {
         this.prośbaDoSędziego = prośbaDoSędziego;
     }
 
-
     @FXML
-    protected void initialize(){
+    protected void initialize() {
 
         Platform.runLater(() -> {
-            confirmationText.setText(prośbaDoSędziego.getOskarżony().getImie()+" "
-                    +  prośbaDoSędziego.getOskarżony().getNazwisko()+ "\n" +
-                    "will stay on status ->"+ oskarżony.getStan() + "\n");
-                });
+            confirmationText.setText(prośbaDoSędziego.getOskarżony().getImie() + " "
+                    + prośbaDoSędziego.getOskarżony().getNazwisko() + "\n" +
+                    "will stay on status ->" + oskarżony.getStan() + "\n");
+        });
 
 
     }
 
     @FXML
-    private Label confirmationText;
-
-    @FXML
-    private Button withdrawn;
-
-    private ComboBox requestsBox;
-
-    @FXML
     protected void confirmRejectRequest() {
-           Stage stage = (Stage) withdrawn.getScene().getWindow();
-           getSędzia().withdrawnRequest(prośbaDoSędziego);
-              requestsBox.getItems().remove(prośbaDoSędziego.getId() + "    " +
-                      prośbaDoSędziego.getOpis().substring(0,
-                              Math.min(prośbaDoSędziego.getOpis().length(), 15)));
-              stage.close();
-        }
+        Stage stage = (Stage) withdrawn.getScene().getWindow();
+        getSędzia().withdrawnRequest(prośbaDoSędziego);
+        requestsBox.getItems().remove(prośbaDoSędziego.getId() + "    " +
+                prośbaDoSędziego.getOpis().substring(0,
+                        Math.min(prośbaDoSędziego.getOpis().length(), 15)));
+        stage.close();
+    }
+
     @FXML
     protected void withdrawnRequest() {
         Stage stage = (Stage) withdrawn.getScene().getWindow();

@@ -3,7 +3,10 @@ package com.example.sdzpk;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,12 +15,31 @@ import java.util.List;
 @Entity
 public class Proces_Karny {
 
+    @Id
+    private int numer;
+    private LocalDate dataRospoczęcia;
+    private LocalDate dataZakończenia; //todo nullable (optional)
+    /*
+     * one to one relation wyrok - Proces Karny
+     */
+    @OneToOne
+    private Wyrok wyrok;
+    /*
+     * many to many relation przestepstwo - proces karny
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "proces_karny")
+    private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
+    /*
+     * many to many relation osoba - proces karny
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "proces_karny")
+    private List<OsobaProces_karny> osobaProces_karnyList = new ArrayList<>();
+
     public Proces_Karny() {
 
     }
-
-    @Id
-    private int numer;
 
     public int getNumer() {
         return numer;
@@ -35,27 +57,16 @@ public class Proces_Karny {
         this.dataRospoczęcia = dataRozpoczęcia;
     }
 
-    public void setDataZakończenia(LocalDate dataZakończenia) {
-        this.dataZakończenia = dataZakończenia;
-    }
-
     public LocalDate getDataZakończenia() {
         return dataZakończenia;
     }
 
-    private LocalDate dataRospoczęcia;
-    private LocalDate dataZakończenia; //todo nullable (optional)
+    public void setDataZakończenia(LocalDate dataZakończenia) {
+        this.dataZakończenia = dataZakończenia;
+    }
 
-
-
-
-    /**
-     * one to one relation wyrok - Proces Karny
-     */
-    @OneToOne
-    private Wyrok wyrok;
     public void setWyrok(Wyrok wyrok) {
-        if (this.wyrok == wyrok ) {
+        if (this.wyrok == wyrok) {
             return;
         }
 
@@ -67,16 +78,9 @@ public class Proces_Karny {
         this.wyrok.setProces_karny(this);
     }
 
-    public void removeWyrok(){
+    public void removeWyrok() {
         this.wyrok = null;
     }
-
-    /**
-     * many to many relation przestepstwo - proces karny
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "proces_karny")
-    private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
 
     public void addPrzestępstwoProces_karny(PrzestępstwoProces_karny przestępstwoProces_karny) {
         if (!przestępstwoProces_karnyList.contains(przestępstwoProces_karny)) {
@@ -85,24 +89,13 @@ public class Proces_Karny {
     }
 
     public void removePrzestępstwoProces_karny(PrzestępstwoProces_karny przestępstwoProces_karny) {
-        if (przestępstwoProces_karnyList.contains(przestępstwoProces_karny)) {
-            przestępstwoProces_karnyList.remove(przestępstwoProces_karny);
-        }
+        przestępstwoProces_karnyList.remove(przestępstwoProces_karny);
     }
-
-
-
-
-    /**
-     * many to many relation osoba - proces karny
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "proces_karny")
-    private List<OsobaProces_karny> osobaProces_karnyList = new ArrayList<>();
 
     public List<OsobaProces_karny> getOsobaProces_karnyList() {
         return osobaProces_karnyList;
     }
+
     public void addOsobaProces_karny(OsobaProces_karny osobaProces_karny) {
         if (!osobaProces_karnyList.contains(osobaProces_karny)) {
             osobaProces_karnyList.add(osobaProces_karny);
@@ -110,9 +103,7 @@ public class Proces_Karny {
     }
 
     public void removeOsobaProces_karny(OsobaProces_karny osobaProces_karny) {
-        if (osobaProces_karnyList.contains(osobaProces_karny)) {
-            osobaProces_karnyList.remove(osobaProces_karny);
-        }
+        osobaProces_karnyList.remove(osobaProces_karny);
     }
 
 }

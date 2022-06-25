@@ -16,20 +16,7 @@ import java.util.Locale;
 public class HelloApplication extends Application {
     public static WebAPI webAPI;
 
-    @Override
-    public void start(Stage stage) throws IOException {
-        setUserAgentStylesheet(STYLESHEET_CASPIAN);
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-       // webAPI = WebAPI.getWebAPI(stage);]
-        stage.setMaximized(true);
-        stage.show();
-        }
-
-
-    public static Session createSession(){
+    public static Session createSession() {
 
         Configuration configuration = new Configuration();
         configuration.configure(HelloApplication.class.getResource("hibernate.cfg.xml"));
@@ -54,15 +41,8 @@ public class HelloApplication extends Application {
         SessionFactory sessionFactory = configuration.buildSessionFactory();
         return sessionFactory.openSession();
     }
+
     public static void main(String[] args) {
-
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd, MMM, yyyy", Locale.ENGLISH);
-        //create configuration
-
-
-
-
-
 
         Runnable myThread = () ->
         {
@@ -70,27 +50,22 @@ public class HelloApplication extends Application {
         };
 
 
-
         Thread run = new Thread(myThread);
 
         run.start();
 
 
+    }
 
-    /*    for(Osoba o : Adwokat.getExtension())
-            System.out.println(o.getClass());*/
-
-        // List<Proces_Karny> processes = session.createQuery("select proces from com.example.sdzpk.Proces_Karny as proces").list();
-
-
-
-        // Proces_Karny proces_karny = new Proces_Karny();
-        // proces_karny.setDataRozpoczęcia(LocalDate.parse("06, Jan, 2015", formatter));
-
-        // session.beginTransaction();
-        // session.save(proces_karny);//save(NEW PROCES_KARNY(...))
-        // session.getTransaction().commit();
-
-
+    @Override
+    public void start(Stage stage) throws IOException {
+        setUserAgentStylesheet(STYLESHEET_CASPIAN);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        // webAPI = WebAPI.getWebAPI(stage);]
+        stage.setMaximized(true);
+        stage.show();
     }
 }

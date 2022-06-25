@@ -2,12 +2,32 @@ package com.example.sdzpk;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 public class Wyrok {
 
+
+    @Id
+    private int id;
+    private LocalDate dataRospoczęcia;
+    private LocalDate dataZakończenia;
+    private float mandatKarny;
+    private int okresWyroku;//todo pochodny
+    /*
+     * one to many relation wyrok - więzenie
+     */
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Więzienie więzienie;
+    /*
+     * one to many relation wyrok - Sędzia
+     */
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Sędzia sędzia;
+    /*
+     * one to one relation wyrok - Proces Karny
+     */
+    @OneToOne
+    private Proces_Karny proces_karny;
 
     public Wyrok() {
 
@@ -20,12 +40,6 @@ public class Wyrok {
     public void setId(int id) {
         this.id = id;
     }
-
-    @Id
-    private int id;
-    private LocalDate dataRospoczęcia;
-
-
 
     public LocalDate getDataRospoczęcia() {
         return dataRospoczęcia;
@@ -59,19 +73,8 @@ public class Wyrok {
         this.okresWyroku = okresWyroku;
     }
 
-    private LocalDate dataZakończenia;
-    private float mandatKarny;//todo optional
-    private int okresWyroku;//todo pochodny
-
-
-
-    /**
-     * one to many relation wyrok - więzenie
-     */
-    @ManyToOne(fetch = FetchType.EAGER)
-    private Więzienie więzienie;
     public void setWięzienie(Więzienie więzienie) {
-        if (this.więzienie == więzienie ) {
+        if (this.więzienie == więzienie) {
             return;
         }
 
@@ -84,13 +87,8 @@ public class Wyrok {
 
     }
 
-    /**
-     * one to many relation wyrok - Sędzia
-     */
-    @ManyToOne(fetch = FetchType.EAGER)
-    private Sędzia sędzia;
     public void setSędzia(Sędzia sędzia) {
-        if (this.sędzia == sędzia ) {
+        if (this.sędzia == sędzia) {
             return;
         }
 
@@ -103,14 +101,8 @@ public class Wyrok {
 
     }
 
-
-    /**
-     * one to one relation wyrok - Proces Karny
-     */
-    @OneToOne
-    private Proces_Karny proces_karny;
     public void setProces_karny(Proces_Karny proces_karny) {
-        if (this.proces_karny == proces_karny ) {
+        if (this.proces_karny == proces_karny) {
             return;
         }
 
@@ -122,10 +114,9 @@ public class Wyrok {
         this.proces_karny.setWyrok(this);
     }
 
-    public void removeProces_Karny(){
+    public void removeProces_Karny() {
         this.proces_karny = null;
     }
-
 
 
 }

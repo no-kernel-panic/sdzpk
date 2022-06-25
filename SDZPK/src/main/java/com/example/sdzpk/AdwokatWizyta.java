@@ -6,14 +6,15 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 
-/**
+/*
  *class representing many to many relation (not in diagram) between adwokat and wizyta
  */
 @Entity
-public class AdwokatWizyta  {
+public class AdwokatWizyta {
     //todo at least one!
 
     @Id
+
     private int id;
 
     @ManyToOne(fetch = FetchType.EAGER)
@@ -22,7 +23,7 @@ public class AdwokatWizyta  {
     @ManyToOne(fetch = FetchType.EAGER)
     private Wizyta wizyta; //< umówi się na
 
-    public AdwokatWizyta(Adwokat adwokat, Wizyta wizyta){
+    public AdwokatWizyta(Adwokat adwokat, Wizyta wizyta) {
         this.adwokat = adwokat;
         this.wizyta = wizyta;
     }

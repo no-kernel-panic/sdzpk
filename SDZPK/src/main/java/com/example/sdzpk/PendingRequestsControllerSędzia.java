@@ -17,6 +17,23 @@ import java.io.IOException;
 public class PendingRequestsControllerSędzia {
 
 
+    public Adwokat adwokat;
+    public Oskarżony oskarżony;
+    @FXML
+    protected ComboBox requestsBox;
+    private Sędzia sędzia;
+    private final ObservableList<String> requests =
+            FXCollections.observableArrayList();
+    private Prośba_do_sędziego prośbaDoSędziego;
+    @FXML
+    private Label issueDescription;
+    @FXML
+    private Button nextButton;
+    @FXML
+    private Button confirmButton;
+    @FXML
+    private Button rejectButton;
+
     public Adwokat getAdwokat() {
         return adwokat;
     }
@@ -33,97 +50,69 @@ public class PendingRequestsControllerSędzia {
         this.oskarżony = oskarżony;
     }
 
-    public Adwokat adwokat;
+    public Sędzia getSędzia() {
+        return sędzia;
+    }
 
-        public Oskarżony oskarżony;
+    public void setSędzia(Sędzia sędzia) {
+        this.sędzia = sędzia;
+    }
 
-        public Sędzia getSędzia() {
-            return sędzia;
-        }
+    @FXML
+    protected void initialize() {
+        requests.clear();
+        Platform.runLater(() -> {
+            for (Prośba_do_sędziego re : sędzia.getProśba_do_sędziegoOtrzymaList()) {
+                requests.add(re.getId() + "    " + re.getOpis().substring(0, Math.min(re.getOpis().length(), 15)));
+            }
+            requestsBox.setItems(requests);
+        });
 
-        public void setSędzia(Sędzia sędzia) {
-            this.sędzia = sędzia;
-        }
+    }
 
-        private Sędzia sędzia;
-
-
-        private ObservableList<String> requests =
-                FXCollections.observableArrayList();
-
-        private Prośba_do_sędziego prośbaDoSędziego;
-
-        @FXML
-        protected void initialize(){
-                requests.clear();
-            Platform.runLater(() -> {
-//                welcomeText.setText("Request for : " + sędzia.getProśba_do_sędziegoOtrzymaList().get(0).getOpis() + " " + sędzia.getNazwisko());
-                for (Prośba_do_sędziego re : sędzia.getProśba_do_sędziegoOtrzymaList()) {
-                    requests.add(re.getId()+"    "+ re.getOpis().substring(0, Math.min(re.getOpis().length(), 15)));
-                }
-                requestsBox.setItems(requests);
-            });
-
-        }
-
-        @FXML
-        protected ComboBox requestsBox;
-
-        @FXML
-        private Label issueDescription;
-
-        @FXML
-        private Button nextButton;
-
-        @FXML
-        private Button confirmButton;
-
-        @FXML
-        private Button rejectButton;
-
-        @FXML
-        public void nextButtonAction(){
-            if(requestsBox.getValue() != null){
-                String opis = (String) requestsBox.getValue();
-             prośbaDoSędziego = sędzia.getProśba_do_sędziegoOtrzymaList().stream()
-                                                    .filter(e -> e.getId() == Integer.parseInt(opis.substring(0,4).trim()))
-                                                    .findFirst()
-                                                    .orElse(null);
-                oskarżony = prośbaDoSędziego.getOskarżony();
-                nextButton.setVisible(false);
-            issueDescription.setText("Request id: " + prośbaDoSędziego.getId()+ "\n" +
-                            "Request for: "+prośbaDoSędziego.getStan()+ "\n" +
-                          "Accused: "+ oskarżony.getImie()+" "
-                                     +  oskarżony.getNazwisko()+ "\n" +
-                            "In state: "+ oskarżony.getStan() + "\n" +
-                              "Sent by: "+ prośbaDoSędziego.getPracownikWysyła().getImie()+ " "+
-                                prośbaDoSędziego.getPracownikWysyła().getNazwisko() +"\n" +
-                                        "Description: "+ prośbaDoSędziego.getOpis() );
+    @FXML
+    public void nextButtonAction() {
+        if (requestsBox.getValue() != null) {
+            String opis = (String) requestsBox.getValue();
+            prośbaDoSędziego = sędzia.getProśba_do_sędziegoOtrzymaList().stream()
+                    .filter(e -> e.getId() == Integer.parseInt(opis.substring(0, 4).trim()))
+                    .findFirst()
+                    .orElse(null);
+            oskarżony = prośbaDoSędziego.getOskarżony();
+            nextButton.setVisible(false);
+            issueDescription.setText("Request id: " + prośbaDoSędziego.getId() + "\n" +
+                    "Request for: " + prośbaDoSędziego.getStan() + "\n" +
+                    "Accused: " + oskarżony.getImie() + " "
+                    + oskarżony.getNazwisko() + "\n" +
+                    "In state: " + oskarżony.getStan() + "\n" +
+                    "Sent by: " + prośbaDoSędziego.getPracownikWysyła().getImie() + " " +
+                    prośbaDoSędziego.getPracownikWysyła().getNazwisko() + "\n" +
+                    "Description: " + prośbaDoSędziego.getOpis());
             confirmButton.setVisible(true);
             rejectButton.setVisible(true);
-            }
         }
+    }
 
-        public void confirmButtonAction() throws IOException {
-            if(requestsBox.getValue() != null) {
-                issueDescription.setText("");
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
-                Parent root = fxmlLoader.load();
-                Stage stage = new Stage();
-                stage.setTitle("Confirm request");
-                ConfirmController controller = fxmlLoader.getController();
-                controller.setSędzia(sędzia);
-                controller.setOskarżony(oskarżony);
-                controller.setCombobox(requestsBox);
-                controller.setProśbaDoSędziego(prośbaDoSędziego);
-                stage.setScene(new Scene(root, 450, 450));
-                //webAPI.openStageAsPopup(stage);
-                stage.show();
-            }
+    public void confirmButtonAction() throws IOException {
+        if (requestsBox.getValue() != null) {
+            issueDescription.setText("");
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Confirm request");
+            ConfirmController controller = fxmlLoader.getController();
+            controller.setSędzia(sędzia);
+            controller.setOskarżony(oskarżony);
+            controller.setCombobox(requestsBox);
+            controller.setProśbaDoSędziego(prośbaDoSędziego);
+            stage.setScene(new Scene(root, 450, 450));
+            //webAPI.openStageAsPopup(stage);
+            stage.show();
         }
+    }
 
     public void rejectButtonAction() throws IOException {
-        if(requestsBox.getValue() != null) {
+        if (requestsBox.getValue() != null) {
             issueDescription.setText("");
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reject-view.fxml"));
             Parent root = fxmlLoader.load();
@@ -140,7 +129,6 @@ public class PendingRequestsControllerSędzia {
         }
 
     }
-
 
 
 }

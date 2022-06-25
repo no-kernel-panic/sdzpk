@@ -4,7 +4,6 @@ import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.time.LocalDate;
@@ -15,13 +14,28 @@ import java.util.List;
 public class Przestępstwo {
 
 
-    public Przestępstwo() {
-        }
-
     @Id
     private int numer;
     private LocalDate dataRealizacji;
     private String adres;
+    private String opis;
+    /*
+     * many to many relation between Przestępstwo - Oskarżony
+     *
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "przestępstwo")
+    private List<PrzestępstwoOskarżony> przestępstwoOskarżonyList = new ArrayList<>();
+    /*
+     * many to many relation between Przestępstwo - Proces_Karny
+     *
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "przestępstwo")
+    private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
+
+    public Przestępstwo() {
+    }
 
     public int getNumer() {
         return numer;
@@ -55,16 +69,6 @@ public class Przestępstwo {
         this.opis = opis;
     }
 
-    private String opis;
-
-    /**
-     * many to many relation between Przestępstwo - Oskarżony
-     *
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany( mappedBy = "przestępstwo")
-    private List<PrzestępstwoOskarżony> przestępstwoOskarżonyList = new ArrayList<>();
-
     public void addPrzestępstwoOskarżony(PrzestępstwoOskarżony przestępstwoOskarżony) {
         if (!przestępstwoOskarżonyList.contains(przestępstwoOskarżony)) {
             przestępstwoOskarżonyList.add(przestępstwoOskarżony);
@@ -72,18 +76,8 @@ public class Przestępstwo {
     }
 
     public void removePrzestępstwoOskarżony(PrzestępstwoOskarżony przestępstwoOskarżony) {
-        if (przestępstwoOskarżonyList.contains(przestępstwoOskarżony)) {
-            przestępstwoOskarżonyList.remove(przestępstwoOskarżony);
-        }
+        przestępstwoOskarżonyList.remove(przestępstwoOskarżony);
     }
-
-    /**
-     * many to many relation between Przestępstwo - Proces_Karny
-     *
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany( mappedBy = "przestępstwo")
-    private List<PrzestępstwoProces_karny> przestępstwoProces_karnyList = new ArrayList<>();
 
     public void addPrzestępstwoProces_karny(PrzestępstwoProces_karny przestępstwoProces_karny) {
         if (!przestępstwoProces_karnyList.contains(przestępstwoProces_karny)) {
@@ -92,9 +86,7 @@ public class Przestępstwo {
     }
 
     public void removePrzestępstwoProces_karny(PrzestępstwoProces_karny przestępstwoProces_karny) {
-        if (przestępstwoProces_karnyList.contains(przestępstwoProces_karny)) {
-            przestępstwoProces_karnyList.remove(przestępstwoProces_karny);
-        }
+        przestępstwoProces_karnyList.remove(przestępstwoProces_karny);
     }
 
 }

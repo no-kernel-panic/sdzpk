@@ -18,7 +18,7 @@ public class PrzestępstwoOskarżony {
     @ManyToOne(fetch = FetchType.EAGER)
     private Oskarżony oskarżony;
 
-    public PrzestępstwoOskarżony(Oskarżony oskarżony, Przestępstwo przestępstwo){
+    public PrzestępstwoOskarżony(Oskarżony oskarżony, Przestępstwo przestępstwo) {
         this.przestępstwo = przestępstwo;
         this.oskarżony = oskarżony;
     }

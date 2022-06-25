@@ -11,7 +11,6 @@ public class Wizita_w_więzieniu {
     private LocalDate dataWizyty;
 
 
-
     @Id
     private int id;
 
@@ -21,7 +20,7 @@ public class Wizita_w_więzieniu {
     @ManyToOne(fetch = FetchType.EAGER)
     private Więzienie więzienie; //< przebywa w
 
-    public Wizita_w_więzieniu(Oskarżony oskarżony, Wizyta wizyta){
+    public Wizita_w_więzieniu(Oskarżony oskarżony, Wizyta wizyta) {
         this.wizyta = wizyta;
         this.więzienie = więzienie;
     }

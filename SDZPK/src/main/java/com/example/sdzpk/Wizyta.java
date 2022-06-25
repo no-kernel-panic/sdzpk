@@ -11,6 +11,26 @@ import java.util.List;
 public class Wizyta {
 
 
+    @Id
+    private int id;
+    /*
+     * many to many relation adwokat - wizyta
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "wizyta")
+    private List<AdwokatWizyta> adwokatWizytaList = new ArrayList<>();
+    /*
+     * 1 to many relation wizyta oskarżony
+     */
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Oskarżony oskarżony;
+    /*
+     * many to many relation Wizyta - wiezienie
+     */
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "wizyta")
+    private List<Wizita_w_więzieniu> wizyta_w_więzieniuList = new ArrayList<>();
+
     public Wizyta() {
 
     }
@@ -22,16 +42,6 @@ public class Wizyta {
     public void setId(int id) {
         this.id = id;
     }
-
-    @Id
-    private int id;
-
-    /**
-     * many to many relation adwokat - wizyta
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "wizyta")
-    private List<AdwokatWizyta> adwokatWizytaList = new ArrayList<>();
 
     public void addAdwokatWizyta(AdwokatWizyta adwokatWizyta) {
         if (!adwokatWizytaList.contains(adwokatWizyta)) {
@@ -45,14 +55,8 @@ public class Wizyta {
         }
     }
 
-    /**
-     * 1 to many relation wizyta oskarżony
-     */
-    @ManyToOne(fetch = FetchType.EAGER)
-    private Oskarżony oskarżony;
-
     public void setOskarżony(Oskarżony oskarżony) {
-        if (this.oskarżony == oskarżony ) {
+        if (this.oskarżony == oskarżony) {
             return;
         }
 
@@ -64,16 +68,6 @@ public class Wizyta {
         this.oskarżony.addWizyta(this);
 
     }
-
-
-
-
-    /**
-     * many to many relation Wizyta - wiezienie
-     */
-    @LazyCollection(LazyCollectionOption.FALSE)
-    @OneToMany(mappedBy = "wizyta")
-    private List<Wizita_w_więzieniu> wizyta_w_więzieniuList = new ArrayList<>();
 
     public void addWizytawWięzeniu(Wizita_w_więzieniu wizita_w_więzieniu) {
         if (!wizyta_w_więzieniuList.contains(wizita_w_więzieniu)) {

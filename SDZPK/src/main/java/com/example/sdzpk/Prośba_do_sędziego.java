@@ -1,13 +1,28 @@
 package com.example.sdzpk;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 
 @Entity
-public class Prośba_do_sędziego{
-    //todo initialization
+public class Prośba_do_sędziego {
+
+
+    private Stan stan;
+    @Id
+    private int id;
+    private String opis;
+    /*
+     * 1 to many relation prośba do sędziego - oskarżony
+     */
+    @ManyToOne
+    private Oskarżony oskarżony;
+    /*
+     * 1 to many relation Pracownik -  prośba_do_sędziego
+     */
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Pracownik pracownikOtrzyma;
+    @ManyToOne(fetch = FetchType.EAGER)
+    private Pracownik pracownikWysyła;
 
     public int getId() {
         return id;
@@ -16,8 +31,6 @@ public class Prośba_do_sędziego{
     public void setId(int id) {
         this.id = id;
     }
-
-    public enum Stan { AresztDomowy, WyjazdZaGranicę, Przepustka }
 
     @Enumerated
     public Stan getStan() {
@@ -28,11 +41,6 @@ public class Prośba_do_sędziego{
         this.stan = stan;
     }
 
-    private Stan stan;
-
-    @Id
-    private int id;
-
     public String getOpis() {
         return opis;
     }
@@ -41,18 +49,12 @@ public class Prośba_do_sędziego{
         this.opis = opis;
     }
 
-    private String opis;
-
-
-
-    /**
-     * 1 to many relation prośba do sędziego - oskarżony
-     */
-    @ManyToOne
-    private Oskarżony oskarżony;
+    public Oskarżony getOskarżony() {
+        return oskarżony;
+    }
 
     public void setOskarżony(Oskarżony oskarżony) {
-        if (this.oskarżony == oskarżony ) {
+        if (this.oskarżony == oskarżony) {
             return;
         }
 
@@ -65,18 +67,12 @@ public class Prośba_do_sędziego{
 
     }
 
-
-    /**
-     * 1 to many relation Pracownik -  prośba_do_sędziego
-     */
-    @ManyToOne(fetch = FetchType.EAGER)
-    private Pracownik pracownikOtrzyma;
-
-    @ManyToOne(fetch = FetchType.EAGER)
-    private Pracownik pracownikWysyła;
+    public Pracownik getPracownikOtrzyma() {
+        return pracownikOtrzyma;
+    }
 
     public void setPracownikOtrzyma(Pracownik pracownik) {
-        if (this.pracownikOtrzyma == pracownik ) {
+        if (this.pracownikOtrzyma == pracownik) {
             return;
         }
 
@@ -89,20 +85,12 @@ public class Prośba_do_sędziego{
 
     }
 
-    public Oskarżony getOskarżony() {
-        return oskarżony;
-    }
-
-    public Pracownik getPracownikOtrzyma() {
-        return pracownikOtrzyma;
-    }
-
     public Pracownik getPracownikWysyła() {
         return pracownikWysyła;
     }
 
     public void setPracownikWysyła(Pracownik pracownik) {
-        if (this.pracownikWysyła == pracownik ) {
+        if (this.pracownikWysyła == pracownik) {
             return;
         }
 
@@ -115,6 +103,7 @@ public class Prośba_do_sędziego{
 
     }
 
+    public enum Stan {AresztDomowy, WyjazdZaGranicę, Przepustka}
 
 
 }

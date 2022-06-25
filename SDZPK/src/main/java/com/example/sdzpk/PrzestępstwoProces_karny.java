@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class PrzestępstwoProces_karny  {
+public class PrzestępstwoProces_karny {
 
 
     @Id
@@ -20,7 +20,7 @@ public class PrzestępstwoProces_karny  {
     @ManyToOne(fetch = FetchType.EAGER)
     private Proces_Karny proces_karny;
 
-    public PrzestępstwoProces_karny(Proces_Karny proces_karny, Przestępstwo przestępstwo){
+    public PrzestępstwoProces_karny(Proces_Karny proces_karny, Przestępstwo przestępstwo) {
         this.przestępstwo = przestępstwo;
         this.proces_karny = proces_karny;
     }
@@ -28,7 +28,7 @@ public class PrzestępstwoProces_karny  {
     public PrzestępstwoProces_karny() {
     }
 
-    private void setProces_karny (Proces_Karny proces_karny) {
+    private void setProces_karny(Proces_Karny proces_karny) {
         this.proces_karny = proces_karny;
         this.proces_karny.addPrzestępstwoProces_karny(this);
     }
