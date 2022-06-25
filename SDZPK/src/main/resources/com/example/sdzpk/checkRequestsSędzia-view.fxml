@@ -1,17 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsControllerSędzia">
+<VBox prefHeight="285.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsControllerSędzia">
    <children>
-      <ComboBox fx:id="requestsBox" layoutX="82.0" layoutY="119.0" prefWidth="150.0" />
-      <Button fx:id="nextButton" layoutX="256.0" layoutY="119.0" mnemonicParsing="false" onAction="#nextButtonAction" text="next" />
-      <Button fx:id="rejectButton" layoutX="82.0" layoutY="298.0" mnemonicParsing="false" text="Reject" visible="false" />
-      <Button fx:id="confirmButton" layoutX="206.0" layoutY="298.0" mnemonicParsing="false" onAction="#confirmButtonAction" text="Confirm" visible="false" />
-      <Label fx:id="issueDescription" layoutX="82.0" layoutY="182.0" />
+      <GridPane prefHeight="265.0" prefWidth="371.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="154.66666666666669" minHeight="10.0" prefHeight="154.66666666666669" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="48.33331298828125" minHeight="10.0" prefHeight="18.666666666666686" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ComboBox fx:id="requestsBox" prefWidth="150.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </GridPane.margin>
+            </ComboBox>
+            <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="25.0" prefWidth="128.0" text="Expand details" textFill="#2c27c0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirmButtonAction" text="Confirm" textFill="#2c27c0" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="issueDescription" prefHeight="155.0" prefWidth="159.0" textFill="#2c27c0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="rejectButton" mnemonicParsing="false" text="Reject" textFill="#2c27c0" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
    </children>
-</AnchorPane>
+</VBox>

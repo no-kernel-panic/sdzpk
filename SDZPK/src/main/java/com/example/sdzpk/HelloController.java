@@ -70,7 +70,7 @@ public class HelloController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("adwokat-view.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("Lawyer Stage");
+            stage.setTitle("Lawyer Home");
             AdwokatController controller = fxmlLoader.getController();
             controller.setAdwokat(adwokat);
             controller.setJudgeNames(judges);

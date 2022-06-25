@@ -105,6 +105,7 @@ public class PendingRequestsControllerSędzia {
         }
 
         public void confirmButtonAction() throws IOException {
+            issueDescription.setText("");
             System.out.println(prośbaDoSędziego);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("confirm-view.fxml"));
             Parent root = fxmlLoader.load();

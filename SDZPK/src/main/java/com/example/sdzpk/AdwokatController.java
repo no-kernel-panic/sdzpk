@@ -75,7 +75,6 @@ public class AdwokatController {
         Session session =  HelloApplication.createSession();
         Os = session.createQuery("select oskarżony from Oskarżony as oskarżony").list();
         session.close();
-
         for(Oskarżony o : Os){
             if(!accusedNames.contains(o)) {
                 accusedNames.add(o.getImie() + " " + o.getNazwisko());
@@ -84,7 +83,9 @@ public class AdwokatController {
         accusedBox.setItems(accusedNames);
 
         Platform.runLater(() -> {
-            welcomeText.setText("Welcome: " + adwokat.getImie() + " " + adwokat.getNazwisko());
+            String title = adwokat.isPłeć() ? "Mr" : "Mrs";
+
+            welcomeText.setText("Welcome " +title+ " "+ adwokat.getImie() + " " + adwokat.getNazwisko());
             judgeBox.setItems(judgeNames);
 
         });
@@ -115,9 +116,9 @@ public class AdwokatController {
         if (getAccusedBox().getValue() != null) {
             String accusedName = String.valueOf(getAccusedBox().getValue());
             oskarżony = Os.stream().filter(e -> (e.getImie()+" "+e.getNazwisko()).equals(accusedName)).findFirst().orElse(null);
-            welcomeText.setText(oskarżony.getNazwisko());
             nextToJudgeSelection.setVisible(false);
             accusedBox.setVisible(false);
+            selectAccused.setText("Select judge");
             judgeBox.setVisible(true);
             sendRequest.setVisible(true);
 
@@ -145,7 +146,7 @@ public class AdwokatController {
     @FXML
     protected void createRequestButton() {
         createrequest.setVisible(false);
-        selectAccused.setVisible(true);
+        selectAccused.setText("Select accused");
         accusedBox.setVisible(true);
         nextToJudgeSelection.setVisible(true);
     }

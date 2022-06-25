@@ -43,14 +43,11 @@ public class SędziaController {
     protected void initialize(){
 
         Platform.runLater(() -> {
-            welcomeText.setText("Welcome : " + sędzia.getImie()+" "+sędzia.getNazwisko());
+            String title = sędzia.isPłeć() ? "Mr" : "Mrs";
+            welcomeText.setText("Welcome "+title+" " + sędzia.getImie()+" "+sędzia.getNazwisko());
 
                 });
-       /* Session session =  HelloApplication.createSession();
-        List<Adwokat> Ad = session.createQuery("select adwokat from Adwokat as adwokat").list();
-        List<Sędzia> Se = session.createQuery("select sędzia from Sędzia as sędzia").list();
-        session.close();
-*/
+
 
     }
 

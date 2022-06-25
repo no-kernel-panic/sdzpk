@@ -123,8 +123,8 @@ public class Oskarżony extends Osoba {
 
     @Override
      public String toString(){
-        return "Identification number: "+ numerIdentyfikacjyny+ "\n "+
-               "Name: "+ getImie()+" "+numerIdentyfikacjyny+" "+"State: " +stan;
+        return  getImie()+" "+getNazwisko()+ "\n"+
+                "Id: "+ numerIdentyfikacjyny + "- Current state: " +stan;
 
 
     }

@@ -52,13 +52,8 @@ public class PendingRequestsControllerAdwokat {
         @FXML
         protected void initialize(){
 
-
-            for (String request: requests) {
-                System.out.println(request);
-            }
-            System.out.println("and that above was after the clear method");
             Platform.runLater(() -> {
-//                welcomeText.setText("Request for : " + sędzia.getProśba_do_sędziegoOtrzymaList().get(0).getOpis() + " " + sędzia.getNazwisko());
+
                 for (Prośba_do_sędziego re : adwokat.getProśba_do_sędziegoWysyłaList()) {
                     requests.add(re.getId()+"    "+ re.getOpis().substring(0, Math.min(re.getOpis().length(), 15)));
                 }
@@ -67,7 +62,6 @@ public class PendingRequestsControllerAdwokat {
                 for (String request: requests) {
                     System.out.println(request);
                 }
-                System.out.println("and that above was after the method");
 
             });
 
@@ -78,12 +72,6 @@ public class PendingRequestsControllerAdwokat {
 
         @FXML
         private Label issueDescription;
-
-        @FXML
-        private Button nextButton;
-
-        @FXML
-        private Button confirmButton;
 
         @FXML
         private Button withdrawnButton;
@@ -111,10 +99,7 @@ public class PendingRequestsControllerAdwokat {
 
         public void withdrawnButtonAction() throws IOException {
            adwokat.withdrawnRequest(prośbaDoSędziego);
-           requestsBox.getItems().remove(prośbaDoSędziego.getId()+"    "+
-                   prośbaDoSędziego.getOpis().substring(0,
-                           Math.min(prośbaDoSędziego.getOpis().length(), 15)));
-            System.out.println(prośbaDoSędziego);
+            issueDescription.setText("The request has been withdrawn");
 
         }
 
