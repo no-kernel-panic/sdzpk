@@ -34,6 +34,7 @@
     <orderEntry type="library" name="mysql-connector-java-8.0.28" level="project" />
     <orderEntry type="library" name="hibernate.core" level="project" />
     <orderEntry type="library" name="hibernate-core-5.6.9.Final" level="project" />
+    <orderEntry type="library" name="maven-javadoc-plugin-3.4" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.6.9.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.3.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
@@ -50,14 +51,14 @@
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.staxex:stax-ex:1.8" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.15" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:18" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:18.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:11.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
@@ -66,12 +67,12 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.sandec.jpro:jpro-webapi:2022.1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:win:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:win:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:18" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:win:18" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:win:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:win:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:18.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:win:18.0.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.28" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
   </component>
