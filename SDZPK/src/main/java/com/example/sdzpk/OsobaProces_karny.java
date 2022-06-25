@@ -1,13 +1,16 @@
 package com.example.sdzpk;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 
 @Entity
 public class OsobaProces_karny {
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
+
     private int id;
     @ManyToOne(fetch = FetchType.EAGER)
     private Osoba osoba;

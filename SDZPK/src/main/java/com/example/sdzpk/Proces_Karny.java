@@ -1,12 +1,10 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +14,10 @@ import java.util.List;
 public class Proces_Karny {
 
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
+
     private int numer;
     private LocalDate dataRospoczęcia;
     private LocalDate dataZakończenia; //todo nullable (optional)

@@ -1,9 +1,8 @@
 package com.example.sdzpk;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
@@ -12,6 +11,9 @@ public class Wizita_w_więzieniu {
 
 
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
     private int id;
 
     @ManyToOne(fetch = FetchType.EAGER)

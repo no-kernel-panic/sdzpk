@@ -1,9 +1,11 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.util.ArrayList;
@@ -14,6 +16,10 @@ public class Więzienie {
 
 
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
+
     private int id;
     /*
      * many to many relation oskarżony wiezienie

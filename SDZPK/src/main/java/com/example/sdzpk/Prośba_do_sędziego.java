@@ -1,5 +1,7 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 
@@ -9,6 +11,9 @@ public class Prośba_do_sędziego {
 
     private Stan stan;
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
     private int id;
     private String opis;
     /*

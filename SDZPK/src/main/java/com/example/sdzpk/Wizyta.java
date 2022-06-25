@@ -1,5 +1,6 @@
 package com.example.sdzpk;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
@@ -12,6 +13,9 @@ public class Wizyta {
 
 
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy
+            = "increment")
     private int id;
     /*
      * many to many relation adwokat - wizyta
