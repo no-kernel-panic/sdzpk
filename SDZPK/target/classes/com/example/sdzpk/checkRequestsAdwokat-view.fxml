@@ -10,55 +10,55 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox xmlns:fx="http://javafx.com/fxml/1" prefHeight="275.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/18"
-      fx:controller="com.example.sdzpk.PendingRequestsControllerAdwokat">
+<VBox prefHeight="275.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdzpk.PendingRequestsControllerAdwokat">
     <children>
         <GridPane prefHeight="261.0" prefWidth="262.0">
             <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             </columnConstraints>
             <rowConstraints>
-                <RowConstraints maxHeight="81.99999618530273" minHeight="10.0" prefHeight="81.99999618530273"
-                                vgrow="SOMETIMES"/>
-                <RowConstraints maxHeight="173.33331298828125" minHeight="10.0" prefHeight="173.33331298828125"
-                                vgrow="SOMETIMES"/>
-                <RowConstraints maxHeight="82.33331298828125" minHeight="6.000020345052064"
-                                prefHeight="6.000020345052064" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="81.99999618530273" minHeight="10.0" prefHeight="81.99999618530273" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="173.33331298828125" minHeight="10.0" prefHeight="173.33331298828125" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="82.33331298828125" minHeight="6.000020345052064" prefHeight="6.000020345052064" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
                 <ComboBox fx:id="requestsBox" prefWidth="150.0">
                     <GridPane.margin>
-                        <Insets left="30.0" right="30.0" top="40.0"/>
+                        <Insets left="30.0" right="30.0" top="40.0" />
                     </GridPane.margin>
                 </ComboBox>
-                <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="29.0"
-                        prefWidth="120.0" text="Expand details" textFill="#1c22c0" GridPane.halignment="RIGHT">
+                <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="29.0" prefWidth="120.0" text="Expand details" textFill="#1c22c0" GridPane.halignment="RIGHT">
                     <font>
-                        <Font size="14.0"/>
+                        <Font size="14.0" />
                     </font>
                     <GridPane.margin>
-                        <Insets right="30.0" top="40.0"/>
+                        <Insets right="30.0" top="40.0" />
                     </GridPane.margin>
                 </Button>
-                <Label fx:id="issueDescription" prefHeight="205.0" prefWidth="300.0" textFill="#1c22c0"
-                       GridPane.rowIndex="1">
+                <Label fx:id="issueDescription" prefHeight="205.0" prefWidth="300.0" textFill="#1c22c0" GridPane.rowIndex="1">
                     <GridPane.margin>
-                        <Insets left="30.0" right="30.0"/>
+                        <Insets left="30.0" right="30.0" />
                     </GridPane.margin>
                     <font>
-                        <Font size="14.0"/>
+                        <Font size="14.0" />
                     </font>
                 </Label>
-                <Button fx:id="withdrawnButton" mnemonicParsing="false" onAction="#withdrawnButtonAction"
-                        prefHeight="29.0" prefWidth="120.0" text="Withdrawn" textFill="#1c22c0"
-                        GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                <Button fx:id="withdrawnButton" mnemonicParsing="false" onAction="#withdrawnButtonAction" prefHeight="29.0" prefWidth="120.0" text="Withdrawn" textFill="#1c22c0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                     <GridPane.margin>
-                        <Insets right="30.0" top="40.0"/>
+                        <Insets right="30.0" top="40.0" />
                     </GridPane.margin>
                     <font>
-                        <Font size="14.0"/>
+                        <Font size="14.0" />
                     </font>
                 </Button>
+            <Label prefHeight="17.0" prefWidth="95.0" text="Select request" textFill="#1c22c0" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="40.0" top="30.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
             </children>
         </GridPane>
     </children>
